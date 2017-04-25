@@ -1,0 +1,24 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+<h1 class="Title">@Umbraco.Field("pageTitle").</h1>
+@foreach (var item in Model.Content.Descendants("NewsItem").OrderBy("UpdateDate desc"))
+{
+    <article class="NewsItem">
+        <h3>
+            @item.GetPropertyValue("newsItemTitle")
+        </h3>
+        <p class="author">
+            @umbraco.BusinessLogic.User.GetUser(item.CreatorId).Name -
+            @String.Format("{0:dd/MM/yyyy}", item.CreateDate)
+        </p>
+
+        <span>
+            @library.TruncateString(library.StripHtml(item.GetPropertyValue("newsText").ToString()), 300, "...")
+        </span>
+        <p>
+            <a href="@item.Url()">
+                @Umbraco.Field("#ReadMore")
+            </a>
+        </p>
+    </article>
+}

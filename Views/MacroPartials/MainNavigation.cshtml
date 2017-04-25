@@ -1,0 +1,46 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+<nav class="nav main-nav navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button><!--//nav-toggle-->
+        </div><!--//navbar-header-->
+
+        <div class="navbar-collapse collapse " id="navbar-collapse">
+            
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/" data-target="Home" class="mainNav">
+                        <i class="icon icon-home icon-lg"></i>
+                    </a>
+                </li>
+                @foreach (var item in Model.Content.AncestorOrSelf(1).Children.Where(p => p.DocumentTypeAlias != "MembershipPages"))
+                {
+                    <li>
+                        <a href="@item.Url" data-target="" class="mainNav">@item.Name</a>
+                    </li>
+                }
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right Registration">
+                <li class="dropdown">
+                    @Umbraco.RenderMacro("LoginStatus")
+                    @*<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                       data-delay="0" data-close-others="false"
+                       href="">Mijn Profff<i class="icon icon-arrow-down"></i></a>
+                    <ul class="dropdown-menu">
+
+                    <li><a href="#"><i class="icon icon-locked"></i> Aanmelden</a></li>
+                        <li><a href="#"><i class="icon icon-request"></i> Ik ben nog geen lid</a></li>
+                        <li class="disabled"><a href="#"><i class="icon icon-sys-help-2"></i> Ik ben mijn paswoord vergeten</a></li>*@
+                    @*</ul>*@
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

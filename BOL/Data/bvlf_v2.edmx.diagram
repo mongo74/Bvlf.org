@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ebaa39036e2e472bb35566f77267487a" Name="Diagram1">
+        <EntityTypeShape EntityType="bvlf_org_v2Model.StudieDagSubscription" Width="3.375" PointX="0.875" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bvlf_org_v2Model.StudieDagSubscriptions_Sessions" Width="3.625" PointX="5.5" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="bvlf_org_v2Model.FK_StudieDagSubscriptions_Sessions_StudieDagSubscriptions" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="bvlf_org_v2Model.cmsContentXml" Width="1.5" PointX="5.625" PointY="4.25" />
+        <EntityTypeShape EntityType="bvlf_org_v2Model.cmsMember" Width="2.625" PointX="0.875" PointY="5" />
+        <AssociationConnector Association="bvlf_org_v2Model.cmsMemberStudieDagSubscription" />
+        <AssociationConnector Association="bvlf_org_v2Model.cmsMembercmsContentXml" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

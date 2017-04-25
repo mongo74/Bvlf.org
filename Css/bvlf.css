@@ -1,0 +1,462 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../media/background.jpg) #F9D575 no-repeat;
+}
+
+h1, h2, h3, h4, h5, p, span, div {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #97460a;
+}
+
+h6 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #97460a;
+    font-weight: bold;
+}
+
+ol li {
+    list-style: none outside none;
+}
+ 
+
+input[type='text'], input[type='email'], input[type='password'] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px #999 inset;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.1) inset;
+    color: #97460a;
+    font-size: 13px;
+    height: 21px;
+    line-height: 21px;
+    text-indent: 5px;
+}
+
+
+
+input[type='button'].warning {
+    background-color: #ff4500;
+}
+
+.info {
+    border: 1px solid #006400;
+    color: #00fa9a;
+    background-color: #006400;
+    padding: 4px;
+}
+
+    .info p {
+        color: #fff;
+    }
+
+select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px #999 inset;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.1) inset;
+    color: #97460a;
+    font-size: 13px;
+    height: 23px;
+    margin: 2px 1px;
+    padding: 2px;
+}
+
+.rightalign {
+    float: right;
+    text-align: right;
+}
+
+.left-align {
+    float: left;
+}
+
+.floatleftRadioButton {
+    float: left;
+    margin-right: 15px;
+    margin-left: -5px;
+}
+
+.SessieSelectionItem {
+    margin-right: 12px;
+}
+
+    .SessieSelectionItem input {
+        float: left;
+    }
+
+    .SessieSelectionItem label {
+        width: 52px;
+        float: right;
+    }
+
+.TinyWidth {
+    width: 30px;
+}
+
+.SmallWidth {
+    width: 50px;
+}
+
+.NormalWidth {
+    width: 200px;
+}
+
+.VeryWide {
+    width: 450px;
+}
+
+.adminRichText {
+    width: 450px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #990000;
+}
+
+a.MembershipBlock:hover {
+    text-decoration: none;
+    color: #fde297;
+}
+
+.warning {
+    color: #990000;
+}
+
+p {
+    text-align: justify;
+}
+
+    p.MoreOfThisItem {
+        text-align: center;
+        margin: 16px 0;
+        clear: both;
+    }
+
+        p.MoreOfThisItem a {
+            margin-bottom: 16px;
+        }
+
+.ErrorMessage, .validation-summary-errors {
+    font-size: 0.92em;
+    color: #F00 !important;
+}
+
+#calendar {
+    width: 100%;
+    height: 650px;
+}
+
+.fc-agenda-body {
+    /*   height: auto !important;
+    overflow: hidden !important;  */
+}
+
+/* SPLASH PAGE */
+#SplashPage {
+    margin-top: 120px;
+}
+
+
+    #SplashPage #SplashLang {
+    }
+
+        #SplashPage #SplashLang li a {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            font-weight: bold;
+            font-size: 2em;
+            padding: 5px;
+        }
+
+            #SplashPage #SplashLang li a:hover {
+                /*    border-bottom: 2px solid  #990000;*/
+            }
+
+    #SplashPage #Tagline h3 {
+        padding-top: 25px;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+/* CONTENT PAGES */
+
+#LangChoice {
+}
+
+    #LangChoice li {
+        float: right;
+        text-align: right;
+    }
+
+        #LangChoice li a {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            font-weight: bold;
+            margin: 5px;
+            font-size: 1.1em;
+        }
+
+            #LangChoice li a:hover {
+                border-bottom: 2px solid #990000;
+            }
+
+            #LangChoice li a.Active {
+                color: #990000;
+                border-bottom: 2px solid #990000;
+            }
+
+            #LangChoice li a.InActive {
+            }
+
+#Baseline h4 {
+    float: left;
+    font-size: 20px;
+    padding-top: 70px;
+}
+
+#SiteNav {
+    clear: both;
+    padding: 15px 0;
+    margin: 12px 12px 12px 0;
+}
+
+    #SiteNav a {
+        margin: 12px 24px 12px 0;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+        #SiteNav a:hover {
+            text-decoration: none;
+            border-bottom: 2px solid #990000;
+            color: #990000;
+        }
+
+article.NewsItem {
+    padding-bottom: 25px;
+}
+
+    article.NewsItem h1,
+    article.NewsItem h2,
+    article.NewsItem h3,
+    article.NewsItem h4,
+    article.NewsItem h5,
+    article.NewsItem h6 {
+        font-weight: bold;
+        color: #990000;
+    }
+
+    article.NewsItem h1 {
+        font-size: 1.4em;
+        margin: 2px 0 0 0;
+    }
+
+    article.NewsItem h2 {
+        font-size: 1.3em;
+    }
+
+    article.NewsItem h3 {
+        font-size: 1.2em;
+    }
+
+    article.NewsItem h4 {
+        font-size: 1.1em;
+    }
+
+    article.NewsItem h5 {
+        font-size: 1em;
+    }
+
+    article.NewsItem h6 {
+        font-size: 0.9em;
+    }
+
+    article.NewsItem h4 span {
+        font-weight: 500;
+        display: block;
+        font-size: 0.7em;
+        color: #990000;
+    }
+
+    article.NewsItem p {
+        margin: 4px 0 0 0;
+    }
+
+        article.NewsItem p.author {
+            font-size: 0.85em;
+            color: #990000;
+        }
+
+    article.NewsItem ul li {
+        list-style-position: inside;
+        list-style-type: square;
+        padding-left: 4px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+
+.PaidBySchool input,
+.PaidBySchool label {
+    float: left;
+    margin-right: 5px;
+}
+
+#RightColumn #ContactUsHome,
+#RightColumn #AboutUsHome {
+    margin-bottom: 32px;
+}
+
+    #RightColumn #ContactUsHome h3,
+    #RightColumn #AboutUsHome h3 {
+        font-size: 1.3em;
+    }
+
+    #RightColumn #ContactUsHome p,
+    #RightColumn #AboutUsHome p {
+        margin: 4px 0 0 0;
+    }
+
+#MainContent #NewsHome {
+}
+
+#Teasers {
+    margin-top: 88px;
+    padding-top: 24px;
+}
+
+    #Teasers .HomePageTeaser {
+    }
+
+        #Teasers .HomePageTeaser div.TeaserContent {
+            display: block;
+        }
+
+            #Teasers .HomePageTeaser div.TeaserContent > p.MoreOfThisItem {
+                clear: both;
+            }
+
+            #Teasers .HomePageTeaser div.TeaserContent .teaserImage {
+                float: center;
+            }
+#Partners{
+border-top: 1px solid #97460a;
+	
+}
+
+#Footer {
+    margin-top: 36px;
+    border-top: 1px solid #97460a;
+    padding: 8px;
+}
+
+div#Footer p {
+    font-size: 0.8em;
+}
+
+div#Leidraad p {
+    line-height: 1.5em;
+}
+
+#MembershipBlock {
+    background-color: #990000;
+    margin-top: 70px;
+    text-align: center;
+}
+
+    #MembershipBlock p {
+        color: #f9d575;
+        padding: 4px 0 0 4px;
+        text-align: center;
+    }
+
+    #MembershipBlock h4 {
+        color: #f9d575;
+        padding: 0 0 0 4px;
+        margin-top: -16px;
+        text-align: center;
+    }
+/*
+    TABS STYLING
+
+*/
+
+.ui-tabs {
+    zoom: 1;
+}
+
+    .ui-tabs .ui-tabs-nav {
+        list-style: none;
+        position: relative;
+        margin: 0;
+        padding: 0 0 0 0.5em;
+        overflow: hidden;
+        border-bottom: 1px solid #97460a;
+    }
+
+        .ui-tabs .ui-tabs-nav li {
+            position: relative;
+            float: left;
+            margin: 0;
+            border-top: 1px solid #97460a;
+            border-left: 1px solid #97460a;
+            border-right: 1px solid #97460a;
+            text-align: center;
+        }
+
+            .ui-tabs .ui-tabs-nav li a {
+                display: block;
+                font-weight: bold;
+                padding: 10px 20px 10px 20px;
+            }
+
+                .ui-tabs .ui-tabs-nav li a:hover, .ui-tabs .ui-tabs-nav li.ui-tabs-selected a:hover {
+                    /*   color: #990000; */
+                }
+
+            .ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+                background-color: #97460a;
+                color: #ffcf73;
+            }
+
+            .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+                cursor: default;
+            }
+
+            .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+                cursor: pointer;
+            }
+
+    .ui-tabs .ui-tabs-panel {
+        display: block;
+        clear: both; /* border: 2px #ccc solid;   */
+        padding: 10px;
+    }
+
+    .ui-tabs .ui-tabs-hide {
+        display: none;
+    }
+
+
+
+
+.LectorDescription, .LectorDescription span {
+    font-weight: 500;
+    display: block;
+    font-size: 0.9em;
+    color: #990000;
+}
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

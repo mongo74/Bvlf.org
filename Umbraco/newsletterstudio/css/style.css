@@ -1,0 +1,354 @@
+﻿
+
+
+/* general */
+
+a.btn
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	text-decoration:none;
+	
+	display:inline-block;
+	padding: 5px 15px 5px 15px;
+	
+	background:#8eb143 url('/umbraco/newsletterstudio/images/btn-create-back.gif') repeat-x 0 0px;
+	
+	-moz-border-radius:7px;-webkit-border-radius:7px; border-radius:7px;
+	
+	border:1px solid #769532;
+
+	border-bottom:1px solid #9f9f9f;
+	-moz-box-shadow:inset 0 -1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 -1px 0 rgba(255,255,255,0.5); box-shadow:inset 0 -1px 0 rgba(255,255,255,0.5);
+}
+
+a.btn:hover {background-position: 0 -31px;}
+a.btn:active {background-position: 0 -62px;}
+
+
+/* generic table settings */
+
+table.data {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height:23px; 
+}
+
+table.data td {
+       /*border-bottom: 1px solid #fff;*/
+    padding-left:2px;
+    padding-bottom: 1px;
+    vertical-align: top;
+    height: 23px;
+}
+ 
+table.data th { font-weight: bold; padding-bottom: 10px;}
+
+table.data tr.analyticsdetailsrow td {
+    cursor: pointer;
+    padding: 5px 0 3px 0;
+}
+table.data tr.hovered {
+    background: #efefef;
+}
+table.data tr.hovered td {
+    
+}
+
+table.data td.created  { width: 125px;}
+table.data td.clicktype { font-style: italic;width: 60px;}
+
+
+table.data tr.rowdetails td table { margin-left: 10px;border: 0;}
+table.data tr.rowdetails td table td { border: 0;padding: 5px 0 5px 0;}
+table.data tr.rowdetails td { 
+    border-bottom: 1px solid #e3e3e3;
+}
+
+/* generic tyle for drop down */
+
+span.ui-dropdownchecklist-selector span.ui-dropdownchecklist-text { font-size: 11px;}   
+   
+span.ui-dropdownchecklist-text { padding: 5px;}
+   
+div.ui-dropdownchecklist-dropcontainer 
+{
+   height: 140px !important;
+    background: #fff;
+}
+div.ui-dropdownchecklist-dropcontainer-wrapper  
+{
+    z-index: 1000000 !important;
+    overflow: auto !important;
+    width: 253px !important;
+    height: 160px !important;
+}
+
+div.ui-state-default label {font-weight: normal;font-size: 11px;}
+div.ui-state-default {border: 0; margin: 5px 0 5px 0;}
+
+div.ui-state-disabled input.inactive { display: none;}
+div.ui-state-disabled label  { font-weight: bold;}
+
+div.ui-dropdownchecklist-item { border: 0 !important; margin: 5px 0 5px 0;}
+
+/*
+ =============================== PAGE SPECIFIC STYLES ================================    
+*/
+
+/*  newsletter analytics */
+.colorbox
+{
+    width:30px;
+    height:30px;
+    display:block;
+    border: 2px solid #fff;
+    -moz-box-shadow: 2px 2px 5px #a7a7a7;
+    
+	-webkit-box-shadow: 2px 2px 5px #a7a7a7;
+	box-shadow: 2px 2px 5px #a7a7a7;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#a7a7a7')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#a7a7a7');
+    
+}
+        
+td.info
+{
+    padding-left:25px;
+    padding-right:110px;
+    height:55px;
+            
+}
+        
+td.info h3
+{
+    margin:0 0 5px 0;
+    font-size:14px;
+}
+        
+td.info p
+{
+    margin:0;
+}
+
+.chartsHeader h1
+{
+    margin-left:15px;
+}
+
+
+/* dashboard */
+
+.dashboardColWrapper ul 
+{
+    list-style:none; 
+    margin-left:0px;
+}
+    
+table.dashboardTable, table.dashboardTable tr, table.dashboardTable td
+{
+    padding:0;
+    margin:0; 
+    border:0;
+}
+    
+table.dashboardTable td
+{
+    border-bottom:1px solid #e3e3e3;
+    height:21px;
+    padding-top:12px;
+}
+    
+table.dashboardTable a
+{
+    color:#000;
+    text-decoration:none;
+}
+    
+table.dashboardTable td.col1 {width:275px;}
+table.dashboardTable td.col2 {width:165px;}
+table.dashboardTable td.col3 {width:165px;}
+table.dashboardTable td.col4 {width:100px;}
+    
+    
+table.dashboardTable div.stasbar
+{
+    height:20px;
+    width:100px;
+    border:1px solid #e3e3e3;    
+    border-bottom:0px;
+        
+}
+    
+table.dashboardTable div.stasbar-fill
+{
+    height:20px;
+    width:100px;
+    background-color:#baea96;
+        
+    position:absolute;
+}
+    
+table.dashboardTable div.stasbar-text
+{
+    padding-top:3px;
+    width:100px;
+    position:absolute;
+    text-align:center;
+        
+}
+    
+.dashboardCol p {font-size:12px}
+    
+/* settings */
+    
+.settings div.propertyItemheader {width:300px !important;}
+.connectionSuccess {color: #0a7912;}
+.connectionError { color:#be0000; }
+    
+/* newsletter.aspx */
+.newsletter .mceToolbarExternal { left:120px; }
+
+
+/* newslettershowbounces.aspx */
+#bounceTable td
+{
+    vertical-align:top;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #f3f3f8;
+}
+#bounceTable a
+{
+    margin-left:15px;
+}
+#bounceTable a
+{
+    margin-left:20px;
+}
+
+#bounceTable .err {color:#a42a2a;}
+
+
+/* subscribers   */
+#subscribersTable td {height:27px; }
+        
+#subscribersTable tr.editmode td { background:#fdffdb !important; }
+#subscribersTable tr.editmode td { height:58px; vertical-align:top; padding-top:12px; border-bottom: 1px solid #f2f4d3;}
+        
+#subscribersTable input.editInput {width:175px; display:block; margin-bottom:2px;}
+.valErr {color:#e34545;}
+        
+.editcommands input {width:16px; height:16px; }
+input.editcommand-btn {width:16px; height:16px;}
+
+
+/* subscibers - import - wizard */
+
+div.import-file-container {
+    float:right; margin: 15px 40px 0 0;
+}
+
+div.import-text {
+     width:440px; margin: 15px 0 0 0;
+}
+
+div.placeholder {
+    position: absolute;
+    color: #828282;
+    margin: 5px 0 0 7px;
+    line-height: 18px;
+    z-index: 1;
+}
+
+textarea.placeholder {
+    font-family: Trebuchet MS, Lucida Grande, verdana, arial;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px;
+}
+
+
+/* NewsletterSendout.aspx */
+div.sendoutAjax
+{
+    text-align:center;
+    margin-top:80px;
+    margin-left:auto;
+    margin-right:auto;
+    width:150px;
+    background: url('/umbraco/newsletterstudio/images/ajax.gif') no-repeat center top;
+    padding-top:30px;
+}
+
+table.sendout, table.sendout tr, table.sendout td
+{
+    vertical-align:top;
+    margin:0;
+    padding:0;
+}
+
+
+table.sendout { width: 600px;}
+
+table.sendout tr
+{
+    cursor:pointer;    
+}
+
+table.sendout tr.active-row
+{
+    cursor:auto;
+}
+
+
+/* analytics details */
+
+span.clicks {
+    cursor: help;
+}
+
+div.clicksDetails{
+    position: absolute; 
+    display: none;
+    margin: 0 0 0 -100px;
+    background-color: #f3d6a7;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+
+ul.pager {
+    margin: 10px auto 10px auto;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.pager li {
+    float: left;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #a8a8a8;
+    margin-right: 5px;
+    width: 15px;
+}
+
+ul.pager li.current {
+    background-color: #dedede;
+}
+
+ul.pager li a {
+    color: #000;
+    text-decoration: none;
+}
+
+input.analytics-search-text {
+    width: 200px;
+    padding-left: 5px;
+}
+

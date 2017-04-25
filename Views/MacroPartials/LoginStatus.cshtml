@@ -1,0 +1,66 @@
+﻿@using System.Threading
+@using bvlf_v2.BOL
+@using bvlf_v2.Helpers
+@using umbraco.cms.businesslogic.member
+@using umbraco.NodeFactory
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+
+    var page = Model.Content.AncestorOrSelf(1);
+    var lang = Thread.CurrentThread.CurrentCulture.ToString().Substring(0, 2);
+    var registerUrl = new Node(Convert.ToInt32(page.GetPropertyValue("registerLink")));
+    var singInUrl = new Node(Convert.ToInt32(page.GetPropertyValue("signinLink")));
+    var myPersonalInfo = new Node(Convert.ToInt32(page.GetPropertyValue("personalInfoPage")));
+    var forgotPWLink = new Node(Convert.ToInt32(page.GetPropertyValue("forgotPasswordLink")));
+    var signoutText = @page.GetPropertyValue("loginboxSignoutText").ToString();
+    var ForgotPW = @page.GetPropertyValue("forgotPasswordText").ToString();
+    var redirectLogin = UmbracoContext.Current.HttpContext.Request.RawUrl;
+}
+@if (User.Identity.IsAuthenticated)
+{
+    var mymember = Member.GetCurrentMember();
+    var voornaam = mymember.getProperty("voornaam").Value.ToString();
+    var naam = mymember.getProperty("naam").Value.ToString();
+    var expirationDate = DateTime.Parse(ViewModelHelper.GetStringValue(mymember.getProperty("subscriptionExpiration")));
+    var memberShipToExpire = expirationDate.AddDays(0 - Settings.SubscriptionExpiry).Ticks <= DateTime.Now.Ticks;
+
+
+    <a href="@singInUrl.NiceUrl?ReturnUrl=@redirectLogin" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        Welkom <strong>@voornaam @naam</strong> <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="@myPersonalInfo.NiceUrl" class="MembershipBlock">
+                @page.GetPropertyValue("loginBoxPersonalPageLinktext")
+            </a>
+        </li>
+        <li><i class="icon icon-locked"></i>
+            @Html.ActionLink(@signoutText, "HandleSignout", "Membership", null, new {@class = "MembershipBlock" })
+        </li>
+        @if (memberShipToExpire)
+        {
+            <li>
+                <p class="alert-box"> Uw lidmaatschap is bijna verlopen. Ga naar 'Mijn gegevens'' om het te verlengen</p>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+       data-delay="0" data-close-others="false"
+       href="">Mijn Profff <i class="icon icon-arrow-down"></i></a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="@singInUrl.NiceUrl?ReturnUrl=@redirectLogin"><i class="icon icon-locked"></i> Aanmelden</a>
+        </li>
+        <li>
+            <a href="@registerUrl.NiceUrl">@page.GetPropertyValue("loginBoxbecomeMemberText") </a>
+        </li>
+        <li>
+            <a href="@forgotPWLink.NiceUrl">
+                @ForgotPW
+            </a>
+        </li>
+    </ul>
+}

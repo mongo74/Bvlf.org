@@ -1,0 +1,44 @@
+2017-03-08 23:01:34,470 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2017-03-08 23:01:34,486 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 8ms)
+2017-03-08 23:01:34,494 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-03-08 23:01:34,670 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 176ms)
+2017-03-08 23:01:34,694 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-03-08 23:01:34,698 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2017-03-08 23:01:34,698 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-03-08 23:01:34,706 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 6ms)
+2017-03-08 23:01:34,706 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-03-08 23:01:34,710 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2017-03-08 23:01:34,714 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-03-08 23:01:34,718 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2017-03-08 23:01:34,718 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-03-08 23:01:34,726 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2017-03-08 23:01:34,946 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2017-03-08 23:01:35,210 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2017-03-08 23:01:35,218 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2017-03-08 23:01:35,231 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 12ms)
+2017-03-08 23:01:35,373 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2017-03-08 23:01:35,397 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 24ms)
+2017-03-08 23:01:35,689 [6] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2017-03-08 23:01:36,373 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2017-03-08 23:01:36,389 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 15ms)
+2017-03-08 23:01:36,621 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-03-08 23:01:36,625 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2017-03-08 23:02:05,574 [6] INFO  umbraco.presentation.publishingService - [Thread 9] newsletterstudioBounces has been called with response: True
+2017-03-08 23:02:05,733 [6] INFO  umbraco.presentation.publishingService - [Thread 9] newsletterstudioSendout has been called with response: True
+2017-03-08 23:02:06,568 [6] INFO  umbraco.presentation.publishingService - [Thread 9] sendremindmails has been called with response: False
+2017-03-08 23:02:57,931 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 11] Executing Umbraco RouteDefinition controller
+2017-03-08 23:02:57,939 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 11] Finished (took 9ms)
+2017-03-08 23:03:09,212 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 15] Executing Umbraco RouteDefinition controller
+2017-03-08 23:03:09,216 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 15] Finished (took 4ms)
+2017-03-08 23:03:14,379 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 9] Executing Umbraco RouteDefinition controller
+2017-03-08 23:03:14,387 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 9] Finished (took 6ms)
+2017-03-08 23:06:23,208 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of umbraco.interfaces.IDataType
+2017-03-08 23:06:23,255 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 48ms)
+2017-03-08 23:06:23,283 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of umbraco.interfaces.ITree
+2017-03-08 23:06:23,344 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 61ms)
+2017-03-08 23:06:24,580 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-03-08 23:06:24,605 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 22ms)
+2017-03-08 23:07:05,696 [6] INFO  umbraco.presentation.publishingService - [Thread 23] newsletterstudioSendout has been called with response: True
+2017-03-08 23:12:05,326 [6] INFO  umbraco.presentation.publishingService - [Thread 31] newsletterstudioSendout has been called with response: True
+2017-03-08 23:13:48,336 [6] INFO  umbraco.BusinessLogic.Log - [Thread 31] Log scrubbed.  Removed all items older than 2017-01-07 23:13:48
+2017-03-08 23:13:48,336 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 31] Application shutdown. Reason: ConfigurationChange

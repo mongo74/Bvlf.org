@@ -1,0 +1,153 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html lang="en">
+
+<!--<![endif]-->
+
+<head>
+    <!-- TITLE -->
+    <title>@CurrentPage.displayName | Bvlf.org</title>
+
+    <!-- META -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- Included CSS Files -->
+    <!-- Global CSS -->
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <!-- FONTS CSS-->
+    <link href="/Content/fonts.css" rel="stylesheet" />
+    <link href="/Content/font-awesome.css" rel="stylesheet" />
+    <link href="/Content/SAP-icons.css" rel="stylesheet" />
+    <!-- Plugins CSS -->
+    <!-- ProFFF CSS-->
+    <link href="/Content/Profff.css" rel="stylesheet" />
+
+
+    <!-- Included Script Files -->
+    <script type="text/javascript" src="/Scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/Scripts/fullcalendar.js"></script>
+
+
+
+</head>
+
+<body>
+    @Html.Partial("_Profff_LoggedIn_Header")
+    @*<nav class="navbar navbar-default" role="navigation" id="TopNavigation">
+        <div class="container">
+            <nav class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="logo" class="navbar-brand" href="/" title="Profff"></a>
+            </nav>*@
+
+            <!--Collect the nav links, forms, and other content for toggling -->
+        @*    <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+             <li><a href="#">contact</a></li>
+             <li class="dropdown">
+                 @Umbraco.RenderMacro("LoginStatus")
+             </li>
+         </ul>
+            </nav>
+        </div>
+       
+    </nav>
+        *@
+
+    <div class="row">
+
+
+        <div class="container">
+
+            <div class="col-md-12" id="MainContent">
+
+                <h1>@Umbraco.Field("title")</h1>
+
+
+            </div>
+
+            @RenderBody()
+        </div>
+
+    </div>
+
+    <div class="row" id="Footer">
+
+        <div class="container">
+            @RenderSection("cpFooter")
+        </div>
+    </div>
+
+    <div id="FloorMat">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4" id="FooterLeft">
+
+                    <p>
+
+                        <a href="http://about.me/benoitgevaert" target="_blank"
+                           tooltip="Created by Boenwas.net" alt="Created by Boenwas.net">
+
+                            <img src="/Media/kolibri25b25.gif" tooltip="Created by Boenwas.net" alt="Created by Boenwas.net" />
+
+                        </a>
+
+                    </p>
+
+                </div>
+
+                <div class="col-md-4"></div>
+
+                <div class="col-md-offset-4" id="FooterRight">
+
+                    <a href="/umbraco/umbraco.aspx" target="_blank" tooltip="Powered by Umbraco" alt="Powered by Umbraco">
+
+                        <img src="/Media/Umbraco_25px.png" tooltip="Powered by Umbraco" alt="Powered by Umbraco" />
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+
+</html>
+<script type="text/javascript" src="/Scripts/jquery.twbsPagination.js"></script>
+<script type="text/javascript" src="/Scripts/scripts.js"></script>
+@RenderSection("cpScripts")

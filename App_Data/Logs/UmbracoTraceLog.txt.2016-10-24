@@ -1,0 +1,5 @@
+2016-10-24 00:15:39,710 [56] INFO  umbraco.presentation.publishingService - [Thread 61] sendremindmails has been called with response: False
+2016-10-24 19:01:09,510 [56] INFO  umbraco.BusinessLogic.Log - [Thread 30] Log scrubbed.  Removed all items older than 2016-08-25 19:01:09
+2016-10-24 19:01:28,034 [56] INFO  umbraco.presentation.publishingService - [Thread 30] sendremindmails has been called with response: False
+2016-10-24 20:01:21,813 [56] INFO  umbraco.presentation.publishingService - [Thread 122] sendremindmails has been called with response: False
+2016-10-24 21:01:21,394 [56] INFO  umbraco.presentation.publishingService - [Thread 105] sendremindmails has been called with response: False

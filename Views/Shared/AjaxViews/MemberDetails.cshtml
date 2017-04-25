@@ -1,0 +1,241 @@
+﻿@using bvlf_v2.Controllers
+@using bvlf_v2.Helpers
+@model bvlf_v2.Models.MemberProfileForAdminUpdateViewModel
+
+@using (Html.BeginUmbracoForm<MemberShipApiController>("UpdatePersonalInfo", FormMethod.Post, new {id = "UpdatePersonalInfo"}))
+{
+    @Html.HiddenFor(m => m.Id)
+    ;
+    @Html.HiddenFor(m => m.FipfNr)
+    @Html.HiddenFor(m => m.Lidnr)
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right"></div>
+        <div class="col-md-8">@Html.Raw(Html.RadioButtonListFor(p => p.rbGenderOptions, false, new {@class = "floatleftRadioButton"})) @Html.ValidationMessageFor(p => p.rbGenderOptions)</div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.FirstName)</div>
+        <div class="col-md-8">@Html.TextBoxFor(p => p.FirstName, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.FirstName)</div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.LastName)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.LastName, new {@class = " alphanumeric"})
+            @Html.ValidationMessageFor(p => p.LastName)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">
+            <label>Straat + Nr + Bus </label>
+        </div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.Street, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.Street)
+            @Html.TextBoxFor(p => p.Nr, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.Nr)
+            @Html.TextBoxFor(p => p.Box, new {@class = " alphanumeric"})
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">
+            <label>Postcode + Plaats</label>
+        </div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.Zip, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.Zip)
+            @Html.TextBoxFor(p => p.Location, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.Location)
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.Country)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.Country, new {@class = ""})
+            @Html.ValidationMessageFor(p => p.Country)
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.Email)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.Email, new {@class = "  email readonly"})
+            @Html.ValidationMessageFor(p => p.Email)
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.Tel)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.Tel, new {@class = " PhoneNumber"})
+            @Html.ValidationMessageFor(p => p.Tel)
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.Mobile)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.Mobile, new {@class = " PhoneNumber"})
+            @Html.ValidationMessageFor(p => p.Mobile)
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.MemberprofileOptions)</div>
+        <div class="col-md-8">
+            @Html.DropDownListFor(p => p.MemberProfile, new SelectList(Model.MemberprofileOptions, "Key", "Value"))
+
+        </div>
+    </div>
+
+    <div class="row">
+        <h4>School 1</h4>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.School1.SchoolNaam)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School1.SchoolNaam, new {@class = " alphanumeric"})
+            @Html.ValidationMessageFor(p => p.School1.SchoolNaam)
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">
+            <label>Straat + Nr + Bus</label>
+        </div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School1.Street, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.School1.Street)
+            @Html.TextBoxFor(p => p.School1.Nr, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.School1.Nr)
+            @Html.TextBoxFor(p => p.School1.Box, new {@class = " alphanumeric"})
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">
+            <label>Postcode + Plaats</label>
+        </div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School1.Zip, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.School1.Zip)
+            @Html.TextBoxFor(p => p.School1.Location, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.School1.Location)
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.School1.Email)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School1.Email, new {@class = ""})
+            @Html.ValidationMessageFor(p => p.School1.Email)
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.School1.Tel)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School1.Tel, new {@class = " PhoneNumber"})
+            @Html.ValidationMessageFor(p => p.School1.Tel)
+        </div>
+    </div>
+
+
+    <div class="row">
+        <h4>School 2</h4>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.School2.SchoolNaam)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School2.SchoolNaam, new {@class = " alphanumeric"})
+            @Html.ValidationMessageFor(p => p.School2.SchoolNaam)
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">
+            <label>Straat + Nr + Bus</label>
+        </div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School2.Street, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.School2.Street)
+            @Html.TextBoxFor(p => p.School2.Nr, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.School2.Nr)
+            @Html.TextBoxFor(p => p.School2.Box, new {@class = " alphanumeric"})
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">
+            <label>Postcode + Plaats</label>
+        </div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School2.Zip, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.School2.Zip)
+            @Html.TextBoxFor(p => p.School2.Location, new {@class = " alphanumeric"}) @Html.ValidationMessageFor(p => p.School2.Location)
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.School2.Email)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School2.Email, new {@class = ""})
+            @Html.ValidationMessageFor(p => p.School2.Email)
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right">@Html.LabelFor(p => p.School2.Tel)</div>
+        <div class="col-md-8">
+            @Html.TextBoxFor(p => p.School2.Tel, new {@class = " PhoneNumber"})
+            @Html.ValidationMessageFor(p => p.School2.Tel)
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            &nbsp;<br/>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-right"></div>
+        <div class="col-md-8">
+            <p>
+                <input type="button" id="cmdCloseModal" class="button" value="Sluiten"/>
+                <input type="button" id="cmdModifyMemberInfo" class="button" value="Wijzigingen opslaan"/>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-9" id="LoadingSave">
+
+
+        </div>
+
+    </div>
+}
+<script type="text/javascript">
+    $(document).ready(function() {
+        //    BvlfMemberSearch._SetupModalWindowButtonActions();
+    });
+</script>

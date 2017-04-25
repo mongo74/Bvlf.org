@@ -1,0 +1,156 @@
+2016-12-04 20:17:42,430 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-12-04 20:17:42,448 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2016-12-04 20:17:42,457 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-12-04 20:17:42,747 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 285ms)
+2016-12-04 20:17:42,811 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-12-04 20:17:42,822 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 10ms)
+2016-12-04 20:17:42,825 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-12-04 20:17:42,841 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 16ms)
+2016-12-04 20:17:42,842 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-12-04 20:17:42,852 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 9ms)
+2016-12-04 20:17:42,892 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-12-04 20:17:42,903 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 10ms)
+2016-12-04 20:17:42,904 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-12-04 20:17:42,915 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 11ms)
+2016-12-04 20:17:43,583 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-12-04 20:17:44,961 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-12-04 20:17:44,994 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-12-04 20:17:45,029 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 35ms)
+2016-12-04 20:17:45,474 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-12-04 20:17:45,562 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 88ms)
+2016-12-04 20:17:46,784 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2016-12-04 20:17:48,840 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-12-04 20:17:48,853 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 12ms)
+2016-12-04 20:17:49,134 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-12-04 20:17:49,147 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 12ms)
+2016-12-04 20:17:59,881 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 13] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:17:59,881 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 13] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:18:14,850 [7] INFO  umbraco.presentation.publishingService - [Thread 13] newsletterstudioBounces has been called with response: True
+2016-12-04 20:18:15,051 [7] INFO  umbraco.presentation.publishingService - [Thread 13] newsletterstudioSendout has been called with response: True
+2016-12-04 20:18:16,628 [7] INFO  umbraco.presentation.publishingService - [Thread 13] sendremindmails has been called with response: False
+2016-12-04 20:24:14,693 [7] INFO  umbraco.presentation.publishingService - [Thread 18] newsletterstudioSendout has been called with response: True
+2016-12-04 20:29:14,114 [7] INFO  umbraco.presentation.publishingService - [Thread 36] newsletterstudioSendout has been called with response: True
+2016-12-04 20:32:13,928 [7] INFO  umbraco.presentation.publishingService - [Thread 45] newsletterstudioBounces has been called with response: True
+2016-12-04 20:34:16,295 [7] INFO  umbraco.presentation.publishingService - [Thread 25] newsletterstudioSendout has been called with response: True
+2016-12-04 20:39:14,012 [7] INFO  umbraco.presentation.publishingService - [Thread 42] newsletterstudioSendout has been called with response: True
+2016-12-04 20:39:20,864 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 57] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:39:20,864 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 57] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:39:31,035 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 56] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:39:31,035 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 56] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:40:18,121 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 60] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:40:18,121 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 60] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:42:20,715 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 57] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:42:20,715 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 57] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:44:14,120 [7] INFO  umbraco.presentation.publishingService - [Thread 53] newsletterstudioSendout has been called with response: True
+2016-12-04 20:46:13,855 [7] INFO  umbraco.presentation.publishingService - [Thread 62] newsletterstudioBounces has been called with response: True
+2016-12-04 20:47:21,800 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 69] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:47:21,800 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 69] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:49:16,203 [7] INFO  umbraco.presentation.publishingService - [Thread 68] newsletterstudioSendout has been called with response: True
+2016-12-04 20:51:14,249 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 73] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:51:14,250 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 73] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:51:57,611 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 73] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:51:57,611 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 73] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:52:15,828 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 67] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:52:15,828 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 67] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 20:54:15,015 [7] INFO  umbraco.presentation.publishingService - [Thread 74] newsletterstudioSendout has been called with response: True
+2016-12-04 20:59:14,924 [7] INFO  umbraco.presentation.publishingService - [Thread 87] newsletterstudioSendout has been called with response: True
+2016-12-04 21:00:13,972 [7] INFO  umbraco.presentation.publishingService - [Thread 83] newsletterstudioBounces has been called with response: True
+2016-12-04 21:04:16,553 [7] INFO  umbraco.presentation.publishingService - [Thread 95] newsletterstudioSendout has been called with response: True
+2016-12-04 21:09:16,060 [7] INFO  umbraco.presentation.publishingService - [Thread 84] newsletterstudioSendout has been called with response: True
+2016-12-04 21:14:14,368 [7] INFO  umbraco.presentation.publishingService - [Thread 80] newsletterstudioBounces has been called with response: True
+2016-12-04 21:14:14,526 [7] INFO  umbraco.presentation.publishingService - [Thread 80] newsletterstudioSendout has been called with response: True
+2016-12-04 21:19:15,135 [7] INFO  umbraco.presentation.publishingService - [Thread 76] newsletterstudioSendout has been called with response: True
+2016-12-04 21:19:16,660 [7] INFO  umbraco.presentation.publishingService - [Thread 76] sendremindmails has been called with response: False
+2016-12-04 21:24:14,404 [7] INFO  umbraco.presentation.publishingService - [Thread 70] newsletterstudioSendout has been called with response: True
+2016-12-04 21:28:19,543 [7] INFO  umbraco.presentation.publishingService - [Thread 67] newsletterstudioBounces has been called with response: True
+2016-12-04 21:29:14,157 [7] INFO  umbraco.presentation.publishingService - [Thread 68] newsletterstudioSendout has been called with response: True
+2016-12-04 21:34:16,766 [7] INFO  umbraco.presentation.publishingService - [Thread 65] newsletterstudioSendout has been called with response: True
+2016-12-04 21:39:16,896 [7] INFO  umbraco.presentation.publishingService - [Thread 58] newsletterstudioSendout has been called with response: True
+2016-12-04 21:42:14,488 [7] INFO  umbraco.presentation.publishingService - [Thread 65] newsletterstudioBounces has been called with response: True
+2016-12-04 21:44:16,811 [7] INFO  umbraco.presentation.publishingService - [Thread 43] newsletterstudioSendout has been called with response: True
+2016-12-04 21:49:14,608 [7] INFO  umbraco.presentation.publishingService - [Thread 54] newsletterstudioSendout has been called with response: True
+2016-12-04 21:54:14,674 [7] INFO  umbraco.presentation.publishingService - [Thread 47] newsletterstudioSendout has been called with response: True
+2016-12-04 21:56:14,468 [7] INFO  umbraco.presentation.publishingService - [Thread 54] newsletterstudioBounces has been called with response: True
+2016-12-04 22:31:51,606 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:31:51,606 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:31:57,440 [7] INFO  umbraco.presentation.publishingService - [Thread 45] newsletterstudioBounces has been called with response: True
+2016-12-04 22:31:57,609 [7] INFO  umbraco.presentation.publishingService - [Thread 45] newsletterstudioSendout has been called with response: True
+2016-12-04 22:31:59,454 [7] INFO  umbraco.presentation.publishingService - [Thread 45] sendremindmails has been called with response: False
+2016-12-04 22:36:57,555 [7] INFO  umbraco.presentation.publishingService - [Thread 31] newsletterstudioSendout has been called with response: True
+2016-12-04 22:39:47,188 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 71] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:39:47,188 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 71] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:40:07,074 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:40:07,074 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:40:57,633 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 71] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:40:57,633 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 71] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:41:39,891 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:41:39,891 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:41:57,596 [7] INFO  umbraco.presentation.publishingService - [Thread 33] newsletterstudioSendout has been called with response: True
+2016-12-04 22:42:13,032 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 30] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:42:13,032 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 30] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:42:19,159 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 30] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:42:19,159 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 30] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:43:15,773 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:43:15,773 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:44:27,055 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:44:27,055 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:45:48,979 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:45:48,979 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:45:58,440 [7] INFO  umbraco.presentation.publishingService - [Thread 33] newsletterstudioBounces has been called with response: True
+2016-12-04 22:46:57,320 [7] INFO  umbraco.presentation.publishingService - [Thread 33] newsletterstudioSendout has been called with response: True
+2016-12-04 22:51:35,774 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 18] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:51:35,774 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 18] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:51:58,473 [7] INFO  umbraco.presentation.publishingService - [Thread 28] newsletterstudioSendout has been called with response: True
+2016-12-04 22:56:58,721 [7] INFO  umbraco.presentation.publishingService - [Thread 97] newsletterstudioSendout has been called with response: True
+2016-12-04 22:58:34,994 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 17] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:58:34,994 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 17] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:59:23,513 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 17] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:59:23,513 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 17] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 22:59:57,624 [7] INFO  umbraco.presentation.publishingService - [Thread 14] newsletterstudioBounces has been called with response: True
+2016-12-04 23:01:58,558 [7] INFO  umbraco.presentation.publishingService - [Thread 5] newsletterstudioSendout has been called with response: True
+2016-12-04 23:02:05,843 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 5] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 23:02:05,843 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 5] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 23:06:57,891 [7] INFO  umbraco.presentation.publishingService - [Thread 96] newsletterstudioSendout has been called with response: True
+2016-12-04 23:12:00,165 [7] INFO  umbraco.presentation.publishingService - [Thread 10] newsletterstudioSendout has been called with response: True
+2016-12-04 23:12:29,746 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 23:12:29,746 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2016-12-04 23:13:57,729 [7] INFO  umbraco.presentation.publishingService - [Thread 28] newsletterstudioBounces has been called with response: True
+2016-12-04 23:16:57,854 [7] INFO  umbraco.presentation.publishingService - [Thread 32] newsletterstudioSendout has been called with response: True
+2016-12-04 23:17:34,656 [7] INFO  umbraco.BusinessLogic.Log - [Thread 28] Log scrubbed.  Removed all items older than 2016-10-05 23:17:34
+2016-12-04 23:17:34,658 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 28] Application shutdown. Reason: ConfigurationChange
+2016-12-04 23:23:31,400 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Determining hash of code files on disk
+2016-12-04 23:23:31,412 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Hash determined (took 6ms)
+2016-12-04 23:23:31,418 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-12-04 23:23:31,534 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 112ms)
+2016-12-04 23:23:31,549 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-12-04 23:23:31,555 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2016-12-04 23:23:31,557 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-12-04 23:23:31,561 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 5ms)
+2016-12-04 23:23:31,561 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-12-04 23:23:31,565 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-12-04 23:23:31,567 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-12-04 23:23:31,571 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2016-12-04 23:23:31,571 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-12-04 23:23:31,577 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2016-12-04 23:23:31,733 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 33] Initializing Examine and binding to business logic events
+2016-12-04 23:23:31,863 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 33] Adding examine event handlers for index providers: 3
+2016-12-04 23:23:31,869 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.IApplication
+2016-12-04 23:23:31,877 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2016-12-04 23:23:31,932 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.ITree
+2016-12-04 23:23:31,955 [20] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2016-12-04 23:23:32,079 [20] INFO  umbraco.content - [Thread 34] Loading content from disk cache...
+2016-12-04 23:23:34,273 [20] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-12-04 23:23:34,279 [20] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2016-12-04 23:23:34,670 [20] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-12-04 23:23:34,674 [20] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-12-04 23:24:03,116 [20] INFO  umbraco.presentation.publishingService - [Thread 35] newsletterstudioBounces has been called with response: True
+2016-12-04 23:24:03,265 [20] INFO  umbraco.presentation.publishingService - [Thread 35] newsletterstudioSendout has been called with response: True
+2016-12-04 23:24:05,450 [20] INFO  umbraco.presentation.publishingService - [Thread 35] sendremindmails has been called with response: False
+2016-12-04 23:30:03,372 [20] INFO  umbraco.presentation.publishingService - [Thread 14] newsletterstudioSendout has been called with response: True
+2016-12-04 23:35:02,495 [20] INFO  umbraco.presentation.publishingService - [Thread 14] newsletterstudioSendout has been called with response: True
+2016-12-04 23:38:02,307 [20] INFO  umbraco.presentation.publishingService - [Thread 17] newsletterstudioBounces has been called with response: True
+2016-12-04 23:40:03,231 [20] INFO  umbraco.presentation.publishingService - [Thread 71] newsletterstudioSendout has been called with response: True
+2016-12-04 23:45:04,713 [20] INFO  umbraco.presentation.publishingService - [Thread 29] newsletterstudioSendout has been called with response: True
+2016-12-04 23:50:02,759 [20] INFO  umbraco.presentation.publishingService - [Thread 26] newsletterstudioSendout has been called with response: True
+2016-12-04 23:52:02,512 [20] INFO  umbraco.presentation.publishingService - [Thread 38] newsletterstudioBounces has been called with response: True
+2016-12-04 23:55:03,452 [20] INFO  umbraco.presentation.publishingService - [Thread 45] newsletterstudioSendout has been called with response: True

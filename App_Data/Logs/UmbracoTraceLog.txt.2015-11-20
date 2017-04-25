@@ -1,0 +1,285 @@
+2015-11-20 13:24:54,944 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-11-20 13:24:55,071 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 63ms)
+2015-11-20 13:24:55,132 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-11-20 13:24:56,149 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 1007ms)
+2015-11-20 13:24:56,401 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-11-20 13:24:56,436 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 34ms)
+2015-11-20 13:24:56,458 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-11-20 13:24:56,490 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 31ms)
+2015-11-20 13:24:56,490 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-11-20 13:24:56,513 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 22ms)
+2015-11-20 13:24:56,539 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-11-20 13:24:56,563 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 23ms)
+2015-11-20 13:24:56,565 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-11-20 13:24:56,589 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 23ms)
+2015-11-20 13:24:58,207 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-11-20 13:25:00,248 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-11-20 13:25:00,300 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-11-20 13:25:00,347 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 46ms)
+2015-11-20 13:25:00,734 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-11-20 13:25:00,862 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 128ms)
+2015-11-20 13:25:02,177 [6] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2015-11-20 13:25:27,341 [6] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-11-20 13:25:27,368 [6] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 26ms)
+2015-11-20 13:25:29,704 [6] INFO  umbraco.presentation.publishingService - [Thread 14] sendremindmails has been called with response: True
+2015-11-20 13:27:04,432 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-11-20 13:27:04,454 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 21ms)
+2015-11-20 14:26:14,196 [6] INFO  umbraco.presentation.publishingService - [Thread 88] sendremindmails has been called with response: True
+2015-11-20 14:41:17,796 [6] INFO  umbraco.BusinessLogic.Log - [Thread 118] Log scrubbed.  Removed all items older than 2015-09-21 14:41:17
+2015-11-20 14:41:17,819 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 118] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-11-20 14:42:27,840 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Determining hash of code files on disk
+2015-11-20 14:42:27,948 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Hash determined (took 48ms)
+2015-11-20 14:42:28,010 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-11-20 14:42:28,697 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 680ms)
+2015-11-20 14:42:28,855 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-11-20 14:42:28,878 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 22ms)
+2015-11-20 14:42:28,899 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-11-20 14:42:28,928 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 28ms)
+2015-11-20 14:42:28,929 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-11-20 14:42:28,946 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 16ms)
+2015-11-20 14:42:28,955 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-11-20 14:42:28,969 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 13ms)
+2015-11-20 14:42:28,971 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-11-20 14:42:28,985 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 13ms)
+2015-11-20 14:42:30,117 [117] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 126] Initializing Examine and binding to business logic events
+2015-11-20 14:42:31,265 [117] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 126] Adding examine event handlers for index providers: 3
+2015-11-20 14:42:31,333 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of umbraco.interfaces.IApplication
+2015-11-20 14:42:31,379 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 45ms)
+2015-11-20 14:42:31,689 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of umbraco.interfaces.ITree
+2015-11-20 14:42:31,765 [117] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 76ms)
+2015-11-20 14:42:32,498 [117] INFO  umbraco.content - [Thread 36] Loading content from disk cache...
+2015-11-20 14:42:37,985 [117] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-11-20 14:42:37,999 [117] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 14ms)
+2015-11-20 14:42:47,345 [117] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-11-20 14:42:47,361 [117] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 15ms)
+2015-11-20 14:43:04,544 [117] INFO  umbraco.presentation.publishingService - [Thread 104] sendremindmails has been called with response: True
+2015-11-20 14:46:35,520 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,526 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,528 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,529 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,534 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,535 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,536 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,536 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,564 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,564 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,565 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,570 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,571 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,571 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,572 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,572 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,572 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,573 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,573 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,573 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,574 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,574 [117] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 111] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-11-20 14:46:35,885 [117] INFO  Umbraco.Core.PluginManager - [Thread 111] Starting resolution types of umbraco.interfaces.IDataType
+2015-11-20 14:46:35,953 [117] INFO  Umbraco.Core.PluginManager - [Thread 111] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 67ms)
+2015-11-20 14:46:35,998 [117] INFO  Umbraco.Core.PluginManager - [Thread 111] Starting resolution types of umbraco.interfaces.ITree
+2015-11-20 14:46:36,071 [117] INFO  Umbraco.Core.PluginManager - [Thread 111] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 72ms)
+2015-11-20 14:53:59,552 [117] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 75]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+2015-11-20 14:54:59,536 [117] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 16]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+2015-11-20 14:55:59,552 [117] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 67]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+2015-11-20 14:56:59,576 [117] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 67]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+2015-11-20 14:57:59,565 [117] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 122]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+2015-11-20 14:58:59,577 [117] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 67]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+2015-11-20 15:00:47,415 [117] INFO  umbraco.BusinessLogic.Log - [Thread 24] Log scrubbed.  Removed all items older than 2015-09-21 15:00:47
+2015-11-20 15:00:47,421 [117] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 24] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-11-20 15:01:02,444 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Determining hash of code files on disk
+2015-11-20 15:01:02,542 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Hash determined (took 41ms)
+2015-11-20 15:01:02,589 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-11-20 15:01:03,235 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 636ms)
+2015-11-20 15:01:03,370 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-11-20 15:01:03,388 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 17ms)
+2015-11-20 15:01:03,402 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-11-20 15:01:03,424 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 21ms)
+2015-11-20 15:01:03,425 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-11-20 15:01:03,438 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 12ms)
+2015-11-20 15:01:03,448 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-11-20 15:01:03,463 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 15ms)
+2015-11-20 15:01:03,465 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-11-20 15:01:03,481 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 15ms)
+2015-11-20 15:01:04,593 [38] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 97] Initializing Examine and binding to business logic events
+2015-11-20 15:01:05,814 [38] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 97] Adding examine event handlers for index providers: 3
+2015-11-20 15:01:05,895 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of umbraco.interfaces.IApplication
+2015-11-20 15:01:05,937 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 41ms)
+2015-11-20 15:01:06,191 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of umbraco.interfaces.ITree
+2015-11-20 15:01:06,296 [38] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 104ms)
+2015-11-20 15:01:07,070 [38] INFO  umbraco.content - [Thread 22] Loading content from disk cache...
+2015-11-20 15:01:12,562 [38] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-11-20 15:01:12,578 [38] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 15ms)
+2015-11-20 15:01:22,262 [38] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-11-20 15:01:22,280 [38] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 18ms)
+2015-11-20 15:01:39,224 [38] INFO  umbraco.presentation.publishingService - [Thread 55] sendremindmails has been called with response: True
+2015-11-20 15:22:12,920 [38] INFO  umbraco.BusinessLogic.Log - [Thread 112] Log scrubbed.  Removed all items older than 2015-09-21 15:22:12
+2015-11-20 15:22:12,925 [38] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 112] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-11-20 15:31:06,327 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Determining hash of code files on disk
+2015-11-20 15:31:06,421 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Hash determined (took 42ms)
+2015-11-20 15:31:06,479 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-11-20 15:31:07,062 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 574ms)
+2015-11-20 15:31:07,198 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-11-20 15:31:07,215 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 17ms)
+2015-11-20 15:31:07,229 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-11-20 15:31:07,249 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 19ms)
+2015-11-20 15:31:07,249 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-11-20 15:31:07,261 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 12ms)
+2015-11-20 15:31:07,271 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-11-20 15:31:07,283 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 12ms)
+2015-11-20 15:31:07,285 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-11-20 15:31:07,300 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 15ms)
+2015-11-20 15:31:08,357 [19] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 126] Initializing Examine and binding to business logic events
+2015-11-20 15:31:09,308 [19] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 126] Adding examine event handlers for index providers: 3
+2015-11-20 15:31:09,389 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of umbraco.interfaces.IApplication
+2015-11-20 15:31:09,458 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 69ms)
+2015-11-20 15:31:09,777 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of umbraco.interfaces.ITree
+2015-11-20 15:31:09,896 [19] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 119ms)
+2015-11-20 15:31:10,910 [19] INFO  umbraco.content - [Thread 37] Loading content from disk cache...
+2015-11-20 15:31:15,602 [19] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-11-20 15:31:15,619 [19] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 16ms)
+2015-11-20 15:31:24,909 [19] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-11-20 15:31:24,926 [19] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 17ms)
+2015-11-20 15:31:42,099 [19] INFO  umbraco.presentation.publishingService - [Thread 51] sendremindmails has been called with response: True

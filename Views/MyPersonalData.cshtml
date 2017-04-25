@@ -1,0 +1,20 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "MemberSectionLayoutPage.cshtml";
+}
+
+@Umbraco.RenderMacro("UpdatePersonalInfo")
+
+
+@section cpFooter
+{}
+
+@section cpScripts
+{
+    <script type="text/javascript" src="/scripts/AdminScripts.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            bvlfAdmin.SetupSiteScripts();
+        });
+    </script>
+}

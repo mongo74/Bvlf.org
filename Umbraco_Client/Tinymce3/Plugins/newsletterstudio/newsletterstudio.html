@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{#ns.title}</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/dialog.js"></script>
+    <style type="text/css">
+        
+    </style>
+</head>
+<body>
+
+<form onsubmit="newsletterstudioDialog.insert();return false;" action="#">
+
+	<p>{#ns.action_info}</p>
+    <select id="ddlAction" onchange="newsletterstudioDialog.ddlValueChanged(this);" style="width:250px;">
+        <option value="Name">{#ns.ddl_name}</option>
+        <option value="Email">{#ns.ddl_email}</option>
+        <option value="Unsubscribe">{#ns.ddl_unsubscribe}</option>
+        <option value="ReadOnline">{#ns.ddl_readonline}</option>
+    </select>
+
+    
+	<div id="divCaption" style="display:none;">
+    	<p>{#ns.caption_info}</p>
+        <input type="text" name="txtCaption" id="txtCaption" class="text" style="width:250px;" />
+    </div>
+    
+	<div style="text-align:left; margin-top:25px" class="mceActionPanel">
+			<input type="button" id="insert" name="insert" value="{#insert}" onclick="newsletterstudioDialog.insert();" />
+			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+	</div>
+</form>
+
+</body>
+</html>

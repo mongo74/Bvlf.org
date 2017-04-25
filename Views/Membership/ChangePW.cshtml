@@ -1,0 +1,43 @@
+﻿@using bvlf_v2.Controllers
+@model bvlf_v2.Models.ChangePasswordViewModel
+
+@if (!Model.PasswordHasChanged)
+{
+    using (Html.BeginUmbracoForm<MembershipController>("HandleChangePassword", FormMethod.Post, new {id = "HandleChangePassword"}))
+    {
+        <div class="row">
+
+            <div class="col-md-4 text-right">@Html.LabelFor(p => p.Password)</div>
+            <div class="col-md-2">@Html.PasswordFor(p => p.Password, new {@class = ""})</div>
+            <div class="col-md-2">@Html.ValidationMessageFor(p => p.Password)</div>
+            <div class="col-md-4"></div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-4 text-right">@Html.LabelFor(p => p.ComparePassword)</div>
+            <div class="col-md-2">@Html.PasswordFor(p => p.ComparePassword, new {@class = ""})</div>
+            <div class="col-md-2">@Html.ValidationMessageFor(p => p.ComparePassword)</div>
+            <div class="col-md-4"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <input type="submit" value="Versturen" class="btn btn-default"/>
+            </div>
+
+        </div>
+    }
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+            Password has been changed
+        </div>
+
+    </div>
+}

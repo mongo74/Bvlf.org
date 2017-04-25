@@ -1,0 +1,682 @@
+2015-03-31 00:00:17,847 [7] WARN  umbraco.macro - [Thread 31] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(4): error CS1928: 'Umbraco.Web.Models.PartialViewMacroModel' does not contain a definition for 'AncestorOrSelf' and the best extension method overload 'Umbraco.Web.PublishedContentExtensions.AncestorOrSelf(Umbraco.Core.Models.IPublishedContent)' has some invalid arguments
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:14:52,073 [7] WARN  umbraco.macro - [Thread 53] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(4): error CS1928: 'Umbraco.Web.Models.PartialViewMacroModel' does not contain a definition for 'AncestorOrSelf' and the best extension method overload 'Umbraco.Web.PublishedContentExtensions.AncestorOrSelf(Umbraco.Core.Models.IPublishedContent)' has some invalid arguments
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:18:22,012 [7] WARN  umbraco.macro - [Thread 22] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(23): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'title' and no extension method 'title' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:18:55,492 [7] WARN  umbraco.macro - [Thread 60] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(23): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'artikeltitle' and no extension method 'artikeltitle' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:18:58,879 [7] WARN  umbraco.macro - [Thread 25] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(23): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'artikeltitle' and no extension method 'artikeltitle' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:25:14,118 [7] WARN  umbraco.macro - [Thread 40] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(23): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'artikeltitle' and no extension method 'artikeltitle' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:25:51,369 [7] WARN  umbraco.macro - [Thread 40] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(23): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'artikelTitel' and no extension method 'artikelTitel' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:25:54,523 [7] WARN  umbraco.macro - [Thread 17] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(23): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'artikelTitel' and no extension method 'artikelTitel' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:25:57,387 [7] WARN  umbraco.macro - [Thread 17] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(23): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'artikelTitel' and no extension method 'artikelTitel' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:26:25,691 [7] WARN  umbraco.macro - [Thread 14] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(23): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'artikelTitel' and no extension method 'artikelTitel' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2015-03-31 00:55:45,739 [7] INFO  umbraco.presentation.publishingService - [Thread 67] sendremindmails has been called with response: True
+2015-03-31 13:36:02,817 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-03-31 13:36:02,829 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2015-03-31 13:36:02,829 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-03-31 13:36:02,942 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 112ms)
+2015-03-31 13:36:02,945 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-03-31 13:36:02,947 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-03-31 13:36:02,947 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-03-31 13:36:02,950 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 3 (took 2ms)
+2015-03-31 13:36:02,950 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-03-31 13:36:02,952 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2015-03-31 13:36:02,956 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-03-31 13:36:02,959 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-03-31 13:36:02,959 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-03-31 13:36:02,962 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2015-03-31 13:36:03,108 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-03-31 13:36:03,299 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-03-31 13:36:03,300 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-03-31 13:36:03,304 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2015-03-31 13:36:03,357 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 13:36:03,370 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 13ms)
+2015-03-31 13:36:03,525 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2015-03-31 13:36:14,649 [7] INFO  umbraco.BasePages.BasePage - [Thread 13] User Webmaster (Id: 0) logged in
+2015-03-31 13:36:14,687 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2015-03-31 13:36:14,689 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2015-03-31 13:36:14,781 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 13:36:14,792 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 11ms)
+2015-03-31 13:36:15,143 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-03-31 13:36:15,146 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2015-03-31 13:36:16,223 [7] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-03-31 13:36:16,225 [7] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2015-03-31 13:36:33,906 [7] INFO  umbraco.presentation.publishingService - [Thread 11] sendremindmails has been called with response: True
+2015-03-31 13:40:08,238 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.interfaces.IDataType
+2015-03-31 13:40:08,257 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2015-03-31 13:53:41,599 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-03-31 13:53:41,605 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 6ms)
+2015-03-31 14:36:34,144 [7] INFO  umbraco.presentation.publishingService - [Thread 66] sendremindmails has been called with response: True
+2015-03-31 16:25:58,317 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-03-31 16:25:58,333 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2015-03-31 16:25:58,333 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-03-31 16:25:58,427 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 100ms)
+2015-03-31 16:25:58,427 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-03-31 16:25:58,427 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-03-31 16:25:58,427 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-03-31 16:25:58,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 3 (took 3ms)
+2015-03-31 16:25:58,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-03-31 16:25:58,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2015-03-31 16:25:58,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-03-31 16:25:58,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-03-31 16:25:58,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-03-31 16:25:58,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2015-03-31 16:25:58,598 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-03-31 16:25:58,785 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-03-31 16:25:58,785 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-03-31 16:25:58,785 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2015-03-31 16:25:58,832 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 16:25:58,832 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 11ms)
+2015-03-31 16:25:58,988 [7] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2015-03-31 16:26:28,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-03-31 16:26:28,557 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2015-03-31 16:26:29,587 [7] INFO  umbraco.presentation.publishingService - [Thread 11] sendremindmails has been called with response: True
+2015-03-31 16:29:42,201 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-03-31 16:29:42,201 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2015-03-31 16:29:45,699 [7] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2015-03-31 16:29:45,702 [7] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2015-03-31 16:29:45,852 [7] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 16:29:45,864 [7] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 11ms)
+2015-03-31 16:30:19,141 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.interfaces.IDataType
+2015-03-31 16:30:19,155 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 13ms)
+2015-03-31 16:44:35,694 [7] INFO  umbraco.BusinessLogic.Log - [Thread 37] Log scrubbed.  Removed all items older than 2015-01-30 16:44:35
+2015-03-31 16:44:35,696 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 37] Application shutdown. Reason: ConfigurationChange
+2015-03-31 16:44:36,364 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Determining hash of code files on disk
+2015-03-31 16:44:36,378 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Hash determined (took 5ms)
+2015-03-31 16:44:36,386 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-03-31 16:44:36,455 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 68ms)
+2015-03-31 16:44:36,455 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-03-31 16:44:36,457 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2015-03-31 16:44:36,458 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-03-31 16:44:36,460 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 3 (took 2ms)
+2015-03-31 16:44:36,460 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-03-31 16:44:36,462 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2015-03-31 16:44:36,462 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-03-31 16:44:36,464 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-03-31 16:44:36,464 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-03-31 16:44:36,466 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2015-03-31 16:44:36,566 [30] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 29] Initializing Examine and binding to business logic events
+2015-03-31 16:44:37,573 [30] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 29] Adding examine event handlers for index providers: 3
+2015-03-31 16:44:37,573 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.interfaces.IApplication
+2015-03-31 16:44:37,577 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 3ms)
+2015-03-31 16:44:37,603 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 16:44:37,616 [30] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 12ms)
+2015-03-31 16:45:07,146 [30] INFO  umbraco.presentation.publishingService - [Thread 39] sendremindmails has been called with response: True
+2015-03-31 17:35:20,759 [30] INFO  umbraco.content - [Thread 115] Loading content from disk cache...
+2015-03-31 17:35:21,018 [30] INFO  Umbraco.Core.PluginManager - [Thread 115] Starting resolution types of umbraco.interfaces.IDataType
+2015-03-31 17:35:21,037 [30] INFO  Umbraco.Core.PluginManager - [Thread 115] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 19ms)
+2015-03-31 17:35:21,046 [30] INFO  Umbraco.Core.PluginManager - [Thread 115] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 17:35:21,063 [30] INFO  Umbraco.Core.PluginManager - [Thread 115] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 16ms)
+2015-03-31 17:35:21,491 [30] INFO  Umbraco.Core.PluginManager - [Thread 115] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-03-31 17:35:21,497 [30] INFO  Umbraco.Core.PluginManager - [Thread 115] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 5ms)
+2015-03-31 17:35:21,725 [30] INFO  Umbraco.Core.PluginManager - [Thread 102] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-03-31 17:35:21,729 [30] INFO  Umbraco.Core.PluginManager - [Thread 102] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2015-03-31 17:35:21,850 [30] INFO  Umbraco.Core.PluginManager - [Thread 102] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-03-31 17:35:21,854 [30] INFO  Umbraco.Core.PluginManager - [Thread 102] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2015-03-31 17:45:08,065 [30] INFO  umbraco.presentation.publishingService - [Thread 71] sendremindmails has been called with response: True
+2015-03-31 17:57:45,184 [30] INFO  umbraco.BusinessLogic.Log - [Thread 100] Log scrubbed.  Removed all items older than 2015-01-30 17:57:45
+2015-03-31 17:57:45,184 [30] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 100] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-03-31 17:57:46,895 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Determining hash of code files on disk
+2015-03-31 17:57:46,905 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Hash determined (took 6ms)
+2015-03-31 17:57:46,915 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-03-31 17:57:47,005 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 91ms)
+2015-03-31 17:57:47,035 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-03-31 17:57:47,035 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-03-31 17:57:47,035 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-03-31 17:57:47,035 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 3ms)
+2015-03-31 17:57:47,035 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-03-31 17:57:47,045 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2015-03-31 17:57:47,045 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-03-31 17:57:47,045 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-03-31 17:57:47,045 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-03-31 17:57:47,045 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2015-03-31 17:57:47,205 [85] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 79] Initializing Examine and binding to business logic events
+2015-03-31 17:57:47,345 [85] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 79] Adding examine event handlers for index providers: 3
+2015-03-31 17:57:47,355 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.IApplication
+2015-03-31 17:57:47,355 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2015-03-31 17:57:47,425 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 17:57:47,435 [85] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 11ms)
+2015-03-31 17:57:47,555 [85] INFO  umbraco.content - [Thread 75] Loading content from disk cache...
+2015-03-31 17:57:48,528 [85] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-03-31 17:57:48,528 [85] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 2ms)
+2015-03-31 17:57:48,748 [85] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-03-31 17:57:48,758 [85] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2015-03-31 17:57:50,391 [85] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of umbraco.interfaces.IDataType
+2015-03-31 17:57:50,401 [85] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 10ms)
+2015-03-31 17:57:50,411 [85] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 17:57:50,421 [85] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 10ms)
+2015-03-31 17:58:17,845 [85] INFO  umbraco.presentation.publishingService - [Thread 98] sendremindmails has been called with response: True
+2015-03-31 18:29:04,316 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,316 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,316 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,316 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,316 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,316 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:29:04,317 [85] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 18] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 18:58:18,552 [85] INFO  umbraco.presentation.publishingService - [Thread 91] sendremindmails has been called with response: True
+2015-03-31 19:58:32,649 [85] INFO  umbraco.presentation.publishingService - [Thread 25] sendremindmails has been called with response: True
+2015-03-31 20:00:35,279 [85] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-03-31 20:00:35,335 [85] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 56ms)
+2015-03-31 20:17:23,342 [85] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 10] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): SHUTDOWN is in progress.
+Login failed for user 'umbracouser'.
+A severe error occurred on the current command.  The results, if any, should be discarded.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:9687760a-0a46-4e94-83ff-0c54fcb6cdde
+2015-03-31 20:17:23,389 [85] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 10] Application shutdown. Reason: HostingEnvironment
+2015-03-31 20:23:35,416 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-03-31 20:23:35,429 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2015-03-31 20:23:35,436 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-03-31 20:23:35,556 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 119ms)
+2015-03-31 20:23:35,580 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-03-31 20:23:35,582 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-03-31 20:23:35,584 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-03-31 20:23:35,587 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 2ms)
+2015-03-31 20:23:35,587 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-03-31 20:23:35,589 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2015-03-31 20:23:35,593 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-03-31 20:23:35,595 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-03-31 20:23:35,595 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-03-31 20:23:35,597 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2015-03-31 20:23:35,786 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-03-31 20:23:36,020 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-03-31 20:23:36,027 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-03-31 20:23:36,034 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2015-03-31 20:23:36,095 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 20:23:36,107 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 12ms)
+2015-03-31 20:23:36,317 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2015-03-31 20:23:36,773 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-03-31 20:23:36,775 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2015-03-31 20:23:37,237 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-03-31 20:23:37,240 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 2ms)
+2015-03-31 20:23:44,636 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IDataType
+2015-03-31 20:23:44,646 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 9ms)
+2015-03-31 20:23:44,653 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 20:23:44,664 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 11ms)
+2015-03-31 20:24:06,637 [7] INFO  umbraco.presentation.publishingService - [Thread 17] sendremindmails has been called with response: True
+2015-03-31 20:31:02,959 [7] INFO  umbraco.BusinessLogic.Log - [Thread 14] Log scrubbed.  Removed all items older than 2015-01-30 20:31:02
+2015-03-31 20:31:02,960 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 14] Application shutdown. Reason: HostingEnvironment
+2015-03-31 20:32:41,315 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-03-31 20:32:41,328 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2015-03-31 20:32:41,331 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-03-31 20:32:41,402 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 71ms)
+2015-03-31 20:32:41,403 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-03-31 20:32:41,405 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-03-31 20:32:41,405 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-03-31 20:32:41,408 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 3ms)
+2015-03-31 20:32:41,408 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-03-31 20:32:41,410 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2015-03-31 20:32:41,413 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-03-31 20:32:41,416 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-03-31 20:32:41,416 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-03-31 20:32:41,418 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2015-03-31 20:32:41,532 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-03-31 20:32:41,639 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-03-31 20:32:41,640 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-03-31 20:32:41,644 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2015-03-31 20:32:41,664 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 20:32:41,676 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 11ms)
+2015-03-31 20:32:41,779 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2015-03-31 20:32:42,011 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-03-31 20:32:42,014 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2015-03-31 20:32:42,439 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-03-31 20:32:42,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2015-03-31 20:32:42,603 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.interfaces.IDataType
+2015-03-31 20:32:42,614 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 10ms)
+2015-03-31 20:32:42,621 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 20:32:42,632 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 11ms)
+2015-03-31 20:33:12,461 [7] INFO  umbraco.presentation.publishingService - [Thread 12] sendremindmails has been called with response: True
+2015-03-31 21:01:25,004 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,004 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,004 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,004 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,004 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,005 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,006 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,006 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,006 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,006 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:25,006 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,707 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:01:55,708 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 5] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,585 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,585 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,585 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,585 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,585 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,585 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,585 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,586 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,586 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,586 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,586 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,586 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,586 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,586 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,586 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,587 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,587 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,587 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,587 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,587 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,588 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:04,588 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,730 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,730 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,730 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,730 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,730 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,730 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,730 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,731 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,732 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,732 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,732 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:02:10,732 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 9] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,710 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,710 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,710 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,710 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,710 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,710 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,711 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,712 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,712 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,712 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,712 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:05:46,712 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-03-31 21:33:12,688 [7] INFO  umbraco.presentation.publishingService - [Thread 30] sendremindmails has been called with response: True
+2015-03-31 21:41:29,357 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-03-31 21:41:29,366 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2015-03-31 21:41:29,369 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-03-31 21:41:29,471 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 101ms)
+2015-03-31 21:41:29,483 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-03-31 21:41:29,486 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2015-03-31 21:41:29,488 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-03-31 21:41:29,493 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 5ms)
+2015-03-31 21:41:29,494 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-03-31 21:41:29,496 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2015-03-31 21:41:29,501 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-03-31 21:41:29,504 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-03-31 21:41:29,505 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-03-31 21:41:29,508 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2015-03-31 21:41:29,632 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-03-31 21:41:29,772 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-03-31 21:41:29,778 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-03-31 21:41:29,784 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 6ms)
+2015-03-31 21:41:29,799 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-03-31 21:41:29,816 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 16ms)
+2015-03-31 21:41:29,922 [6] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2015-03-31 21:41:40,580 [6] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-03-31 21:41:40,583 [6] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2015-03-31 21:41:40,958 [6] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-03-31 21:41:40,961 [6] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 2ms)
+2015-03-31 21:42:00,477 [6] INFO  umbraco.presentation.publishingService - [Thread 10] sendremindmails has been called with response: True
+2015-03-31 22:33:13,770 [7] INFO  umbraco.presentation.publishingService - [Thread 38] sendremindmails has been called with response: True
+2015-03-31 22:42:01,069 [6] INFO  umbraco.presentation.publishingService - [Thread 77] sendremindmails has been called with response: True
+2015-03-31 23:33:14,749 [7] INFO  umbraco.presentation.publishingService - [Thread 15] sendremindmails has been called with response: True

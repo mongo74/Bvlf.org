@@ -1,0 +1,42 @@
+﻿Beste leerkracht,
+
+We hebben uw inschrijving goed ontvangen. 
+We verwachten binnen de kortste tijd na - of samen met - uw inschrijving, de betaling 
+op rekening BVLF vzw – Gent BE67 2900 5055 3387 
+
+Volgende gegevens zijn noodzakelijk
+- indien u zelf betaalt: 
+      uw lidnummer en (meisjes)naam
+- indien de scholengemeenschap voor u betaalt: 
+      naam scholengemeenschap, (meisjesnaam) en BVLF lidnummer(s) van personeelslid/personeelsleden,
+      volgnummer van betalingsuitnodiging (indien van toepassing)
+
+Voor de volledige modaliteiten kan u terecht op www.bvlf.org
+
+Na de betaling krijgt u van ons een bevestiging. 
+
+Een overzicht van de door u doorgestuurde gegevens
+
+- Persoonlijke informatie
+{{Voornaam}} {{Naam}}
+{{Straat}} {{nr}} {{Bus}}
+{{Zipcode}} {{Location}}
+{{Email}}
+{{Telefoon}}
+{{GSM}}
+
+- Schoolgegevens
+{{School}}
+{{SchoolStraat}} {{Schoolnr}} {{SchoolBus}}
+{{SchoolZipcode}} {{SchoolLocation}}
+{{SchoolEmail}}
+{{SchoolTelefoon}}
+
+- Ateliers die u wenst bij te wonen
+{{SessieList}}
+
+
+
+Met vriendelijke groet,
+
+B.V.L.F vzw

@@ -1,0 +1,19 @@
+﻿@using umbraco.MacroEngines
+@model bvlf_v2.Models.SubscribeToStudieDagStep3ViewModel
+
+@{
+    var pageid = 1221;
+    var node = new DynamicNode(pageid);
+    var bevestigingsMededeling = node.GetProperty("bevestigingsMededeling").Value;
+}
+
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        @Html.Raw(bevestigingsMededeling)
+    </div>
+    <div class="col-md-2">
+
+    </div>
+</div>

@@ -1,0 +1,43 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+
+
+@*//@foreach (var item in Model.Content.AncestorOrSelf(2).Descendants("BasicContentItem").Take(3))
+    //.Children.Where(p => p.ItemType == "BasicContentItem").Take(3))
+    //Model.DescendantsOrSelf(1).Where(n => n.DocumentTypeAlias == "Folder");
+*@
+@foreach (var item in Model.Content.DescendantsOrSelf(1).Where(n => n.DocumentTypeAlias == "BasicContentItem"
+                                                                    || n.DocumentTypeAlias == "StudiedagBaseContent" || n.DocumentTypeAlias == "StudiedagBaseContent"
+                                                                    || n.DocumentTypeAlias == "ProFFF-ContentItem").Take(3))
+{
+    <div class="col-md-4 HomePageTeaser">
+
+        <h2>
+            @item.GetProperty("bc_Title").Value
+
+
+        </h2>
+
+        <div class="TeaserContent">
+
+
+            <p>
+
+                <img src="@Umbraco.Media(item.GetPropertyValue("logo")).GetPropertyValue("umbracoFile")" alt="" class="teaserImage"/>
+
+
+                @Html.Raw(item.GetProperty("bc_teasertext").Value)
+
+            </p>
+
+
+        </div>
+
+        <p class="MoreOfThisItem">
+
+            <a href="@item.Url" class="small  btn btn-default btn-xlarge">@Umbraco.Field("#MoreOfThis") "@item.Name" >></a>
+
+        </p>
+
+    </div>
+}

@@ -1,0 +1,9 @@
+2016-11-05 09:15:35,193 [7] INFO  umbraco.presentation.publishingService - [Thread 69] sendremindmails has been called with response: False
+2016-11-05 10:15:34,236 [7] INFO  umbraco.presentation.publishingService - [Thread 38] sendremindmails has been called with response: False
+2016-11-05 11:15:33,878 [7] INFO  umbraco.presentation.publishingService - [Thread 33] sendremindmails has been called with response: False
+2016-11-05 12:15:33,613 [7] INFO  umbraco.presentation.publishingService - [Thread 82] sendremindmails has been called with response: False
+2016-11-05 15:38:28,783 [7] INFO  umbraco.presentation.publishingService - [Thread 82] sendremindmails has been called with response: False
+2016-11-05 16:51:09,810 [7] INFO  umbraco.presentation.publishingService - [Thread 69] sendremindmails has been called with response: False
+2016-11-05 17:51:55,433 [7] INFO  umbraco.presentation.publishingService - [Thread 69] sendremindmails has been called with response: False
+2016-11-05 18:51:56,829 [7] INFO  umbraco.presentation.publishingService - [Thread 27] sendremindmails has been called with response: False
+2016-11-05 19:51:54,220 [7] INFO  umbraco.presentation.publishingService - [Thread 87] sendremindmails has been called with response: False

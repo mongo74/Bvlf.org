@@ -1,0 +1,380 @@
+2016-10-01 01:25:00,461 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-10-01 01:25:00,480 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 10ms)
+2016-10-01 01:25:00,488 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-10-01 01:25:00,622 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 132ms)
+2016-10-01 01:25:00,643 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-10-01 01:25:00,646 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-10-01 01:25:00,648 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-10-01 01:25:00,653 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 4ms)
+2016-10-01 01:25:00,653 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-10-01 01:25:00,657 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-10-01 01:25:00,665 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-10-01 01:25:00,668 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-10-01 01:25:00,668 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-10-01 01:25:00,672 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-10-01 01:25:00,902 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-10-01 01:25:01,185 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-10-01 01:25:01,193 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-10-01 01:25:01,202 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2016-10-01 01:25:01,270 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-10-01 01:25:01,301 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 30ms)
+2016-10-01 01:25:01,559 [11] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2016-10-01 01:25:10,830 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-10-01 01:25:10,834 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-10-01 01:25:11,436 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-10-01 01:25:11,440 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2016-10-01 01:25:31,170 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IDataType
+2016-10-01 01:25:31,193 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 22ms)
+2016-10-01 01:25:31,203 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2016-10-01 01:25:31,222 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 19ms)
+2016-10-01 01:25:31,696 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-10-01 01:25:31,706 [11] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2016-10-01 01:25:33,577 [11] INFO  umbraco.presentation.publishingService - [Thread 6] sendremindmails has been called with response: False
+2016-10-01 01:25:52,114 [11] INFO  umbraco.BasePages.BasePage - [Thread 9] User Webmaster (Id: 0) logged in
+2016-10-01 01:25:52,260 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-10-01 01:25:52,264 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2016-10-01 01:26:49,569 [11] WARN  umbraco.macro - [Thread 7] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.Web.HttpCompileException (0x80004005): c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml(65): error CS1928: umbraco.NodeFactory.Node bevat geen definitie voor GetPropertyValue en de beste overbelasting voor extensiemethoden Umbraco.Web.PublishedContentExtensions.GetPropertyValue<T>(Umbraco.Core.Models.IPublishedContent, string) heeft enkele ongeldige argumenten
+   bij System.Web.Compilation.AssemblyBuilder.Compile()
+   bij System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   bij System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   bij System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   bij System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   bij System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   bij System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   bij Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   bij Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   bij Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   bij System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   bij System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   bij Umbraco.Web.Mvc.ControllerExtensions.EnsureViewObjectDataOnResult(ControllerBase controller, ViewResultBase result)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-01 01:28:11,131 [11] WARN  umbraco.macro - [Thread 23] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.PublishedContentExtensions.Descendants(IPublishedContent content, Func`2 func)
+   bij ASP._Page_Views_MacroPartials_ProFFF_AdditionalMaterial_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml:regel 7
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-01 01:30:16,304 [11] INFO  umbraco.BusinessLogic.Log - [Thread 22] Log scrubbed.  Removed all items older than 2016-08-02 01:30:16
+2016-10-01 01:30:16,305 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 22] Application shutdown. Reason: ConfigurationChange
+2016-10-01 01:30:23,471 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-10-01 01:30:23,486 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 8ms)
+2016-10-01 01:30:23,494 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-10-01 01:30:23,604 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 108ms)
+2016-10-01 01:30:23,623 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-10-01 01:30:23,627 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-10-01 01:30:23,628 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-10-01 01:30:23,634 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 5ms)
+2016-10-01 01:30:23,634 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-10-01 01:30:23,637 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-10-01 01:30:23,639 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-10-01 01:30:23,642 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-10-01 01:30:23,642 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-10-01 01:30:23,646 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-10-01 01:30:23,827 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-10-01 01:30:49,817 [5] ERROR UmbracoExamine.DataServices.UmbracoContentService - [Thread 1] EXCEPTION OCCURRED reading GetAllUserPropertyNames
+System.Data.SqlClient.SqlException (0x80131904): Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception (0x80004005): Het systeem kan het opgegeven pad niet vinden
+   bij System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   bij System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   bij System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   bij Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   bij Umbraco.Core.Persistence.Database.<Query>d__7`1.MoveNext()
+   bij System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   bij System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   bij UmbracoExamine.DataServices.UmbracoContentService.GetAllUserPropertyNames()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:3,State:0,Class:20
+2016-10-01 01:30:49,831 [5] ERROR UmbracoExamine.DataServices.UmbracoContentService - [Thread 1] EXCEPTION OCCURRED reading GetAllUserPropertyNames
+System.Data.SqlClient.SqlException (0x80131904): Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception (0x80004005): Het systeem kan het opgegeven pad niet vinden
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   bij Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   bij Umbraco.Core.Persistence.Database.<Query>d__7`1.MoveNext()
+   bij System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   bij System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   bij UmbracoExamine.DataServices.UmbracoContentService.GetAllUserPropertyNames()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:3,State:0,Class:20
+2016-10-01 01:30:49,850 [5] ERROR UmbracoExamine.DataServices.UmbracoContentService - [Thread 1] EXCEPTION OCCURRED reading GetAllUserPropertyNames
+System.Data.SqlClient.SqlException (0x80131904): Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception (0x80004005): Het systeem kan het opgegeven pad niet vinden
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   bij Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   bij Umbraco.Core.Persistence.Database.<Query>d__7`1.MoveNext()
+   bij System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   bij System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   bij UmbracoExamine.DataServices.UmbracoContentService.GetAllUserPropertyNames()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:3,State:0,Class:20
+2016-10-01 01:30:49,873 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-10-01 01:30:49,886 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-10-01 01:30:49,896 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2016-10-01 01:30:49,915 [5] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 1]    bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   bij Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   bij Umbraco.Core.Persistence.Database.ExecuteScalar[T](String sql, Object[] args)
+2016-10-01 01:30:49,921 [5] ERROR Umbraco.Core.PluginManager - [Thread 1] Error creating type umbraco.BusinessLogic.ApplicationRegistrar
+System.Reflection.TargetInvocationException: Het doel van een aanroep heeft een uitzondering veroorzaakt. ---> System.Data.SqlClient.SqlException: Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception: Het systeem kan het opgegeven pad niet vinden
+   --- Einde van intern uitzonderingsstackpad ---
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   bij Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   bij Umbraco.Core.Persistence.Database.ExecuteScalar[T](String sql, Object[] args)
+   bij Umbraco.Core.Persistence.SqlSyntax.SqlServerSyntaxProvider.DoesTableExist(Database db, String tableName)
+   bij umbraco.BusinessLogic.ApplicationRegistrar.<>c__DisplayClass9.<.ctor>b__4(XDocument doc)
+   bij umbraco.BusinessLogic.Application.LoadXml(Action`1 callback, Boolean saveAfterCallback)
+   --- Einde van intern uitzonderingsstackpad ---
+   bij System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   bij System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   bij System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   bij System.Activator.CreateInstance(Type type)
+   bij Umbraco.Core.PluginManager.CreateInstances[T](IEnumerable`1 types, Boolean throwException)
+2016-10-01 01:30:49,922 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-10-01 01:30:49,946 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2016-10-01 01:30:49,964 [5] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 1]    bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   bij Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   bij Umbraco.Core.Persistence.Database.ExecuteScalar[T](String sql, Object[] args)
+2016-10-01 01:30:49,964 [5] ERROR Umbraco.Core.PluginManager - [Thread 1] Error creating type umbraco.BusinessLogic.ApplicationTreeRegistrar
+System.Reflection.TargetInvocationException: Het doel van een aanroep heeft een uitzondering veroorzaakt. ---> System.Data.SqlClient.SqlException: Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception: Het systeem kan het opgegeven pad niet vinden
+   --- Einde van intern uitzonderingsstackpad ---
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   bij Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   bij Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   bij Umbraco.Core.Persistence.Database.ExecuteScalar[T](String sql, Object[] args)
+   bij Umbraco.Core.Persistence.SqlSyntax.SqlServerSyntaxProvider.DoesTableExist(Database db, String tableName)
+   bij umbraco.BusinessLogic.ApplicationTreeRegistrar.<>c__DisplayClass9.<.ctor>b__4(XDocument doc)
+   bij umbraco.BusinessLogic.ApplicationTree.LoadXml(Action`1 callback, Boolean saveAfterCallback)
+   --- Einde van intern uitzonderingsstackpad ---
+   bij System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   bij System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   bij System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   bij System.Activator.CreateInstance(Type type)
+   bij Umbraco.Core.PluginManager.CreateInstances[T](IEnumerable`1 types, Boolean throwException)
+2016-10-01 01:30:50,087 [5] INFO  umbraco.content - [Thread 17] Loading content from disk cache...
+2016-10-01 01:30:50,125 [5] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 17] Error executing query select id, domainName from umbracoDomains
+System.Data.SqlClient.SqlException (0x80131904): Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception (0x80004005): Het systeem kan het opgegeven pad niet vinden
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   bij umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:3,State:0,Class:20
+2016-10-01 01:30:50,131 [5] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 17] An unhandled exception occurred
+umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteReader ---> System.Data.SqlClient.SqlException: Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception: Het systeem kan het opgegeven pad niet vinden
+   --- Einde van intern uitzonderingsstackpad ---
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   bij umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+   --- Einde van intern uitzonderingsstackpad ---
+   bij umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+   bij umbraco.cms.businesslogic.web.Domain.<GetDomains>b__0()
+   bij Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem, Object syncLock)
+   bij Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem)
+   bij Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   bij Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   bij Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, Nullable`1 timeout, Func`1 getCacheItem)
+   bij Umbraco.Core.CacheHelper.GetCacheItem[TT](String cacheKey, TimeSpan timeout, Func`1 getCacheItem)
+   bij umbraco.cms.businesslogic.web.Domain.GetDomains(Boolean includeWildcards)
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.FindDomain()
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   bij Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   bij System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-01 01:30:50,416 [5] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 22] Error executing query select userID from umbracoUserLogins where contextID = @contextId
+System.Data.SqlClient.SqlException (0x80131904): Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception (0x80004005): Het systeem kan het opgegeven pad niet vinden
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij umbraco.DataLayer.SqlHelper`1.ExecuteScalar[T](String commandText, IParameter[] parameters)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:3,State:0,Class:20
+2016-10-01 01:30:50,423 [5] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 7] Error executing query select userID from umbracoUserLogins where contextID = @contextId
+System.Data.SqlClient.SqlException (0x80131904): Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception (0x80004005): Het systeem kan het opgegeven pad niet vinden
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij umbraco.DataLayer.SqlHelper`1.ExecuteScalar[T](String commandText, IParameter[] parameters)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:3,State:0,Class:20
+2016-10-01 01:30:50,425 [5] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 6] Error executing query select userID from umbracoUserLogins where contextID = @contextId
+System.Data.SqlClient.SqlException (0x80131904): Er is een netwerkfout of een exemplaarspecifieke fout opgetreden tijdens het maken van verbinding met SQL Server. De server is niet gevonden of is niet toegankelijk. Controleer of de exemplaarnaam correct is en of in de instellingen van SQL Server externe verbindingen zijn toegestaan. (provider: Named Pipes Provider, error: 40 - Kon geen verbinding met SQL Server openen) ---> System.ComponentModel.Win32Exception (0x80004005): Het systeem kan het opgegeven pad niet vinden
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   bij System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   bij System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   bij System.Data.SqlClient.SqlConnection.Open()
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij umbraco.DataLayer.SqlHelper`1.ExecuteScalar[T](String commandText, IParameter[] parameters)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:3,State:0,Class:20
+2016-10-01 01:30:53,791 [5] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-10-01 01:30:53,796 [5] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2016-10-01 01:31:58,860 [5] INFO  umbraco.presentation.publishingService - [Thread 14] sendremindmails has been called with response: False
+2016-10-01 01:33:19,640 [5] INFO  umbraco.BusinessLogic.Log - [Thread 15] Log scrubbed.  Removed all items older than 2016-08-02 01:33:19
+2016-10-01 01:33:19,643 [5] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 15] Application shutdown. Reason: ConfigurationChange
+2016-10-01 01:33:24,755 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Determining hash of code files on disk
+2016-10-01 01:33:24,771 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Hash determined (took 11ms)
+2016-10-01 01:33:24,783 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-10-01 01:33:24,814 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 31ms)
+2016-10-01 01:33:24,824 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-10-01 01:33:24,825 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2016-10-01 01:33:24,828 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-10-01 01:33:24,830 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 1ms)
+2016-10-01 01:33:24,830 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-10-01 01:33:24,831 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 0ms)
+2016-10-01 01:33:24,833 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-10-01 01:33:24,834 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-10-01 01:33:24,834 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-10-01 01:33:24,834 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-10-01 01:33:24,983 [43] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 41] Initializing Examine and binding to business logic events
+2016-10-01 01:33:25,103 [43] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 41] Adding examine event handlers for index providers: 3
+2016-10-01 01:33:25,114 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.IApplication
+2016-10-01 01:33:25,115 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-10-01 01:33:25,162 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.ITree
+2016-10-01 01:33:25,165 [43] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2016-10-01 01:33:25,248 [43] INFO  umbraco.content - [Thread 15] Loading content from disk cache...
+2016-10-01 01:33:25,437 [43] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 15] An unhandled exception occurred
+System.InvalidOperationException: The template with Id 3813 does not exist, the page cannot render
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   bij Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   bij System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-01 01:33:31,781 [43] INFO  umbraco.BasePages.BasePage - [Thread 7] User Webmaster (Id: 0) logged in
+2016-10-01 01:33:39,021 [43] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-10-01 01:33:39,022 [43] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2016-10-01 01:33:39,126 [43] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-10-01 01:33:39,127 [43] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 1ms)
+2016-10-01 01:33:40,063 [43] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.interfaces.IDataType
+2016-10-01 01:33:40,067 [43] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 3ms)
+2016-10-01 01:33:40,075 [43] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.interfaces.ITree
+2016-10-01 01:33:40,076 [43] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2016-10-01 01:33:45,108 [43] WARN  umbraco.macro - [Thread 6] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.PublishedContentExtensions.Descendants(IPublishedContent content, Func`2 func)
+   bij ASP._Page_Views_MacroPartials_ProFFF_AdditionalMaterial_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml:regel 7
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-01 01:33:48,262 [43] WARN  umbraco.macro - [Thread 20] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.PublishedContentExtensions.Descendants(IPublishedContent content, Func`2 func)
+   bij ASP._Page_Views_MacroPartials_ProFFF_AdditionalMaterial_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml:regel 7
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-01 01:33:50,750 [43] WARN  umbraco.macro - [Thread 22] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.PublishedContentExtensions.Descendants(IPublishedContent content, Func`2 func)
+   bij ASP._Page_Views_MacroPartials_ProFFF_AdditionalMaterial_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml:regel 7
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-01 01:33:57,233 [43] INFO  umbraco.presentation.publishingService - [Thread 15] sendremindmails has been called with response: False
+2016-10-01 02:33:58,100 [43] INFO  umbraco.presentation.publishingService - [Thread 151] sendremindmails has been called with response: False
+2016-10-01 09:51:33,323 [43] INFO  umbraco.presentation.publishingService - [Thread 151] sendremindmails has been called with response: False
+2016-10-01 10:51:31,728 [43] INFO  umbraco.presentation.publishingService - [Thread 150] sendremindmails has been called with response: False
+2016-10-01 11:51:42,102 [43] INFO  umbraco.presentation.publishingService - [Thread 118] sendremindmails has been called with response: False
+2016-10-01 13:24:05,870 [43] INFO  umbraco.presentation.publishingService - [Thread 58] sendremindmails has been called with response: False
+2016-10-01 14:24:56,463 [43] INFO  umbraco.presentation.publishingService - [Thread 69] sendremindmails has been called with response: False
+2016-10-01 15:25:01,992 [43] INFO  umbraco.presentation.publishingService - [Thread 102] sendremindmails has been called with response: False
+2016-10-01 16:25:03,871 [43] INFO  umbraco.presentation.publishingService - [Thread 162] sendremindmails has been called with response: False
+2016-10-01 17:25:03,021 [43] INFO  umbraco.presentation.publishingService - [Thread 193] sendremindmails has been called with response: False
+2016-10-01 18:32:37,873 [43] INFO  umbraco.presentation.publishingService - [Thread 180] sendremindmails has been called with response: False
+2016-10-01 19:32:38,203 [43] INFO  umbraco.presentation.publishingService - [Thread 225] sendremindmails has been called with response: False
+2016-10-01 20:32:40,078 [43] INFO  umbraco.presentation.publishingService - [Thread 117] sendremindmails has been called with response: False

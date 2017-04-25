@@ -1,0 +1,587 @@
+2016-11-06 12:29:29,529 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 23] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): Time-out occurred while waiting for buffer latch type 2 for page (1:533), database ID 7.
+   bij System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   bij System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   bij System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   bij System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   bij System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   bij System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   bij System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   bij System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:82e06769-f756-4941-b20a-b271d65a66ba
+Error Number:845,State:1,Class:17
+2016-11-06 12:30:05,717 [7] INFO  umbraco.presentation.publishingService - [Thread 21] sendremindmails has been called with response: False
+2016-11-06 14:02:53,411 [7] INFO  umbraco.presentation.publishingService - [Thread 11] sendremindmails has been called with response: False
+2016-11-06 15:02:55,512 [7] INFO  umbraco.presentation.publishingService - [Thread 22] sendremindmails has been called with response: False
+2016-11-06 16:03:06,130 [7] INFO  umbraco.presentation.publishingService - [Thread 46] sendremindmails has been called with response: False
+2016-11-06 16:13:56,226 [7] INFO  umbraco.BusinessLogic.Log - [Thread 59] Log scrubbed.  Removed all items older than 2016-09-07 16:13:56
+2016-11-06 16:13:56,232 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 59] Application shutdown. Reason: ConfigurationChange
+2016-11-06 16:15:25,771 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-11-06 16:15:25,786 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 9ms)
+2016-11-06 16:15:25,794 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 16:15:25,974 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 178ms)
+2016-11-06 16:15:25,996 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 16:15:26,000 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2016-11-06 16:15:26,002 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 16:15:26,010 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 8ms)
+2016-11-06 16:15:26,010 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 16:15:26,014 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2016-11-06 16:15:26,018 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 16:15:26,025 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2016-11-06 16:15:26,025 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 16:15:26,033 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 8ms)
+2016-11-06 16:15:26,226 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-11-06 16:15:26,506 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-11-06 16:15:26,512 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 16:15:26,520 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2016-11-06 16:15:26,580 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 16:15:26,612 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 31ms)
+2016-11-06 16:15:26,829 [10] INFO  umbraco.content - [Thread 5] Loading content from disk cache...
+2016-11-06 16:15:28,967 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-06 16:15:28,972 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-11-06 16:15:29,690 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-06 16:15:29,694 [10] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2016-11-06 16:15:34,694 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Determining hash of code files on disk
+2016-11-06 16:15:34,712 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Hash determined (took 9ms)
+2016-11-06 16:15:34,722 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 16:15:34,844 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 120ms)
+2016-11-06 16:15:34,866 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 16:15:34,872 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2016-11-06 16:15:34,874 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 16:15:34,885 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 10ms)
+2016-11-06 16:15:34,885 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 16:15:34,890 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2016-11-06 16:15:34,891 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 16:15:34,895 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-11-06 16:15:34,895 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 16:15:34,902 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2016-11-06 16:15:35,095 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 63] Initializing Examine and binding to business logic events
+2016-11-06 16:15:35,270 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 63] Adding examine event handlers for index providers: 3
+2016-11-06 16:15:35,282 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 16:15:35,302 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 20ms)
+2016-11-06 16:15:35,360 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 16:15:35,384 [20] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 24ms)
+2016-11-06 16:15:35,575 [20] INFO  umbraco.content - [Thread 66] Loading content from disk cache...
+2016-11-06 16:16:00,493 [10] INFO  umbraco.presentation.publishingService - [Thread 5] sendremindmails has been called with response: False
+2016-11-06 16:16:04,998 [20] INFO  Umbraco.Core.PluginManager - [Thread 66] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-06 16:16:05,003 [20] INFO  Umbraco.Core.PluginManager - [Thread 66] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2016-11-06 16:16:06,737 [20] INFO  umbraco.presentation.publishingService - [Thread 66] sendremindmails has been called with response: False
+2016-11-06 16:58:47,379 [20] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 68] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): Transaction (Process ID 59) was deadlocked on lock | communication buffer resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+   bij System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   bij System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   bij System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   bij System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   bij System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   bij System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   bij System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   bij System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:2a4426bf-5a92-484e-b858-2424c67d67c4
+Error Number:1205,State:52,Class:13
+2016-11-06 16:58:47,385 [20] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 68] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-11-06 16:58:48,938 [10] INFO  umbraco.BusinessLogic.Log - [Thread 96] Log scrubbed.  Removed all items older than 2016-09-07 16:58:42
+2016-11-06 16:58:48,980 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 96] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-11-06 16:58:52,339 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Determining hash of code files on disk
+2016-11-06 16:58:52,349 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Hash determined (took 6ms)
+2016-11-06 16:58:52,356 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 16:58:52,482 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 124ms)
+2016-11-06 16:58:52,496 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 16:58:52,500 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-11-06 16:58:52,501 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 16:58:52,507 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 5ms)
+2016-11-06 16:58:52,507 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 16:58:52,511 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-11-06 16:58:52,512 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 16:58:52,516 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-11-06 16:58:52,516 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 16:58:52,520 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-11-06 16:58:52,668 [92] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 100] Initializing Examine and binding to business logic events
+2016-11-06 16:58:52,777 [92] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 100] Adding examine event handlers for index providers: 3
+2016-11-06 16:58:52,781 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 16:58:52,788 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2016-11-06 16:58:52,822 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 16:58:52,845 [92] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2016-11-06 16:58:52,935 [92] INFO  umbraco.content - [Thread 91] Loading content from disk cache...
+2016-11-06 16:58:54,402 [92] INFO  Umbraco.Core.PluginManager - [Thread 91] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-06 16:58:54,406 [92] INFO  Umbraco.Core.PluginManager - [Thread 91] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2016-11-06 16:58:55,038 [92] INFO  Umbraco.Core.PluginManager - [Thread 91] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-06 16:58:55,042 [92] INFO  Umbraco.Core.PluginManager - [Thread 91] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2016-11-06 16:59:24,464 [92] INFO  umbraco.presentation.publishingService - [Thread 93] sendremindmails has been called with response: False
+2016-11-06 16:59:38,736 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-11-06 16:59:38,760 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 10ms)
+2016-11-06 16:59:38,775 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 16:59:38,930 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 153ms)
+2016-11-06 16:59:38,950 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 16:59:38,954 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-11-06 16:59:38,956 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 16:59:38,962 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 5ms)
+2016-11-06 16:59:38,962 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 16:59:38,967 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2016-11-06 16:59:38,969 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 16:59:38,973 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2016-11-06 16:59:38,973 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 16:59:38,977 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-11-06 16:59:39,121 [86] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-11-06 16:59:39,239 [86] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-11-06 16:59:39,247 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 16:59:39,255 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2016-11-06 16:59:39,411 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 16:59:39,451 [86] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 40ms)
+2016-11-06 16:59:39,807 [86] INFO  umbraco.BasePages.BasePage - [Thread 45] User Webmaster (Id: 0) logged in
+2016-11-06 16:59:45,392 [86] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 16:59:45,414 [86] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 22ms)
+2016-11-06 16:59:45,447 [86] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-11-06 16:59:45,453 [86] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2016-11-06 16:59:51,434 [86] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-06 16:59:51,439 [86] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2016-11-06 17:00:10,839 [86] INFO  umbraco.presentation.publishingService - [Thread 100] sendremindmails has been called with response: False
+2016-11-06 17:01:23,354 [86] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-06 17:01:23,359 [86] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-11-06 17:02:36,991 [86] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.IDataType
+2016-11-06 17:02:37,021 [86] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 30ms)
+2016-11-06 17:02:37,150 [86] INFO  umbraco.content - [Thread 36] Loading content from disk cache...
+2016-11-06 17:04:47,819 [86] INFO  Umbraco.Core.PluginManager - [Thread 66] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-11-06 17:04:47,827 [86] INFO  Umbraco.Core.PluginManager - [Thread 66] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 8ms)
+2016-11-06 17:06:20,135 [86] INFO  umbraco.cms.businesslogic.web.Document - [Thread 77] New document 6284
+2016-11-06 17:06:28,927 [86] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 100] Content 'tempPage' with Id '6284' has been published.
+2016-11-06 17:06:32,587 [86] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 100] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 17:17:56,381 [86] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'EDT - 2013' with Id '1166' has been published.
+2016-11-06 17:22:45,040 [86] INFO  umbraco.BusinessLogic.Log - [Thread 9] Log scrubbed.  Removed all items older than 2016-09-07 17:22:44
+2016-11-06 17:22:45,040 [92] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 53] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): Transaction (Process ID 55) was deadlocked on lock | communication buffer resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+   bij System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   bij System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   bij System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   bij System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   bij System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   bij System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   bij System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   bij System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   bij System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   bij umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteNonQuery(String commandText, SqlParameter[] parameters)
+   bij umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:32e0402f-82e8-4bfe-8fa2-9433203ac09e
+Error Number:1205,State:52,Class:13
+2016-11-06 17:22:45,053 [92] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 53] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-11-06 17:22:54,805 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Determining hash of code files on disk
+2016-11-06 17:22:54,821 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Hash determined (took 10ms)
+2016-11-06 17:22:54,835 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 17:22:54,991 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 153ms)
+2016-11-06 17:22:55,017 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 17:22:55,022 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2016-11-06 17:22:55,024 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 17:22:55,029 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 5ms)
+2016-11-06 17:22:55,030 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 17:22:55,032 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2016-11-06 17:22:55,035 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 17:22:55,039 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2016-11-06 17:22:55,040 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 17:22:55,044 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2016-11-06 17:22:55,206 [34] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 72] Initializing Examine and binding to business logic events
+2016-11-06 17:22:55,348 [34] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 72] Adding examine event handlers for index providers: 3
+2016-11-06 17:22:55,361 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 17:22:55,375 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 13ms)
+2016-11-06 17:22:55,421 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 17:22:55,452 [34] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 30ms)
+2016-11-06 17:22:57,555 [34] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2016-11-06 17:22:58,056 [34] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 9] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 17:23:25,120 [34] INFO  Umbraco.Core.PluginManager - [Thread 88] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-06 17:23:25,125 [34] INFO  Umbraco.Core.PluginManager - [Thread 88] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2016-11-06 17:23:28,628 [34] INFO  umbraco.presentation.publishingService - [Thread 88] sendremindmails has been called with response: False
+2016-11-06 17:23:58,310 [34] INFO  Umbraco.Core.PluginManager - [Thread 85] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-06 17:23:58,314 [34] INFO  Umbraco.Core.PluginManager - [Thread 85] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-11-06 17:23:58,352 [34] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 17:23:58,378 [34] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 25ms)
+2016-11-06 17:23:58,411 [34] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-11-06 17:23:58,418 [34] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2016-11-06 17:24:28,290 [34] INFO  Umbraco.Core.PluginManager - [Thread 88] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-11-06 17:24:28,301 [34] INFO  Umbraco.Core.PluginManager - [Thread 88] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 11ms)
+2016-11-06 17:25:21,951 [34] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 10] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 17:25:22,436 [34] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 10] An unhandled exception occurred
+System.ArgumentNullException: Waarde kan niet null zijn.
+Parameternaam: child
+   bij System.Web.UI.ControlCollection.Add(Control child)
+   bij Umbraco.Web.UmbracoHelper.RenderMacro(String alias, IDictionary`2 parameters)
+   bij ASP._Page_Views_temp_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\temp.cshtml:regel 6
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   bij System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   bij System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   bij System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   bij System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   bij System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   bij System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   bij System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   bij System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   bij System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   bij System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   bij System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   bij System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   bij System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-11-06 17:25:55,498 [34] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 84] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 17:25:55,504 [34] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.ArgumentNullException: Waarde kan niet null zijn.
+Parameternaam: child
+   bij System.Web.UI.ControlCollection.Add(Control child)
+   bij Umbraco.Web.UmbracoHelper.RenderMacro(String alias, IDictionary`2 parameters)
+   bij ASP._Page_Views_temp_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\temp.cshtml:regel 6
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   bij System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   bij System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   bij System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   bij System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   bij System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   bij System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   bij System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   bij System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   bij System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   bij System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   bij System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   bij System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   bij System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-11-06 17:26:08,008 [34] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 84] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 17:26:08,011 [34] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.ArgumentNullException: Waarde kan niet null zijn.
+Parameternaam: child
+   bij System.Web.UI.ControlCollection.Add(Control child)
+   bij Umbraco.Web.UmbracoHelper.RenderMacro(String alias, IDictionary`2 parameters)
+   bij ASP._Page_Views_temp_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\temp.cshtml:regel 6
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   bij System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   bij System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   bij System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   bij System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   bij System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   bij System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   bij System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   bij System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   bij System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   bij System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   bij System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   bij System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   bij System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-11-06 17:26:52,530 [34] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 19] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 17:35:42,071 [34] INFO  umbraco.BusinessLogic.Log - [Thread 110] Log scrubbed.  Removed all items older than 2016-09-07 17:35:42
+2016-11-06 17:35:42,073 [34] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 110] Application shutdown. Reason: ConfigurationChange
+2016-11-06 17:35:51,718 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Determining hash of code files on disk
+2016-11-06 17:35:51,725 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Hash determined (took 5ms)
+2016-11-06 17:35:51,733 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 17:35:51,833 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 99ms)
+2016-11-06 17:35:51,834 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 17:35:51,838 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-11-06 17:35:51,838 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 17:35:51,844 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 5ms)
+2016-11-06 17:35:51,844 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 17:35:51,848 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-11-06 17:35:51,848 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 17:35:51,852 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-11-06 17:35:51,852 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 17:35:51,856 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-11-06 17:35:51,972 [61] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 63] Initializing Examine and binding to business logic events
+2016-11-06 17:35:52,060 [61] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 63] Adding examine event handlers for index providers: 3
+2016-11-06 17:35:52,062 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 17:35:52,071 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2016-11-06 17:35:52,107 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 17:35:52,127 [61] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 19ms)
+2016-11-06 17:36:24,121 [61] INFO  umbraco.presentation.publishingService - [Thread 110] sendremindmails has been called with response: False
+2016-11-06 17:37:45,598 [61] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-11-06 17:37:45,606 [61] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 8ms)
+2016-11-06 17:37:45,662 [61] INFO  Umbraco.Core.PluginManager - [Thread 101] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 17:37:45,695 [61] INFO  Umbraco.Core.PluginManager - [Thread 101] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 33ms)
+2016-11-06 17:37:45,746 [61] INFO  Umbraco.Core.PluginManager - [Thread 101] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-11-06 17:37:45,749 [61] INFO  Umbraco.Core.PluginManager - [Thread 101] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2016-11-06 17:38:43,976 [61] INFO  umbraco.content - [Thread 12] Loading content from disk cache...
+2016-11-06 17:38:44,055 [61] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 12] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 17:38:44,900 [61] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-06 17:38:44,904 [61] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-11-06 17:39:21,947 [61] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-06 17:39:21,954 [61] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2016-11-06 17:43:36,678 [61] INFO  umbraco.BusinessLogic.Log - [Thread 111] Log scrubbed.  Removed all items older than 2016-09-07 17:43:36
+2016-11-06 17:43:36,679 [61] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 111] Application shutdown. Reason: ConfigurationChange
+2016-11-06 17:43:41,986 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Determining hash of code files on disk
+2016-11-06 17:43:41,993 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Hash determined (took 5ms)
+2016-11-06 17:43:42,004 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 17:43:42,098 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 94ms)
+2016-11-06 17:43:42,099 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 17:43:42,102 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-11-06 17:43:42,103 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 17:43:42,108 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 4ms)
+2016-11-06 17:43:42,108 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 17:43:42,111 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-11-06 17:43:42,111 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 17:43:42,116 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2016-11-06 17:43:42,116 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 17:43:42,119 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-11-06 17:43:42,224 [50] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 72] Initializing Examine and binding to business logic events
+2016-11-06 17:43:42,310 [50] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 72] Adding examine event handlers for index providers: 3
+2016-11-06 17:43:42,310 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 17:43:42,317 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 6ms)
+2016-11-06 17:43:42,341 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 17:43:42,361 [50] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 19ms)
+2016-11-06 17:43:42,828 [50] INFO  umbraco.BusinessLogic.Log - [Thread 13] Log scrubbed.  Removed all items older than 2016-09-07 17:43:42
+2016-11-06 17:43:42,829 [50] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 13] Application shutdown. Reason: ConfigurationChange
+2016-11-06 17:43:51,993 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Determining hash of code files on disk
+2016-11-06 17:43:52,002 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Hash determined (took 7ms)
+2016-11-06 17:43:52,013 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 17:43:52,145 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 132ms)
+2016-11-06 17:43:52,147 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 17:43:52,150 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-11-06 17:43:52,150 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 17:43:52,156 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 5ms)
+2016-11-06 17:43:52,156 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 17:43:52,159 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2016-11-06 17:43:52,159 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 17:43:52,162 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-11-06 17:43:52,162 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 17:43:52,166 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-11-06 17:43:52,271 [23] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 72] Initializing Examine and binding to business logic events
+2016-11-06 17:43:52,374 [23] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 72] Adding examine event handlers for index providers: 3
+2016-11-06 17:43:52,377 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 17:43:52,385 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2016-11-06 17:43:52,409 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 17:43:52,432 [23] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2016-11-06 17:44:24,327 [23] INFO  umbraco.presentation.publishingService - [Thread 112] sendremindmails has been called with response: False
+2016-11-06 18:44:26,371 [23] INFO  umbraco.presentation.publishingService - [Thread 103] sendremindmails has been called with response: False
+2016-11-06 19:17:46,190 [23] INFO  umbraco.BusinessLogic.Log - [Thread 55] Log scrubbed.  Removed all items older than 2016-09-07 19:17:46
+2016-11-06 19:17:46,191 [23] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 55] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-11-06 19:17:52,947 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Determining hash of code files on disk
+2016-11-06 19:17:52,962 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Hash determined (took 10ms)
+2016-11-06 19:17:52,969 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 19:17:53,069 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 98ms)
+2016-11-06 19:17:53,086 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 19:17:53,091 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2016-11-06 19:17:53,092 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 19:17:53,097 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 5ms)
+2016-11-06 19:17:53,097 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 19:17:53,101 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-11-06 19:17:53,103 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 19:17:53,107 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2016-11-06 19:17:53,107 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 19:17:53,111 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-11-06 19:17:53,263 [57] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 63] Initializing Examine and binding to business logic events
+2016-11-06 19:17:53,377 [57] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 63] Adding examine event handlers for index providers: 3
+2016-11-06 19:17:53,384 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 19:17:53,392 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2016-11-06 19:17:53,426 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 19:17:53,447 [57] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2016-11-06 19:17:53,559 [57] INFO  umbraco.content - [Thread 55] Loading content from disk cache...
+2016-11-06 19:17:54,174 [57] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 55] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 19:17:55,456 [57] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-06 19:17:55,462 [57] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2016-11-06 19:18:21,135 [57] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 7] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 19:18:23,226 [57] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-06 19:18:23,236 [57] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 9ms)
+2016-11-06 19:18:26,001 [57] INFO  umbraco.presentation.publishingService - [Thread 55] sendremindmails has been called with response: False
+2016-11-06 19:27:32,176 [57] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 36] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 19:27:58,609 [57] INFO  Umbraco.Core.PluginManager - [Thread 60] Starting resolution types of umbraco.interfaces.IDataType
+2016-11-06 19:27:58,630 [57] INFO  Umbraco.Core.PluginManager - [Thread 60] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 21ms)
+2016-11-06 19:27:58,640 [57] INFO  Umbraco.Core.PluginManager - [Thread 60] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 19:27:58,662 [57] INFO  Umbraco.Core.PluginManager - [Thread 60] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 22ms)
+2016-11-06 19:27:59,153 [57] INFO  Umbraco.Core.PluginManager - [Thread 60] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-11-06 19:27:59,162 [57] INFO  Umbraco.Core.PluginManager - [Thread 60] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 8ms)
+2016-11-06 22:15:20,464 [57] INFO  umbraco.presentation.publishingService - [Thread 24] sendremindmails has been called with response: False
+2016-11-06 23:08:44,118 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,118 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,118 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,118 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,118 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,118 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Other'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,119 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:44,120 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 21] Error returning dictionary item 'Other'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,668 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Other'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,669 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,669 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,669 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,669 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,669 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,669 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,670 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,670 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,670 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,670 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,670 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,670 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:08:47,670 [57] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 81] Error returning dictionary item 'Other'. Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-11-06 23:15:20,455 [57] INFO  umbraco.presentation.publishingService - [Thread 28] sendremindmails has been called with response: False
+2016-11-06 23:20:04,584 [57] INFO  umbraco.BasePages.BasePage - [Thread 102] User Webmaster (Id: 0) logged in
+2016-11-06 23:20:04,618 [57] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-11-06 23:20:04,627 [57] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 8ms)
+2016-11-06 23:24:57,262 [57] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 102] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:25:32,788 [57] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 102] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:26:27,163 [57] INFO  umbraco.BusinessLogic.Log - [Thread 102] Log scrubbed.  Removed all items older than 2016-09-07 23:26:27
+2016-11-06 23:26:27,165 [57] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 102] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-11-06 23:26:34,055 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-11-06 23:26:34,074 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 10ms)
+2016-11-06 23:26:34,084 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 23:26:34,229 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 142ms)
+2016-11-06 23:26:34,253 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 23:26:34,259 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2016-11-06 23:26:34,260 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 23:26:34,266 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 5ms)
+2016-11-06 23:26:34,267 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 23:26:34,272 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2016-11-06 23:26:34,277 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 23:26:34,283 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2016-11-06 23:26:34,283 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 23:26:34,290 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2016-11-06 23:26:34,506 [29] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-11-06 23:26:34,686 [29] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-11-06 23:26:34,695 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 23:26:34,704 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2016-11-06 23:26:34,772 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 23:26:34,802 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 30ms)
+2016-11-06 23:26:40,247 [29] INFO  umbraco.content - [Thread 102] Loading content from disk cache...
+2016-11-06 23:26:40,836 [29] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 102] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:26:41,807 [29] INFO  Umbraco.Core.PluginManager - [Thread 102] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-06 23:26:41,813 [29] INFO  Umbraco.Core.PluginManager - [Thread 102] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2016-11-06 23:27:04,404 [29] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-06 23:27:04,413 [29] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 8ms)
+2016-11-06 23:27:07,877 [29] INFO  umbraco.presentation.publishingService - [Thread 28] sendremindmails has been called with response: False
+2016-11-06 23:28:49,786 [29] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 23] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:29:09,721 [29] INFO  umbraco.BusinessLogic.Log - [Thread 102] Log scrubbed.  Removed all items older than 2016-09-07 23:29:09
+2016-11-06 23:29:09,723 [29] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 102] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-11-06 23:29:15,241 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Determining hash of code files on disk
+2016-11-06 23:29:15,277 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Hash determined (took 22ms)
+2016-11-06 23:29:15,289 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-06 23:29:15,460 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 169ms)
+2016-11-06 23:29:15,493 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-06 23:29:15,498 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2016-11-06 23:29:15,505 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-06 23:29:15,514 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 5 (took 8ms)
+2016-11-06 23:29:15,514 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-06 23:29:15,523 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 8ms)
+2016-11-06 23:29:15,525 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-06 23:29:15,529 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-11-06 23:29:15,529 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-06 23:29:15,533 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2016-11-06 23:29:15,840 [54] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 82] Initializing Examine and binding to business logic events
+2016-11-06 23:29:16,032 [54] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 82] Adding examine event handlers for index providers: 3
+2016-11-06 23:29:16,056 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-06 23:29:16,072 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 16ms)
+2016-11-06 23:29:16,127 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of umbraco.interfaces.ITree
+2016-11-06 23:29:16,163 [54] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 36ms)
+2016-11-06 23:29:47,760 [54] INFO  umbraco.presentation.publishingService - [Thread 95] sendremindmails has been called with response: False
+2016-11-06 23:32:57,970 [54] INFO  umbraco.content - [Thread 23] Loading content from disk cache...
+2016-11-06 23:32:58,438 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 23] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:32:59,466 [54] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-06 23:32:59,471 [54] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-11-06 23:33:45,683 [54] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-06 23:33:45,687 [54] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2016-11-06 23:37:48,122 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 67] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:38:03,064 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 11] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:38:28,879 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 11] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:39:19,653 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 48] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:39:44,008 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 48] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:45:23,312 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 19] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:46:15,721 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 19] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:47:01,588 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 21] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:47:58,076 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 21] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:52:04,989 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 19] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:54:49,207 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 26] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:56:05,460 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 56] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:58:21,837 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 86] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2016-11-06 23:59:30,731 [54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [Thread 26] The current Document Type temp matches a locally declared controller of type bvlf_v2.Controllers.TempController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.

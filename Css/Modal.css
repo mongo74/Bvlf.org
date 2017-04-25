@@ -1,0 +1,91 @@
+﻿
+
+
+/* MODAL DIALOG  */
+.ui-widget-content
+{
+    color: #97460a;
+}
+
+
+.ui-widget-header
+{
+    padding: 5px; /*    background-color: #97460a;      color: #ffcf73;  */
+    font-weight: bold;
+}
+
+
+
+.ui-dialog
+{
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #97460a;
+    background-color: #ffcf73;
+
+}
+
+.ui-dialog .ui-dialog-titlebar
+{
+    background-color: #97460a;
+    color: #ffcf73;
+    display: block;
+}
+.ui-dialog .ui-dialog-title
+{
+    margin: 1em 0 2em;
+    color: #ffcf73;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span
+{
+    color: #ffcf73;
+    float: right;
+}
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus
+{
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+    color: #ffcf73;
+}
+
+.ui-dialog .ui-dialog-content
+{
+    border: 0;
+    padding: 0 1em;
+    background: none;
+    overflow: auto;
+    zoom: 1;
+    background-color: #ffcf73;
+}
+.ui-dialog .ui-dialog-content p
+ {margin: 1px 5px}
+.ui-dialog .ui-dialog-content h5
+ {margin: 2px 5px}
+.ui-dialog button {
+    
+}
+
+.ui-dialog .ui-dialog-titlebar-close, 
+.ui-dialog .ui-button-icon-only {
+	position: absolute;
+	right: .3em;
+	width: 60px;
+	margin: -2px 0 0 0;
+	padding: 1px;
+	height: 22px;
+    color: #97460a;
+      background-color: #97460a;
+    border: 0 solid #97460a;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* OVERRIDE FOUNDATION SETTINGS FOR POP UP*/
+.ui-dialog .row {
+   min-width: 600px  !Important;
+       
+}
+ 
+ 

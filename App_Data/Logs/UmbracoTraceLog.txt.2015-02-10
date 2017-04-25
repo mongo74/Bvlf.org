@@ -1,0 +1,301 @@
+2015-02-10 08:46:19,423 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-02-10 08:46:19,434 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 4ms)
+2015-02-10 08:46:19,434 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-02-10 08:46:19,537 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 102ms)
+2015-02-10 08:46:19,539 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-02-10 08:46:19,541 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-02-10 08:46:19,541 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-02-10 08:46:19,544 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 3 (took 2ms)
+2015-02-10 08:46:19,545 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-02-10 08:46:19,546 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2015-02-10 08:46:19,549 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-02-10 08:46:19,552 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-02-10 08:46:19,552 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-02-10 08:46:19,554 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2015-02-10 08:46:19,691 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-02-10 08:46:19,852 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-02-10 08:46:19,853 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-02-10 08:46:19,857 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2015-02-10 08:46:19,896 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-02-10 08:46:19,908 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 11ms)
+2015-02-10 08:46:20,076 [7] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2015-02-10 08:46:20,396 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-02-10 08:46:20,398 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2015-02-10 08:46:20,550 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-02-10 08:46:20,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 2ms)
+2015-02-10 08:46:24,148 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,148 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,149 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,149 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,149 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,149 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,149 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,149 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,153 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,154 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,154 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,154 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,154 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,154 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,154 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,155 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,155 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,155 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,155 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,155 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,155 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,155 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 13] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:24,214 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.IDataType
+2015-02-10 08:46:24,225 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 10ms)
+2015-02-10 08:46:24,232 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.ITree
+2015-02-10 08:46:24,243 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 11ms)
+2015-02-10 08:46:27,738 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,738 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,739 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,739 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,739 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,739 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,739 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,739 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,739 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,739 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,740 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,740 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,740 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,740 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,740 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,740 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,740 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,741 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,741 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,741 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,741 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:27,741 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 17] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:46:50,539 [7] INFO  umbraco.presentation.publishingService - [Thread 17] sendremindmails has been called with response: True
+2015-02-10 08:54:53,268 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,296 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,327 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,357 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,388 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,418 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,448 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,481 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,513 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,545 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,576 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,604 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,631 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,662 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,691 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,721 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,750 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,780 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,810 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,840 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,871 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:54:53,903 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 48] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,260 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,288 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,319 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,350 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,380 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,410 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,440 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,470 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,499 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,528 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,558 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,585 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,612 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,641 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,671 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,715 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,755 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,786 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,817 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,847 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,877 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:55:13,907 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 41] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,039 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,040 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,040 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,040 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,040 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:43,040 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 57] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,424 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,424 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,424 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,425 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,425 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,425 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,425 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,425 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,425 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,425 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:58:46,425 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 44] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,619 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,646 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,676 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,706 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,735 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,765 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,794 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,822 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,851 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,880 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 08:59:38,908 [7] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 42] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-02-10 09:47:41,579 [7] INFO  umbraco.presentation.publishingService - [Thread 37] sendremindmails has been called with response: True
+2015-02-10 10:47:42,046 [7] INFO  umbraco.presentation.publishingService - [Thread 128] sendremindmails has been called with response: True
+2015-02-10 11:47:43,333 [7] INFO  umbraco.presentation.publishingService - [Thread 134] sendremindmails has been called with response: True
+2015-02-10 12:47:43,642 [7] INFO  umbraco.presentation.publishingService - [Thread 25] sendremindmails has been called with response: True
+2015-02-10 13:47:44,428 [7] INFO  umbraco.presentation.publishingService - [Thread 97] sendremindmails has been called with response: True
+2015-02-10 14:47:45,069 [7] INFO  umbraco.presentation.publishingService - [Thread 99] sendremindmails has been called with response: True
+2015-02-10 15:47:46,134 [7] INFO  umbraco.presentation.publishingService - [Thread 107] sendremindmails has been called with response: True

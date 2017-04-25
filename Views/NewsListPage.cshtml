@@ -1,0 +1,20 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "LanguageMasterPage.cshtml";
+}
+
+@Umbraco.RenderMacro("ListAllNews")
+
+
+@section RightColumn {
+    @Umbraco.RenderMacro("GetAboutUsIntro")
+    @Html.Partial("~/Views/Partials/ContactUsInfo_Overall.cshtml")
+
+
+
+}
+
+@section cpFooter
+{}
+@section cpScripts
+{}

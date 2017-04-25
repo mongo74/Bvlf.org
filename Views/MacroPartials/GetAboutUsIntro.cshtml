@@ -1,0 +1,30 @@
+@using System.Threading
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{
+
+    var culture = Thread.CurrentThread.CurrentCulture;
+
+    if (culture.ToString() == "nl-BE")
+    {
+        var thenode = Umbraco.Content(1088); //NodeById(1088) //.library.NodeById(1088);
+        <h3>@thenode.ct_title</h3>
+        <p>
+            @thenode.ct_teaser</p>
+
+        <p class="MoreOfThisItem">
+            <a class="small  btn btn-default" href="@thenode.Url">@Umbraco.Field("#MoreOfThis") '@thenode.ct_title' >></a>
+        </p>
+    }
+    else
+    {
+        var thenode = Umbraco.Content(1110);
+        <h3>@thenode.ct_title</h3>
+        <p>
+            @thenode.ct_teaser</p>
+
+        <p class="MoreOfThisItem">
+            <a class="small  btn btn-default" href="@thenode.Url">@Umbraco.Field("MoreOfThis") '@thenode.ct_title' >></a>
+        </p>
+    }
+}

@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/LanguageMasterPage.master" AutoEventWireup="true" %>
+ 
+<asp:Content ContentPlaceHolderId="cpMaincontent" runat="server">
+  <h3> <umbraco:Item field="bc_Title" runat="server" /></h3>
+  <p><umbraco:Item field="bc_teasertext" runat="server" /><p>
+  <umbraco:Item field="bc_MainContent" runat="server" /> 
+</asp:Content>
+
+  <asp:Content ID="Content1" ContentPlaceHolderId="RightColumn" runat="server">
+ <umbraco:Macro ID="Macro1" Alias="GetAboutUsIntro" runat="server"></umbraco:Macro>
+</asp:Content>

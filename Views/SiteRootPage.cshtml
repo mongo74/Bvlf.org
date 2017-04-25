@@ -1,0 +1,114 @@
+﻿@using umbraco.NodeFactory
+@inherits UmbracoTemplatePage
+@{
+    Layout = null;
+    var umbracoHelper = new UmbracoHelper(UmbracoContext.Current);
+}
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width"/>
+    <title>@CurrentPage.displayName | Bvlf.org</title>
+    <!-- Included CSS Files -->
+    @*<link rel="stylesheet" href="/css/foundation/stylesheets/foundation.css">
+    <link rel="stylesheet" href="/css/foundation/stylesheets/app.css">
+    <link rel="stylesheet" href="/css/bvlf.css">*@
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700" rel="stylesheet">
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet"/>
+
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/foundation/stylesheets/ie.css">
+    <![endif]-->
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/jquery-ui.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="~/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-9 centered" id="SplashPage">
+            <div class="col-md-3">
+                <umbraco:Item field="siterootimage" runat="server"/>
+                <img src="/media/bvlf2010.png" alt="BVLF" title="BVLF">
+            </div>
+            <div class="col-md-3">
+
+
+
+                @{
+                    var node = Node.GetCurrent();
+                    var urlNl = new Node(Convert.ToInt32(node.GetProperty("urlNL").Value));
+                    var urlFr = new Node(Convert.ToInt32(node.GetProperty("urlFR").Value));
+                }
+
+
+                <ul Id="SplashLang">
+
+                    <li>
+                        <a href="nl.aspx"
+                           title=@Umbraco.Field("explic_nl") class="splashlink" id="nl"
+                           rel="@Umbraco.Field("taglineNl")">
+                            @Umbraco.Field("title_nl")
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="fr.aspx"
+                           title="@Umbraco.Field("explic_fr")" class="splashlink" id="fr"
+                           rel="@Umbraco.Field("taglineFr")">
+                            @Umbraco.Field("title_fr")
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1s" id="Div1">
+        </div>
+        <div class="six columns" id="Tagline">
+        </div>
+
+        <div class="col-md-5">
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="~/scripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".splashlink").mouseenter(function() {
+            var copy = $(this).attr("rel");
+            $("#Tagline").html("<h5>" + copy + "</h5>");
+        });
+        $(".splashlink").mouseleave(function() {
+            $("#Tagline").html("");
+        });
+    });
+</script>

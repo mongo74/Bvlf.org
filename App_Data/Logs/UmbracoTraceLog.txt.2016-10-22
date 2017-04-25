@@ -1,0 +1,384 @@
+2016-10-22 17:18:58,567 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-10-22 17:18:58,580 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 7ms)
+2016-10-22 17:18:58,587 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-10-22 17:18:58,736 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 147ms)
+2016-10-22 17:18:58,756 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-10-22 17:18:58,759 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-10-22 17:18:58,760 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-10-22 17:18:58,765 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 4ms)
+2016-10-22 17:18:58,765 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-10-22 17:18:58,769 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-10-22 17:18:58,772 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-10-22 17:18:58,776 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-10-22 17:18:58,776 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-10-22 17:18:58,779 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-10-22 17:18:58,939 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-10-22 17:18:59,166 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-10-22 17:18:59,174 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-10-22 17:18:59,184 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2016-10-22 17:18:59,248 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-10-22 17:18:59,267 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 19ms)
+2016-10-22 17:18:59,440 [10] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2016-10-22 17:19:28,861 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-10-22 17:19:28,866 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2016-10-22 17:19:31,338 [10] INFO  umbraco.presentation.publishingService - [Thread 11] sendremindmails has been called with response: False
+2016-10-22 19:08:56,339 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-10-22 19:08:56,352 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2016-10-22 19:08:56,360 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-10-22 19:08:56,482 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 121ms)
+2016-10-22 19:08:56,499 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-10-22 19:08:56,503 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-10-22 19:08:56,504 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-10-22 19:08:56,510 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 5ms)
+2016-10-22 19:08:56,510 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-10-22 19:08:56,513 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2016-10-22 19:08:56,517 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-10-22 19:08:56,521 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2016-10-22 19:08:56,522 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-10-22 19:08:56,526 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2016-10-22 19:08:56,703 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-10-22 19:08:56,954 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-10-22 19:08:56,959 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-10-22 19:08:56,967 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2016-10-22 19:08:57,025 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-10-22 19:08:57,045 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 19ms)
+2016-10-22 19:08:57,218 [6] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2016-10-22 19:09:01,626 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-10-22 19:09:01,630 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2016-10-22 19:09:02,199 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-10-22 19:09:02,203 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2016-10-22 19:09:29,044 [6] INFO  umbraco.presentation.publishingService - [Thread 10] sendremindmails has been called with response: False
+2016-10-22 19:09:42,861 [6] INFO  umbraco.BasePages.BasePage - [Thread 10] User Webmaster (Id: 0) logged in
+2016-10-22 19:09:42,977 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-10-22 19:09:42,981 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2016-10-22 19:09:43,061 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.ITree
+2016-10-22 19:09:43,080 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 18ms)
+2016-10-22 19:10:29,858 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'FR' with Id '1053' has been unpublished.
+2016-10-22 19:10:29,982 [6] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-10-22 19:10:29,990 [6] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 8ms)
+2016-10-22 19:10:30,349 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Cahiers F' with Id '1056' has been unpublished.
+2016-10-22 19:10:30,364 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Qui sommes-nous' with Id '1110' has been unpublished.
+2016-10-22 19:10:30,380 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Liens Intéressants' with Id '1080' has been unpublished.
+2016-10-22 19:10:30,396 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Semaine du Film' with Id '1079' has been unpublished.
+2016-10-22 19:10:30,411 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Journée d'études' with Id '1111' has been unpublished.
+2016-10-22 19:10:30,427 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Nouvelles' with Id '1076' has been unpublished.
+2016-10-22 19:10:30,427 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Une journée d’étude sur la gastronomie française' with Id '1128' has been unpublished.
+2016-10-22 19:10:30,443 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Infos' with Id '1112' has been unpublished.
+2016-10-22 19:10:30,474 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Concours Haïkus 2016' with Id '3229' has been unpublished.
+2016-10-22 19:10:30,568 [6] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.interfaces.IDataType
+2016-10-22 19:10:30,583 [6] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 15ms)
+2016-10-22 19:10:41,519 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'FR' with Id '1053' has been unpublished.
+2016-10-22 19:10:41,591 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Journée d'études' with Id '1111' has been unpublished.
+2016-10-22 19:10:41,601 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Nouvelles' with Id '1076' has been unpublished.
+2016-10-22 19:10:41,608 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Liens Intéressants' with Id '1080' has been unpublished.
+2016-10-22 19:10:41,619 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Semaine du Film' with Id '1079' has been unpublished.
+2016-10-22 19:10:41,632 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Cahiers F' with Id '1056' has been unpublished.
+2016-10-22 19:10:41,640 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Qui sommes-nous' with Id '1110' has been unpublished.
+2016-10-22 19:10:41,649 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Infos' with Id '1112' has been unpublished.
+2016-10-22 19:10:41,656 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Concours Haïkus 2016' with Id '3229' has been unpublished.
+2016-10-22 19:10:41,665 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Une journée d’étude sur la gastronomie française' with Id '1128' has been unpublished.
+2016-10-22 19:11:49,030 [6] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2016-10-22 19:11:49,040 [6] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 10ms)
+2016-10-22 19:16:46,237 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content 'L'oreille coupée' with Id '2120' will not be published because it's parent's publishing action failed or was cancelled.
+2016-10-22 19:16:46,237 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content 'BD Jo' with Id '2119' will not be published because it's parent's publishing action failed or was cancelled.
+2016-10-22 19:16:48,516 [6] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 38] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2016-10-22 19:51:21,355 [6] INFO  umbraco.BusinessLogic.Log - [Thread 31] Log scrubbed.  Removed all items older than 2016-08-23 19:51:21
+2016-10-22 19:51:21,356 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 31] Application shutdown. Reason: HostingEnvironment
+2016-10-22 19:51:24,868 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-10-22 19:51:24,886 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2016-10-22 19:51:24,898 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-10-22 19:51:25,013 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 115ms)
+2016-10-22 19:51:25,029 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-10-22 19:51:25,029 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2016-10-22 19:51:25,029 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-10-22 19:51:25,044 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 6ms)
+2016-10-22 19:51:25,044 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-10-22 19:51:25,044 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-10-22 19:51:25,044 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-10-22 19:51:25,044 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-10-22 19:51:25,044 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-10-22 19:51:25,064 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2016-10-22 19:51:25,231 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-10-22 19:51:25,440 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-10-22 19:51:25,448 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-10-22 19:51:25,459 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2016-10-22 19:51:25,509 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-10-22 19:51:25,532 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2016-10-22 19:51:56,717 [7] INFO  umbraco.presentation.publishingService - [Thread 12] sendremindmails has been called with response: False
+2016-10-22 19:55:25,920 [7] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-10-22 19:55:25,924 [7] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2016-10-22 19:55:26,053 [7] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.interfaces.ITree
+2016-10-22 19:55:26,070 [7] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 17ms)
+2016-10-22 19:55:27,022 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-10-22 19:55:27,031 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 8ms)
+2016-10-22 19:55:30,289 [7] INFO  umbraco.content - [Thread 18] Loading content from disk cache...
+2016-10-22 19:55:34,283 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 16] Couldn't find any page with nodeId=2085. This is most likely caused by the page not being published.
+2016-10-22 20:25:53,451 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-10-22 20:25:53,469 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2016-10-22 20:25:53,481 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-10-22 20:25:53,728 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 244ms)
+2016-10-22 20:25:53,748 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-10-22 20:25:53,753 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2016-10-22 20:25:53,754 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-10-22 20:25:53,759 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 5ms)
+2016-10-22 20:25:53,759 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-10-22 20:25:53,764 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2016-10-22 20:25:53,768 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-10-22 20:25:53,771 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-10-22 20:25:53,772 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-10-22 20:25:53,776 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2016-10-22 20:25:53,946 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-10-22 20:25:54,128 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-10-22 20:25:54,136 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-10-22 20:25:54,154 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 17ms)
+2016-10-22 20:25:54,196 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-10-22 20:25:54,224 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 28ms)
+2016-10-22 20:25:54,401 [6] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2016-10-22 20:26:00,854 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-10-22 20:26:00,858 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-10-22 20:26:01,728 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-10-22 20:26:01,732 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2016-10-22 20:26:25,511 [6] INFO  umbraco.presentation.publishingService - [Thread 10] sendremindmails has been called with response: False
+2016-10-22 20:27:27,762 [6] INFO  umbraco.BasePages.BasePage - [Thread 10] User Webmaster (Id: 0) logged in
+2016-10-22 20:27:27,854 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-10-22 20:27:27,860 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2016-10-22 20:27:27,953 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.ITree
+2016-10-22 20:27:27,972 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 19ms)
+2016-10-22 20:27:40,542 [6] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 12] Couldn't find any page with nodeId=2085. This is most likely caused by the page not being published.
+2016-10-22 20:34:09,654 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.IDataType
+2016-10-22 20:34:09,671 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 17ms)
+2016-10-22 20:51:58,816 [7] INFO  umbraco.presentation.publishingService - [Thread 37] sendremindmails has been called with response: False
+2016-10-22 21:03:25,218 [7] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-10-22 21:03:25,222 [7] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-10-22 21:03:39,496 [7] INFO  umbraco.BasePages.BasePage - [Thread 34] User Webmaster (Id: 0) logged in
+2016-10-22 21:03:55,383 [7] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2016-10-22 21:03:55,393 [7] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 9ms)
+2016-10-22 21:14:37,371 [7] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-10-22 21:14:37,380 [7] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2016-10-22 21:17:52,409 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'NL' with Id '1052' has been published.
+2016-10-22 21:17:52,901 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Nieuws' with Id '1066' has been published.
+2016-10-22 21:17:53,287 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Votre Europe, votre avis' with Id '1085' has been published.
+2016-10-22 21:17:53,371 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Dag van de Franstalige CINEMA in Antwerpen' with Id '1082' has been published.
+2016-10-22 21:17:53,492 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Schrijven in/over Brussel: literatuurhistorische beschouwingen en didactische praktijk' with Id '1083' has been published.
+2016-10-22 21:17:53,586 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Gratis seminarie “Motivation ...' with Id '1086' has been published.
+2016-10-22 21:17:53,677 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Election Européenne du Top 50 Francophone' with Id '1087' has been published.
+2016-10-22 21:17:53,765 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Bonjour du Monde' with Id '1084' has been published.
+2016-10-22 21:17:53,850 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Studiedag over de Franse gastronomie' with Id '1127' has been published.
+2016-10-22 21:17:53,932 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Biografie Edith Piaf' with Id '1162' has been published.
+2016-10-22 21:17:54,023 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Nieuwsberichten' with Id '1163' has been published.
+2016-10-22 21:17:54,126 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'EDT - 2013' with Id '1166' has been published.
+2016-10-22 21:17:54,217 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Hoe word ik lid en abonnee?' with Id '1306' has been published.
+2016-10-22 21:17:54,369 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Cursussen Frans van de All.-franç. Oost-Vlaanderen' with Id '1785' has been published.
+2016-10-22 21:17:54,603 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Het Rubensproject' with Id '2066' has been published.
+2016-10-22 21:17:54,799 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Europese Dag van de Talen (2)' with Id '2171' has been published.
+2016-10-22 21:17:54,975 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Beter onderwijzen?' with Id '2190' has been published.
+2016-10-22 21:17:55,061 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Studiedag' with Id '1100' has been published.
+2016-10-22 21:17:55,236 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Info' with Id '1096' has been published.
+2016-10-22 21:17:55,332 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Programma' with Id '1217' has been published.
+2016-10-22 21:17:55,745 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '1 Les jeux en classe' with Id '3234' has been published.
+2016-10-22 21:17:55,899 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '2 Développer les compétences linguistiques à partir de supports culturels' with Id '3235' has been published.
+2016-10-22 21:17:55,999 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '3 Lezen en luisteren evalueren volgens de eindtermen in de 2de graad' with Id '3236' has been published.
+2016-10-22 21:17:56,105 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '4A Dynamiser la classe de FLE' with Id '3237' has been published.
+2016-10-22 21:17:56,210 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '5 Découverte de la caverne d’Ali Baba pour enseignants de FLE' with Id '3238' has been published.
+2016-10-22 21:17:56,327 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '6 Maak van video's een meerwaarde in je lessen' with Id '3239' has been published.
+2016-10-22 21:17:56,432 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '7 Un film dans la classe' with Id '3240' has been published.
+2016-10-22 21:17:56,540 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '8 La perspective actionnelle dans la pratique' with Id '3241' has been published.
+2016-10-22 21:17:56,646 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '9 Duurzaam taal leren? Aan de slag met strategieën.' with Id '3243' has been published.
+2016-10-22 21:17:56,753 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '10 Vaardigheden combineren' with Id '3244' has been published.
+2016-10-22 21:17:56,860 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '11 Le Projet RUBENS' with Id '3245' has been published.
+2016-10-22 21:17:56,967 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '12 L’interculturel en classe au quotidien' with Id '3246' has been published.
+2016-10-22 21:17:57,085 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '13 Jeux littéraires et créatifs en classe de langue' with Id '3247' has been published.
+2016-10-22 21:17:57,192 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '14 Le CLIL' with Id '3248' has been published.
+2016-10-22 21:17:57,303 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '15 Lezen en luisteren evalueren volgens de eindtermen in de 2de graad' with Id '3249' has been published.
+2016-10-22 21:17:57,417 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '16 Dynamiser la classe de FLE' with Id '3250' has been published.
+2016-10-22 21:17:57,529 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '17 Faire découvrir le plaisir de lire !' with Id '3251' has been published.
+2016-10-22 21:17:57,633 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '18 Dyslexie en vreemdetalenonderwijs' with Id '3252' has been published.
+2016-10-22 21:17:57,777 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '19 Les jeux en classe' with Id '3253' has been published.
+2016-10-22 21:17:57,914 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '20 Développer les compétences linguistiques à partir de supports culturels' with Id '3254' has been published.
+2016-10-22 21:17:58,040 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '21 Un film dans la classe' with Id '3255' has been published.
+2016-10-22 21:17:58,142 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '22 La perspective actionnelle dans la pratique' with Id '3256' has been published.
+2016-10-22 21:17:58,249 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '23 Vaardigheden combineren' with Id '3257' has been published.
+2016-10-22 21:17:58,361 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '24 Le CLIL' with Id '3258' has been published.
+2016-10-22 21:17:58,470 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Inschrijvingsvoorwaarden' with Id '1101' has been published.
+2016-10-22 21:17:58,570 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Inschrijven' with Id '1221' has been published.
+2016-10-22 21:17:58,660 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Concours Haïkus' with Id '1300' has been published.
+2016-10-22 21:17:58,765 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'ProFFF' with Id '2082' has been published.
+2016-10-22 21:17:58,917 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Week van de film' with Id '1057' has been published.
+2016-10-22 21:17:59,005 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Interessante Links' with Id '1059' has been published.
+2016-10-22 21:17:59,100 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Wie zijn we' with Id '1088' has been published.
+2016-10-22 21:17:59,139 [7] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 36] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2016-10-22 21:17:59,184 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'MyBvlf' with Id '1187' has been published.
+2016-10-22 21:17:59,408 [7] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 38] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2016-10-22 21:17:59,501 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'MijnGegevens' with Id '1190' has been published.
+2016-10-22 21:17:59,599 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'ChangePW' with Id '1188' has been published.
+2016-10-22 21:17:59,691 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'LedenLijst' with Id '1191' has been published.
+2016-10-22 21:17:59,784 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'InschrijvingenStudiedag' with Id '1192' has been published.
+2016-10-22 21:17:59,883 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Register' with Id '1193' has been published.
+2016-10-22 21:17:59,979 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Login' with Id '1189' has been published.
+2016-10-22 21:18:00,086 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Paswoord vergeten' with Id '1213' has been published.
+2016-10-22 21:18:00,271 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Formacom' with Id '2117' has been published.
+2016-10-22 21:18:16,109 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'bvlf_org' with Id '1047' has been unpublished.
+2016-10-22 21:18:20,516 [7] WARN  umbraco.macro - [Thread 33] Error loading Partial View (file: ~/Views/MacroPartials/LoginStatus.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Core.PublishedContentExtensions.GetPropertyRecursive(IPublishedContent content, String alias, Boolean recursive)
+   bij Umbraco.Web.PublishedContentExtensions.GetPropertyValue(IPublishedContent doc, String alias, Boolean recursive)
+   bij ASP._Page_Views_MacroPartials_LoginStatus_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\LoginStatus.cshtml:regel 11
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:18:20,540 [7] WARN  umbraco.macro - [Thread 33] Error loading Partial View (file: ~/Views/MacroPartials/MainNavigation.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij ASP._Page_Views_MacroPartials_MainNavigation_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\MainNavigation.cshtml:regel 2
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:20:03,364 [7] WARN  umbraco.macro - [Thread 39] Error loading Partial View (file: ~/Views/MacroPartials/LoginStatus.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Core.PublishedContentExtensions.GetPropertyRecursive(IPublishedContent content, String alias, Boolean recursive)
+   bij Umbraco.Web.PublishedContentExtensions.GetPropertyValue(IPublishedContent doc, String alias, Boolean recursive)
+   bij ASP._Page_Views_MacroPartials_LoginStatus_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\LoginStatus.cshtml:regel 11
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:20:03,365 [7] WARN  umbraco.macro - [Thread 39] Error loading Partial View (file: ~/Views/MacroPartials/MainNavigation.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij ASP._Page_Views_MacroPartials_MainNavigation_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\MainNavigation.cshtml:regel 2
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:20:07,516 [7] WARN  umbraco.macro - [Thread 38] Error loading Partial View (file: ~/Views/MacroPartials/LoginStatus.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Core.PublishedContentExtensions.GetPropertyRecursive(IPublishedContent content, String alias, Boolean recursive)
+   bij Umbraco.Web.PublishedContentExtensions.GetPropertyValue(IPublishedContent doc, String alias, Boolean recursive)
+   bij ASP._Page_Views_MacroPartials_LoginStatus_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\LoginStatus.cshtml:regel 11
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:20:07,517 [7] WARN  umbraco.macro - [Thread 38] Error loading Partial View (file: ~/Views/MacroPartials/MainNavigation.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij ASP._Page_Views_MacroPartials_MainNavigation_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\MainNavigation.cshtml:regel 2
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:20:19,874 [7] INFO  umbraco.PartialViewTasks - [Thread 22] LangChoice.cshtml Deleted by user 0
+2016-10-22 21:20:23,405 [7] WARN  umbraco.macro - [Thread 36] Error loading Partial View (file: ~/Views/MacroPartials/LoginStatus.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Core.PublishedContentExtensions.GetPropertyRecursive(IPublishedContent content, String alias, Boolean recursive)
+   bij Umbraco.Web.PublishedContentExtensions.GetPropertyValue(IPublishedContent doc, String alias, Boolean recursive)
+   bij ASP._Page_Views_MacroPartials_LoginStatus_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\LoginStatus.cshtml:regel 11
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:20:23,406 [7] WARN  umbraco.macro - [Thread 36] Error loading Partial View (file: ~/Views/MacroPartials/MainNavigation.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij ASP._Page_Views_MacroPartials_MainNavigation_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\MainNavigation.cshtml:regel 2
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:20:24,813 [7] WARN  umbraco.macro - [Thread 37] Error loading Partial View (file: ~/Views/MacroPartials/LoginStatus.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Core.PublishedContentExtensions.GetPropertyRecursive(IPublishedContent content, String alias, Boolean recursive)
+   bij Umbraco.Web.PublishedContentExtensions.GetPropertyValue(IPublishedContent doc, String alias, Boolean recursive)
+   bij ASP._Page_Views_MacroPartials_LoginStatus_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\LoginStatus.cshtml:regel 11
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:20:24,814 [7] WARN  umbraco.macro - [Thread 37] Error loading Partial View (file: ~/Views/MacroPartials/MainNavigation.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij ASP._Page_Views_MacroPartials_MainNavigation_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\MainNavigation.cshtml:regel 2
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:20:39,147 [7] WARN  umbraco.macro - [Thread 36] Error loading Partial View (file: ~/Views/MacroPartials/MainNavigation.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij ASP._Page_Views_MacroPartials_MainNavigation_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\MainNavigation.cshtml:regel 2
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-10-22 21:21:24,791 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'bvlf_org' with Id '1047' has been unpublished.
+2016-10-22 21:21:25,278 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'DATA' with Id '2084' has been unpublished.
+2016-10-22 21:21:25,298 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'ProFFF' with Id '2085' has been unpublished.
+2016-10-22 21:21:25,311 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'CahiersF' with Id '2086' has been unpublished.
+2016-10-22 21:21:25,325 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'nr1-2015-3' with Id '2087' has been unpublished.
+2016-10-22 21:21:25,338 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'nr2 - 2015-6' with Id '2150' has been unpublished.
+2016-10-22 21:21:25,353 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'nr3 - 2015-9' with Id '3194' has been unpublished.
+2016-10-22 21:21:25,375 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'nr5 - 2016-3' with Id '6279' has been unpublished.
+2016-10-22 21:21:25,397 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Interview Piet Desmet' with Id '2088' has been unpublished.
+2016-10-22 21:21:25,412 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Stromae' with Id '2091' has been unpublished.
+2016-10-22 21:21:25,429 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Atelier de lecture' with Id '2092' has been unpublished.
+2016-10-22 21:21:25,445 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'van Robert tot Wiktionnaire' with Id '2095' has been unpublished.
+2016-10-22 21:21:25,461 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Buzz-Paris' with Id '2097' has been unpublished.
+2016-10-22 21:21:25,477 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Osez oser' with Id '2105' has been unpublished.
+2016-10-22 21:21:25,493 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Ou on va, papa?' with Id '2124' has been unpublished.
+2016-10-22 21:21:25,508 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Projet Rubens' with Id '2152' has been unpublished.
+2016-10-22 21:21:25,524 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Buzz' with Id '2151' has been unpublished.
+2016-10-22 21:21:25,547 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'En balade dans le 04' with Id '2157' has been unpublished.
+2016-10-22 21:21:25,564 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Mais ils n’aiment pas lire...' with Id '2158' has been unpublished.
+2016-10-22 21:21:25,579 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Profffiteroles' with Id '2159' has been unpublished.
+2016-10-22 21:21:25,596 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Amuse-Mots' with Id '2165' has been unpublished.
+2016-10-22 21:21:25,611 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Infos' with Id '2161' has been unpublished.
+2016-10-22 21:21:25,627 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'ProFFF en ligne' with Id '2164' has been unpublished.
+2016-10-22 21:21:25,644 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'La Moselle' with Id '3202' has been unpublished.
+2016-10-22 21:21:25,660 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Bienvenue dans le 04' with Id '2099' has been unpublished.
+2016-10-22 21:21:25,676 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Enseigner - Luxembourg' with Id '2098' has been unpublished.
+2016-10-22 21:21:25,694 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Mohamed' with Id '2160' has been unpublished.
+2016-10-22 21:21:25,711 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Les 5 sens' with Id '3204' has been unpublished.
+2016-10-22 21:21:25,727 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Parlons TICE' with Id '3205' has been unpublished.
+2016-10-22 21:21:25,744 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Vive la musique' with Id '3217' has been unpublished.
+2016-10-22 21:21:25,761 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Infos' with Id '3218' has been unpublished.
+2016-10-22 21:21:25,777 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Les Voisins' with Id '3219' has been unpublished.
+2016-10-22 21:21:25,794 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Word-handigheidjes' with Id '3224' has been unpublished.
+2016-10-22 21:21:25,810 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'artikel 1' with Id '6280' has been unpublished.
+2016-10-22 21:21:25,826 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Enseigner la prosodie et la prononciation' with Id '3195' has been unpublished.
+2016-10-22 21:22:06,986 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Week van de film' with Id '1057' has been unpublished.
+2016-10-22 21:22:37,893 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 36] An unhandled exception occurred
+System.InvalidOperationException: The template with Id 3813 does not exist, the page cannot render
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   bij Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   bij System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-22 21:30:46,378 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 33] An unhandled exception occurred
+System.InvalidOperationException: The template with Id 3813 does not exist, the page cannot render
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   bij Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   bij Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   bij System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-22 21:51:57,713 [7] INFO  umbraco.presentation.publishingService - [Thread 38] sendremindmails has been called with response: False
+2016-10-22 22:51:58,137 [7] INFO  umbraco.presentation.publishingService - [Thread 93] sendremindmails has been called with response: False

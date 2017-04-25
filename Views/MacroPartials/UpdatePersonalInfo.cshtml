@@ -1,0 +1,11 @@
+﻿@using umbraco.cms.businesslogic.member
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{
+
+    if (User.Identity.IsAuthenticated)
+    {
+        var mymemberid = Member.GetCurrentMember().Id;
+        @Html.Action("LoadPersonalData", "Membership", new {id = @mymemberid})
+    }
+}

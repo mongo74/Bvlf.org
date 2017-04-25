@@ -1,0 +1,42 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{
+    var currentPageid = @Model.MacroParameters["Pageid"];
+    var contentService = ApplicationContext.Current.Services.ContentService;
+    var page = contentService.GetById(Convert.ToInt32(currentPageid));
+}
+
+@Html.Raw(page.GetValue("std_content"))
+
+<div class="col-md-8">
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.887485690035!2d3.722759015752744!3d51.036698779560616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c37157ff8a6f57%3A0xce6acdadf4c11095!2sKarel+Lodewijk+Ledeganckstraat+8%2C+9000+Gent!5e0!3m2!1snl!2sbe!4v1482923368595" width="600" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
+    <div id="map-control" class="map-control">
+
+
+    </div>
+</div>
+
+<div class="col-md-4"></div>
+
+
+<script>
+    //$("#map-control")
+    //    .gmap3({
+    //        center: [51.0366988, 3.722759],
+    //        zoom: 13,
+    //        mapTypeId: google.maps.MapTypeId.HYBRID,
+    //        mapTypeControl: true,
+    //        mapTypeControlOptions: {
+    //            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+    //        },
+    //        navigationControl: true,
+    //        scrollwheel: true,
+    //        streetViewControl: true
+
+    //    });
+    //
+
+
+</script>

@@ -1,0 +1,13 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+
+<h5>
+    <a href="/" data-target="Home">Home</a>
+</h5>
+
+@foreach (var item in Model.Content.AncestorOrSelf(1).Children.Where(p => p.DocumentTypeAlias != "MembershipPages"))
+{
+    <h5>
+        <a href="@item.Url" data-target="" class="mainNav">@item.Name</a>
+    </h5>
+}

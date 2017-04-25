@@ -1,0 +1,74 @@
+﻿
+@*
+---------------- Newsletter Studio Subscribe ----------------
+Use this simple macro to add a subscribe-box to your page. Please feel free to use this as a template, change it however you like.
+If you are planning to use this in production it's a good idea to move the CSS into you master-stylesheet.
+
+A very good tip is to make a copy of this file (or rename it) since the if you upgrade the package the file may be overwritten.
+
+*@
+
+@using System
+@using System.Web.UI.WebControls
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    bool showThankYou = false;
+    string Error = "";
+    
+    if (Request.Form["action"] != null && Request.Form["action"].ToString() == "subscribe" && Request.Form["txtEmail"].ToString() != "")
+    {
+        
+        String txtEmail = Request.Form["txtEmail"].ToString();
+        
+        if (NewsletterStudio.Api.IsValidEmail(txtEmail))
+        {
+            // Trying to get the subscriptionId from Macro-parameter.
+            Int32 subscriptionId = (Parameter.SubscriptionId != null) ? Convert.ToInt32(Parameter.SubscriptionId) : 0;
+
+            // Adding subsbriber
+            var success = (subscriptionId != 0) ? NewsletterStudio.Api.Subscribe(txtEmail, subscriptionId) : NewsletterStudio.Api.Subscribe(txtEmail);
+                
+            showThankYou = true;
+        }
+        else
+        { 
+            Error = "* Please enter a valid e-mail";
+        }
+        
+    }
+
+           
+}
+
+<style type="text/css">
+    .newsletter { width:250px; border: 1px solid #e1e1e1; padding:20px;}
+    .newsletter p, .newsletter h5, .btn, .txt, { font-family:Arial, Sans-Serif; font-size:11px; }
+    .newsletter h5 {font-size:16px;}
+</style>
+
+<div class="newsletter">
+
+@if (!showThankYou)
+{       
+     <div class="newsletter-form">
+        <form method="post" action="@Request.Url">
+            <input type="hidden" name="action" value="subscribe" />
+            <h5>Subscribe to the newsletter</h5>
+            <p><label for="txtEmail">E-mail <span style="color:Red">@Error</span></label></p>
+            <p><input type="text" name="txtEmail" id="txtEmail" class="txt" /></p>
+            <p><input type="submit" id="btnSubmit" value="Subscribe" class="btn" /></p>
+        </form>
+    </div>
+    
+}
+else
+{ 
+     <div id="newsletter-thankyou">
+        <p>Thank you for subscribing</p>
+    </div>
+}
+
+
+</div>
+

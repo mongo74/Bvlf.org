@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="bvlf_org_v2Model.Store" Alias="Self" Provider="System.Data.SqlClient"
+              ProviderManifestToken="2008"
+              xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator"
+              xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="bvlf_org_v2ModelStoreContainer">
+          <EntitySet Name="StudieDagSubscriptions" EntityType="bvlf_org_v2Model.Store.StudieDagSubscriptions"
+                     store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="StudieDagSubscriptions_Sessions"
+                     EntityType="bvlf_org_v2Model.Store.StudieDagSubscriptions_Sessions" store:Type="Tables"
+                     Schema="dbo" />
+          <EntitySet Name="cmsContentXml" EntityType="bvlf_org_v2Model.Store.cmsContentXml" store:Type="Tables"
+                     Schema="webUser" />
+          <EntitySet Name="cmsMember" EntityType="bvlf_org_v2Model.Store.cmsMember" store:Type="Tables"
+                     Schema="webUser" />
+          <AssociationSet Name="FK_StudieDagSubscriptions_Sessions_StudieDagSubscriptions"
+                          Association="bvlf_org_v2Model.Store.FK_StudieDagSubscriptions_Sessions_StudieDagSubscriptions">
+            <End Role="StudieDagSubscriptions" EntitySet="StudieDagSubscriptions" />
+            <End Role="StudieDagSubscriptions_Sessions" EntitySet="StudieDagSubscriptions_Sessions" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="StudieDagSubscriptions">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Year" Type="int" Nullable="false" />
+          <Property Name="SubscriberId" Type="int" Nullable="false" />
+          <Property Name="PaidBySchool" Type="bit" />
+          <Property Name="SubscriptionDate" Type="smalldatetime" Nullable="false" />
+          <Property Name="SubscriptionStatus" Type="int" Nullable="false" />
+          <Property Name="MessageStatus" Type="int" Nullable="false" />
+          <Property Name="PaymentDate" Type="smalldatetime" />
+        </EntityType>
+        <EntityType Name="StudieDagSubscriptions_Sessions">
+          <Key>
+            <PropertyRef Name="SubscriptionSessionId" />
+          </Key>
+          <Property Name="SubscriptionSessionId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SubscriptionId" Type="int" Nullable="false" />
+          <Property Name="SessionId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="cmsContentXml">
+          <Key>
+            <PropertyRef Name="nodeId" />
+          </Key>
+          <Property Name="nodeId" Type="int" Nullable="false" />
+          <Property Name="xml" Type="ntext" Nullable="false" />
+        </EntityType>
+        <EntityType Name="cmsMember">
+          <Key>
+            <PropertyRef Name="nodeId" />
+          </Key>
+          <Property Name="nodeId" Type="int" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="LoginName" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="1000" />
+        </EntityType>
+        <Association Name="FK_StudieDagSubscriptions_Sessions_StudieDagSubscriptions">
+          <End Role="StudieDagSubscriptions" Type="bvlf_org_v2Model.Store.StudieDagSubscriptions" Multiplicity="1" />
+          <End Role="StudieDagSubscriptions_Sessions" Type="bvlf_org_v2Model.Store.StudieDagSubscriptions_Sessions"
+               Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudieDagSubscriptions">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudieDagSubscriptions_Sessions">
+              <PropertyRef Name="SubscriptionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="bvlf_org_v2Model" Alias="Self" p1:UseStrongSpatialTypes="false"
+              xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation"
+              xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation"
+              xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="bvlf_org_v2Entities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="StudieDagSubscriptions" EntityType="bvlf_org_v2Model.StudieDagSubscription" />
+          <EntitySet Name="StudieDagSubscriptions_Sessions"
+                     EntityType="bvlf_org_v2Model.StudieDagSubscriptions_Sessions" />
+          <AssociationSet Name="FK_StudieDagSubscriptions_Sessions_StudieDagSubscriptions"
+                          Association="bvlf_org_v2Model.FK_StudieDagSubscriptions_Sessions_StudieDagSubscriptions">
+            <End Role="StudieDagSubscriptions" EntitySet="StudieDagSubscriptions" />
+            <End Role="StudieDagSubscriptions_Sessions" EntitySet="StudieDagSubscriptions_Sessions" />
+          </AssociationSet>
+          <EntitySet Name="cmsContentXmls" EntityType="bvlf_org_v2Model.cmsContentXml" />
+          <EntitySet Name="cmsMembers" EntityType="bvlf_org_v2Model.cmsMember" />
+          <AssociationSet Name="cmsMemberStudieDagSubscriptions"
+                          Association="bvlf_org_v2Model.cmsMemberStudieDagSubscription">
+            <End Role="cmsMember" EntitySet="cmsMembers" />
+            <End Role="StudieDagSubscription" EntitySet="StudieDagSubscriptions" />
+          </AssociationSet>
+          <AssociationSet Name="cmsMembercmsContentXml" Association="bvlf_org_v2Model.cmsMembercmsContentXml">
+            <End Role="cmsMember" EntitySet="cmsMembers" />
+            <End Role="cmsContentXml" EntitySet="cmsContentXmls" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="StudieDagSubscription">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Year" Type="Int32" Nullable="false" />
+          <Property Name="SubscriberId" Type="Int32" Nullable="false" />
+          <Property Name="PaidBySchool" Type="Boolean" />
+          <Property Name="SubscriptionDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="SubscriptionStatus" Type="Int32" Nullable="false" />
+          <Property Name="MessageStatus" Type="Int32" Nullable="false" />
+          <Property Name="PaymentDate" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="StudieDagSubscriptions_Sessions"
+                              Relationship="bvlf_org_v2Model.FK_StudieDagSubscriptions_Sessions_StudieDagSubscriptions"
+                              FromRole="StudieDagSubscriptions" ToRole="StudieDagSubscriptions_Sessions" />
+          <NavigationProperty Name="cmsMember" Relationship="bvlf_org_v2Model.cmsMemberStudieDagSubscription"
+                              FromRole="StudieDagSubscription" ToRole="cmsMember" />
+        </EntityType>
+        <EntityType Name="StudieDagSubscriptions_Sessions">
+          <Key>
+            <PropertyRef Name="SubscriptionSessionId" />
+          </Key>
+          <Property Name="SubscriptionSessionId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="SubscriptionId" Type="Int32" Nullable="false" />
+          <Property Name="SessionId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="StudieDagSubscription"
+                              Relationship="bvlf_org_v2Model.FK_StudieDagSubscriptions_Sessions_StudieDagSubscriptions"
+                              FromRole="StudieDagSubscriptions_Sessions" ToRole="StudieDagSubscriptions" />
+        </EntityType>
+        <Association Name="FK_StudieDagSubscriptions_Sessions_StudieDagSubscriptions">
+          <End Role="StudieDagSubscriptions" Type="bvlf_org_v2Model.StudieDagSubscription" Multiplicity="1" />
+          <End Role="StudieDagSubscriptions_Sessions" Type="bvlf_org_v2Model.StudieDagSubscriptions_Sessions"
+               Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudieDagSubscriptions">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudieDagSubscriptions_Sessions">
+              <PropertyRef Name="SubscriptionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="cmsContentXml">
+          <Key>
+            <PropertyRef Name="nodeId" />
+          </Key>
+          <Property Type="Int32" Name="nodeId" Nullable="false" />
+          <Property Type="String" Name="xml" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="cmsMember" Relationship="bvlf_org_v2Model.cmsMembercmsContentXml"
+                              FromRole="cmsContentXml" ToRole="cmsMember" />
+        </EntityType>
+        <EntityType Name="cmsMember">
+          <Key>
+            <PropertyRef Name="nodeId" />
+          </Key>
+          <Property Type="Int32" Name="nodeId" Nullable="false" />
+          <Property Type="String" Name="Email" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="LoginName" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Password" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="StudieDagSubscriptions"
+                              Relationship="bvlf_org_v2Model.cmsMemberStudieDagSubscription" FromRole="cmsMember"
+                              ToRole="StudieDagSubscription" />
+          <NavigationProperty Name="cmsContentXml" Relationship="bvlf_org_v2Model.cmsMembercmsContentXml"
+                              FromRole="cmsMember" ToRole="cmsContentXml" />
+        </EntityType>
+        <Association Name="cmsMemberStudieDagSubscription">
+          <End Type="bvlf_org_v2Model.cmsMember" Role="cmsMember" Multiplicity="1" />
+          <End Type="bvlf_org_v2Model.StudieDagSubscription" Role="StudieDagSubscription" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cmsMember">
+              <PropertyRef Name="nodeId" />
+            </Principal>
+            <Dependent Role="StudieDagSubscription">
+              <PropertyRef Name="SubscriberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="cmsMembercmsContentXml">
+          <End Type="bvlf_org_v2Model.cmsMember" Role="cmsMember" Multiplicity="1" />
+          <End Type="bvlf_org_v2Model.cmsContentXml" Role="cmsContentXml" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="cmsMember">
+              <PropertyRef Name="nodeId" />
+            </Principal>
+            <Dependent Role="cmsContentXml">
+              <PropertyRef Name="nodeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="bvlf_org_v2ModelStoreContainer"
+                                CdmEntityContainer="bvlf_org_v2Entities">
+          <EntitySetMapping Name="StudieDagSubscriptions">
+            <EntityTypeMapping TypeName="bvlf_org_v2Model.StudieDagSubscription">
+              <MappingFragment StoreEntitySet="StudieDagSubscriptions">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Year" ColumnName="Year" />
+                <ScalarProperty Name="SubscriberId" ColumnName="SubscriberId" />
+                <ScalarProperty Name="PaidBySchool" ColumnName="PaidBySchool" />
+                <ScalarProperty Name="SubscriptionDate" ColumnName="SubscriptionDate" />
+                <ScalarProperty Name="SubscriptionStatus" ColumnName="SubscriptionStatus" />
+                <ScalarProperty Name="MessageStatus" ColumnName="MessageStatus" />
+                <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudieDagSubscriptions_Sessions">
+            <EntityTypeMapping TypeName="bvlf_org_v2Model.StudieDagSubscriptions_Sessions">
+              <MappingFragment StoreEntitySet="StudieDagSubscriptions_Sessions">
+                <ScalarProperty Name="SubscriptionSessionId" ColumnName="SubscriptionSessionId" />
+                <ScalarProperty Name="SubscriptionId" ColumnName="SubscriptionId" />
+                <ScalarProperty Name="SessionId" ColumnName="SessionId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="cmsContentXmls">
+            <EntityTypeMapping TypeName="bvlf_org_v2Model.cmsContentXml">
+              <MappingFragment StoreEntitySet="cmsContentXml">
+                <ScalarProperty Name="xml" ColumnName="xml" />
+                <ScalarProperty Name="nodeId" ColumnName="nodeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="cmsMembers">
+            <EntityTypeMapping TypeName="bvlf_org_v2Model.cmsMember">
+              <MappingFragment StoreEntitySet="cmsMember">
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="nodeId" ColumnName="nodeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,38 @@
+﻿<node id="1253" version="bb366562-2c12-419f-9e55-b9a48960b5d7" parentID="-1" level="1" writerID="0" nodeType="1167"
+      template="0" sortOrder="3" createDate="2014-01-03T21:18:58" updateDate="2014-01-03T21:18:59"
+      nodeName="benoitgevaert@gmail.com" urlName="benoitgevaert@gmail.com" writerName="Webmaster" nodeTypeAlias="Lid"
+      path="-1,1253" loginName="benoitgevaert@gmail.com" email="benoitgevaert@gmail.com">
+  <naamschool_1>Glorieux</naamschool_1>
+  <lidnr>14-980E</lidnr>
+  <fipfnr></fipfnr>
+  <profiel>Teacher</profiel>
+  <gender>Male</gender>
+  <emailschool_2></emailschool_2>
+  <country>België</country>
+  <bvlfMemberStatus><![CDATA[Ingeschreven]]></bvlfMemberStatus>
+  <subscriptionDate>2014-01-03T00:00:00</subscriptionDate>
+  <subscriptionExpiration>2015-01-03T00:00:00</subscriptionExpiration>
+  <telschool_1></telschool_1>
+  <naam>Gevaert</naam>
+  <voornaam>Benoit</voornaam>
+  <busschool_1></busschool_1>
+  <straat>test</straat>
+  <straatschool_1></straatschool_1>
+  <nrSchool_1></nrSchool_1>
+  <nr>1</nr>
+  <bus></bus>
+  <zipcodeschool_1></zipcodeschool_1>
+  <postcode>9230</postcode>
+  <plaatsschool_1></plaatsschool_1>
+  <emailschool_1></emailschool_1>
+  <plaats>Wetteren</plaats>
+  <tel>78</tel>
+  <naamschool_2></naamschool_2>
+  <straatschool_2></straatschool_2>
+  <mobile>+32496527573</mobile>
+  <nrschool_2></nrschool_2>
+  <busschool_2></busschool_2>
+  <zipcodeschool_2></zipcodeschool_2>
+  <plaatsschool_2></plaatsschool_2>
+  <telschool_2></telschool_2>
+</node>

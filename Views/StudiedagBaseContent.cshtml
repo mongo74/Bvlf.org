@@ -1,0 +1,126 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "LanguageMasterPage.cshtml";
+}
+@section RightColumn {
+    @Umbraco.RenderMacro("GetAboutUsIntro")
+    @Html.Partial("~/Views/Partials/ContactUsInfo_Overall.cshtml")
+}
+<h1>
+    @Umbraco.Field("bc_Title")
+</h1>
+<p>
+
+
+@{
+    var Currenthost = HttpContext.Current.Request.Url.Host;
+    var isApplicable = Currenthost == "www.bvlf.org" ||
+                       Currenthost == "bvlf_v2.dev" ||
+                       Currenthost == "www.boenwas.net" ||
+                       Currenthost == "bvlf.org" ||
+                       Currenthost == "bvlf_org";
+
+    var currentPage = @UmbracoContext.Current;
+    var currentPageId = currentPage.PageId ?? 0;
+    var contentService = ApplicationContext.Current.Services.ContentService;
+    var contentTypeService = ApplicationContext.Current.Services.ContentTypeService;
+}
+
+@{
+    IEnumerable<IContent> children;
+    children = contentService.GetChildren(currentPageId).Where(p => p.Published);
+    //  var returnlist = children.ToList()
+    //  var memberid = 0;
+    //if (User.Identity.IsAuthenticated)
+    //{
+    //    var mymember = Member.GetCurrentMember();
+    //    memberid = mymember.Id;
+    //    // Limit access to site-administrators
+    //    if (memberid == 1253 || memberid == 1299 || memberid == 1289 || memberid == 1297
+    //        || memberid == 1298 || memberid == 1295 || memberid == 1632)
+    //    {
+    //        children = contentService.GetChildren(currentPageId);
+    //    }
+    //    else
+    //    {
+    //        children = contentService.GetChildren(currentPageId).Where(p => p.Published && p.Id != 1221);
+    //    }
+    //}
+    //else
+    //{
+    //    children = contentService.GetChildren(currentPageId).Where(p => p.Published && p.Id != 1221);
+    //}
+}
+
+@if (isApplicable)
+{
+    // Show Tabs
+    <!-- STUDIEDAG TABS -------------------------------------------------------------------------------------------------------------->
+    // Not applicable for now
+    // Show basic info page - als studie dag niet van toepassing is
+
+    var first = true;
+
+    <ul class="nav nav-tabs">
+        @foreach (var item in children)
+        {
+            if (first)
+            {
+                <li class="active">
+                    <a data-toggle="tab" href="#Tabs-@item.Id">@item.Name</a>
+                </li>
+                first = false;
+            }
+            else
+            {
+                <li>
+                    <a data-toggle="tab" href="#Tabs-@item.Id">@item.Name</a>
+                </li>
+            }
+        }
+
+
+    </ul>
+    <div class="tab-content">
+        @{
+            first = true;
+        }
+        @foreach (var item in children)
+        {
+            if (first)
+            {
+                <div id="Tabs-@item.Id" class="tab-pane fade in active">
+                    <h4>@item.GetValue("std_title")</h4>
+                    @Umbraco.RenderMacro("Studiedag_" + @item.Name, new {pageid = @item.Id})
+                </div>
+                first = false;
+            }
+            else
+            {
+                <div id="Tabs-@item.Id" class="tab-pane fade">
+                    <h4>@item.GetValue("std_title")</h4>
+                    @Umbraco.RenderMacro("Studiedag_" + @item.Name, new {pageid = @item.Id})
+                </div>
+            }
+        }
+    </div>
+    <!--END STUDIEDAG TABS -------------------------------------------------------------------------------------------------------------->
+}
+else
+{
+    <!-- STUDIE DAG NIET VAN TOEPASSING -------------------------------------------------------------------------------------------------------------->
+    // Not applicable for now
+    // Show basic info page - als studie dag niet van toepassing is
+
+
+    <!--END STUDIE DAG NIET VAN TOEPASSING -------------------------------------------------------------------------------------------------------------->
+}
+
+
+
+
+
+
+
+@section cpFooter{}
+@section cpScripts{}

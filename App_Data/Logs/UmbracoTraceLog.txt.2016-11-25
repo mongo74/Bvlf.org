@@ -1,0 +1,91 @@
+2016-11-25 20:44:03,594 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-11-25 20:44:03,663 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 57ms)
+2016-11-25 20:44:03,684 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-25 20:44:03,995 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 308ms)
+2016-11-25 20:44:04,054 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-25 20:44:04,063 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+2016-11-25 20:44:04,065 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-25 20:44:04,076 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 10ms)
+2016-11-25 20:44:04,076 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-25 20:44:04,080 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-11-25 20:44:04,092 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-25 20:44:04,096 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2016-11-25 20:44:04,096 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-25 20:44:04,101 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2016-11-25 20:44:04,415 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-11-25 20:44:04,983 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-11-25 20:44:04,995 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-25 20:44:05,027 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 30ms)
+2016-11-25 20:44:05,145 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-11-25 20:44:05,202 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 57ms)
+2016-11-25 20:44:05,782 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2016-11-25 20:44:07,023 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-25 20:44:07,031 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 7ms)
+2016-11-25 20:44:07,201 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-25 20:44:07,209 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2016-11-25 20:44:35,708 [7] INFO  umbraco.presentation.publishingService - [Thread 5] newsletterstudioBounces has been called with response: True
+2016-11-25 20:44:36,887 [7] INFO  umbraco.presentation.publishingService - [Thread 5] newsletterstudioSendout has been called with response: True
+2016-11-25 20:44:38,969 [7] INFO  umbraco.presentation.publishingService - [Thread 5] sendremindmails has been called with response: False
+2016-11-25 20:50:15,015 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IDataType
+2016-11-25 20:50:15,046 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 29ms)
+2016-11-25 20:50:15,056 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.ITree
+2016-11-25 20:50:15,088 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 32ms)
+2016-11-25 20:50:15,577 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-11-25 20:50:15,587 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2016-11-25 20:50:34,608 [7] INFO  umbraco.presentation.publishingService - [Thread 21] newsletterstudioSendout has been called with response: True
+2016-11-25 20:55:34,677 [7] INFO  umbraco.presentation.publishingService - [Thread 8] newsletterstudioSendout has been called with response: True
+2016-11-25 20:58:34,699 [7] INFO  umbraco.presentation.publishingService - [Thread 37] newsletterstudioBounces has been called with response: True
+2016-11-25 21:00:34,674 [7] INFO  umbraco.presentation.publishingService - [Thread 41] newsletterstudioSendout has been called with response: True
+2016-11-25 21:05:34,776 [7] INFO  umbraco.presentation.publishingService - [Thread 47] newsletterstudioSendout has been called with response: True
+2016-11-25 21:10:34,781 [7] INFO  umbraco.presentation.publishingService - [Thread 45] newsletterstudioSendout has been called with response: True
+2016-11-25 21:12:34,886 [7] INFO  umbraco.presentation.publishingService - [Thread 40] newsletterstudioBounces has been called with response: True
+2016-11-25 21:13:48,986 [7] INFO  umbraco.BasePages.BasePage - [Thread 40] User Webmaster (Id: 0) logged in
+2016-11-25 21:13:49,114 [7] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-11-25 21:13:49,120 [7] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2016-11-25 21:15:34,831 [7] INFO  umbraco.presentation.publishingService - [Thread 54] newsletterstudioSendout has been called with response: True
+2016-11-25 21:20:34,860 [7] INFO  umbraco.presentation.publishingService - [Thread 43] newsletterstudioSendout has been called with response: True
+2016-11-25 21:25:34,948 [7] INFO  umbraco.presentation.publishingService - [Thread 35] newsletterstudioSendout has been called with response: True
+2016-11-25 21:26:34,793 [7] INFO  umbraco.presentation.publishingService - [Thread 35] newsletterstudioBounces has been called with response: True
+2016-11-25 21:30:34,946 [7] INFO  umbraco.presentation.publishingService - [Thread 43] newsletterstudioSendout has been called with response: True
+2016-11-25 21:35:35,036 [7] INFO  umbraco.presentation.publishingService - [Thread 61] newsletterstudioSendout has been called with response: True
+2016-11-25 21:40:35,016 [7] INFO  umbraco.presentation.publishingService - [Thread 75] newsletterstudioBounces has been called with response: True
+2016-11-25 21:40:35,342 [7] INFO  umbraco.presentation.publishingService - [Thread 75] newsletterstudioSendout has been called with response: True
+2016-11-25 21:45:35,063 [7] INFO  umbraco.presentation.publishingService - [Thread 78] newsletterstudioSendout has been called with response: True
+2016-11-25 21:45:36,938 [7] INFO  umbraco.presentation.publishingService - [Thread 78] sendremindmails has been called with response: False
+2016-11-25 21:50:35,074 [7] INFO  umbraco.presentation.publishingService - [Thread 92] newsletterstudioSendout has been called with response: True
+2016-11-25 21:54:35,140 [7] INFO  umbraco.presentation.publishingService - [Thread 90] newsletterstudioBounces has been called with response: True
+2016-11-25 21:55:34,961 [7] INFO  umbraco.presentation.publishingService - [Thread 87] newsletterstudioSendout has been called with response: True
+2016-11-25 22:00:35,222 [7] INFO  umbraco.presentation.publishingService - [Thread 82] newsletterstudioSendout has been called with response: True
+2016-11-25 22:05:35,172 [7] INFO  umbraco.presentation.publishingService - [Thread 83] newsletterstudioSendout has been called with response: True
+2016-11-25 22:08:35,263 [7] INFO  umbraco.presentation.publishingService - [Thread 83] newsletterstudioBounces has been called with response: True
+2016-11-25 22:10:35,244 [7] INFO  umbraco.presentation.publishingService - [Thread 68] newsletterstudioSendout has been called with response: True
+2016-11-25 22:15:35,274 [7] INFO  umbraco.presentation.publishingService - [Thread 67] newsletterstudioSendout has been called with response: True
+2016-11-25 22:20:35,405 [7] INFO  umbraco.presentation.publishingService - [Thread 71] newsletterstudioSendout has been called with response: True
+2016-11-25 22:22:35,459 [7] INFO  umbraco.presentation.publishingService - [Thread 11] newsletterstudioBounces has been called with response: True
+2016-11-25 22:25:37,665 [7] INFO  umbraco.presentation.publishingService - [Thread 60] newsletterstudioSendout has been called with response: True
+2016-11-25 22:30:35,482 [7] INFO  umbraco.presentation.publishingService - [Thread 19] newsletterstudioSendout has been called with response: True
+2016-11-25 22:35:35,552 [7] INFO  umbraco.presentation.publishingService - [Thread 23] newsletterstudioSendout has been called with response: True
+2016-11-25 22:36:35,432 [7] INFO  umbraco.presentation.publishingService - [Thread 26] newsletterstudioBounces has been called with response: True
+2016-11-25 22:40:35,557 [7] INFO  umbraco.presentation.publishingService - [Thread 26] newsletterstudioSendout has been called with response: True
+2016-11-25 22:45:35,559 [7] INFO  umbraco.presentation.publishingService - [Thread 34] newsletterstudioSendout has been called with response: True
+2016-11-25 22:45:37,008 [7] INFO  umbraco.presentation.publishingService - [Thread 34] sendremindmails has been called with response: False
+2016-11-25 22:50:35,662 [7] INFO  umbraco.presentation.publishingService - [Thread 35] newsletterstudioBounces has been called with response: True
+2016-11-25 22:50:35,831 [7] INFO  umbraco.presentation.publishingService - [Thread 35] newsletterstudioSendout has been called with response: True
+2016-11-25 22:55:35,736 [7] INFO  umbraco.presentation.publishingService - [Thread 19] newsletterstudioSendout has been called with response: True
+2016-11-25 23:00:35,718 [7] INFO  umbraco.presentation.publishingService - [Thread 19] newsletterstudioSendout has been called with response: True
+2016-11-25 23:04:35,853 [7] INFO  umbraco.presentation.publishingService - [Thread 19] newsletterstudioBounces has been called with response: True
+2016-11-25 23:05:35,677 [7] INFO  umbraco.presentation.publishingService - [Thread 31] newsletterstudioSendout has been called with response: True
+2016-11-25 23:10:35,872 [7] INFO  umbraco.presentation.publishingService - [Thread 35] newsletterstudioSendout has been called with response: True
+2016-11-25 23:15:35,917 [7] INFO  umbraco.presentation.publishingService - [Thread 5] newsletterstudioSendout has been called with response: True
+2016-11-25 23:18:35,942 [7] INFO  umbraco.presentation.publishingService - [Thread 5] newsletterstudioBounces has been called with response: True
+2016-11-25 23:20:35,919 [7] INFO  umbraco.presentation.publishingService - [Thread 13] newsletterstudioSendout has been called with response: True
+2016-11-25 23:25:36,142 [7] INFO  umbraco.presentation.publishingService - [Thread 59] newsletterstudioSendout has been called with response: True
+2016-11-25 23:30:36,002 [7] INFO  umbraco.presentation.publishingService - [Thread 66] newsletterstudioSendout has been called with response: True
+2016-11-25 23:32:36,097 [7] INFO  umbraco.presentation.publishingService - [Thread 65] newsletterstudioBounces has been called with response: True
+2016-11-25 23:35:36,175 [7] INFO  umbraco.presentation.publishingService - [Thread 67] newsletterstudioSendout has been called with response: True
+2016-11-25 23:40:36,163 [7] INFO  umbraco.presentation.publishingService - [Thread 68] newsletterstudioSendout has been called with response: True
+2016-11-25 23:45:36,199 [7] INFO  umbraco.presentation.publishingService - [Thread 62] newsletterstudioSendout has been called with response: True
+2016-11-25 23:45:37,486 [7] INFO  umbraco.presentation.publishingService - [Thread 62] sendremindmails has been called with response: False
+2016-11-25 23:46:36,052 [7] INFO  umbraco.presentation.publishingService - [Thread 28] newsletterstudioBounces has been called with response: True
+2016-11-25 23:50:36,256 [7] INFO  umbraco.presentation.publishingService - [Thread 62] newsletterstudioSendout has been called with response: True
+2016-11-25 23:55:36,276 [7] INFO  umbraco.presentation.publishingService - [Thread 65] newsletterstudioSendout has been called with response: True

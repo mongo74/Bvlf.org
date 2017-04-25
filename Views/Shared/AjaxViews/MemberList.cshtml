@@ -1,0 +1,54 @@
+﻿@model bvlf_v2.Models.MemberProfilesListViewModel
+
+<div class="row" id="SearchCriteria">
+    <a href="/Umbraco/surface/MembershipApi/ExportLedenlijst" class="button" alt="Exporteer inschrijvingen naar Excell">Export naar Excell</a>
+</div>
+
+<div id="MemberSearchContainer">
+    <table class="bvlfTable">
+        <thead>
+        <tr>
+            <th>Lidnr</th>
+            <th>Naam</th>
+            <th>Email</th>
+            <th>Lid sinds</th>
+            <th>Lid tot</th>
+            <th>School</th>
+            <th>Status</th>
+            <th colspan="2"></th>
+
+        </tr>
+
+        </thead>
+        <tbody>
+
+        @foreach (var member in Model.MemberList)
+        {
+            <tr id="@Html.Raw(member.Id)_Row" class="@(member.PaymentIsLate ? "Alert" : "Normal") @(member.IsRemoved ? "Removed" : "Normal")">
+                <td class="@Html.Raw(member.Id)_Lidnr">@member.Lidnr</td>
+                <td class="@Html.Raw(member.Id)_FullName">@member.FullName</td>
+                <td class="@Html.Raw(member.Id)_Email">@member.Email</td>
+                <td class="@Html.Raw(member.Id)_Date">@member.SubscriptionDate.ToString("dd/MM/yyyy")</td>
+                <td class="@Html.Raw(member.Id)_Date  @(member.PaymentIsLate ? "Expire" : "")">@member.SubscriptionExpiry.ToString("dd/MM/yyyy")</td>
+                <td class="@Html.Raw(member.Id)_School">@member.School</td>
+                <td class="@Html.Raw(member.Id)_Status">@member.Status</td>
+                <td>
+                    <input type="button" class="button small GetDetails" id="@member.Id" value="Details"/>
+                </td>
+                <td class="@Html.Raw(member.Id)_PaimentButton">
+                    @if (member.Status == "Ingeschreven")
+                    {
+                        <input type="button" class="button small ChangeStatus" id="@member.Id" value="Bevestig betaling"/>
+                    }
+                    @if (member.PaymentIsLate)
+                    {
+                        <input type="button" class="button small RemoveMember" id="@member.Id" value="Verwijder dit lid"/>
+                    }
+                </td>
+
+            </tr>
+        }
+
+        </tbody>
+    </table>
+</div>

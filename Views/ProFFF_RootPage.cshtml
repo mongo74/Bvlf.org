@@ -1,0 +1,60 @@
+﻿@using System.Threading
+@using umbraco.NodeFactory
+@inherits UmbracoTemplatePage
+@{
+    Layout = "LanguageMasterPage.cshtml";
+}
+@{
+    var page = Model.Content.AncestorOrSelf(2);
+    var lang = Thread.CurrentThread.CurrentCulture.ToString().Substring(0, 2);
+    var registerUrl = new Node(Convert.ToInt32(page.GetPropertyValue("registerLink")));
+    var singInUrl = new Node(Convert.ToInt32(page.GetPropertyValue("signinLink")));
+    var loginUrl = UmbracoContext.Current.HttpContext.Request.RawUrl;
+}
+@section RightColumn {
+    @Umbraco.RenderMacro("GetAboutUsIntro")
+    @Html.Partial("~/Views/Partials/ContactUsInfo_Overall.cshtml")
+}
+@section cpFooter{}
+@section cpScripts{
+
+    <script type="text/javascript" src="/Scripts/Profff.js"></script>
+}
+<h3>
+    @Umbraco.Field("bc_Title")
+</h3>
+@Umbraco.Field("bc_MainContent")
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Het extra materiaal is enkel toegankelijk voor leden.</h3>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <p>
+                <strong>Ik ben al lid</strong> -
+                <a href="@singInUrl.Url?ReturnUrl=@loginUrl">inloggen</a>
+            </p>
+            <p>
+                <strong>
+                    Ik ben nog geen lid
+                </strong>
+                <br/>
+
+                <br/>
+                <a href="@registerUrl.Url">Registreer u </a>
+            </p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+}
+else
+{
+    @Umbraco.RenderMacro("ProFFF-AdditionalMaterial")
+}

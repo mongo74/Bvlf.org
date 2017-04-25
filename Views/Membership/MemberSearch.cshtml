@@ -1,0 +1,42 @@
+﻿@model bvlf_v2.Models.MemberSearchViewModel
+
+<div class="row filterContainer" id="SearchCriteria">
+    <div class="col-md-6">
+        <div class="filter-group--checkbox">
+            <input type="radio" name="SearchCriteria" id="cbName" value="name" title="Name" checked="checked"/><label for="cbName">Naam</label>
+            <input type="radio" name="SearchCriteria" id="cbLidnr" value="lidnr" title="Lidnr"/><label for="cbLidnr"> Lidnr </label>
+            <input type="radio" name="SearchCriteria" id="cbEmail" value="email" title="Email"/><label for="cbEmail">Email</label>
+        </div>
+        <div class="filter-group--text">
+            @Html.TextBoxFor(p => p.SearchCriterium, null, new {@class = "large searchCriteriaBox", @placeholder = "Zoekterm", @data_search = "SearchCriterium"})
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        @Html.DropDownListFor(p => p.MemberStatus, new SelectList(Model.MemberStatusList, "Key", "Value"), null, new {@data_dropdown = "status"})
+    </div>
+    <div class="col-md-2">
+        <input type="button" value="Verfijn de resultaten" id="cmdRefineSearch" data-event="RefineSearch"/>
+    </div>
+    <div class="col-md-2">
+        <a href="/Umbraco/surface/MembershipApi/ExportLedenlijst" class="button" alt="Exporteer inschrijvingen naar Excell">Export naar Excell</a>
+    </div>
+</div>
+<div class="row" id="Loading">
+    &nbsp; <br/>
+</div>
+<div class="row">
+    <h4 id="MessageBlock"></h4>
+    <div class="TitleRow clearfix">
+        <div class="col-md-1s TitleItem"></div>
+        <div class="col-md-2 TitleItem">Lidnr - Naam</div>
+        <div class="col-md-3 TitleItem">Email</div>
+        <div class="col-md-1s TitleItem">Ingeschreven op</div>
+        <div class="col-md-1s TitleItem">Geldig tot</div>
+        <div class="col-md-2 TitleItem">School</div>
+        <div class="col-md-2 TitleItem">Status</div>
+    </div>
+
+    <div id="SearchResult"></div>
+    <div class="pagination pagination--dark" data-prev="Vorige" data-next="Volgende" data-first="Eerste" data-last="Laatste"></div>
+</div>

@@ -1,0 +1,28 @@
+﻿/*
+    
+@DarkSlateBlue: 	#483D8B;
+@Indigo:  	        #4B0082;
+@Navy:          	#000080;
+
+    MidnightBlue 	#191970
+
+h1, h4, h5, h6 {
+  color:@midnight-blue;
+}
+
+h2, h3 {
+    color: @SteelBlue;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+   
+    
+@midnight-blue: #2c3e50;
+@clear-blue: #191970;
+@SteelBlue: 	#4682B4;
+@dark-red : #8B0000;
+@maroon : #800000;
+@clouds: #ecf0f1; 
+*/

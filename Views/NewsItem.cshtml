@@ -1,0 +1,48 @@
+﻿@using System.Threading
+@inherits UmbracoTemplatePage
+@{
+
+    Layout = "LanguageMasterPage.cshtml";
+}
+@{
+
+    var culture = Thread.CurrentThread.CurrentCulture;
+    var targetLink = "";
+    if (culture.ToString() == "nl-BE")
+    {
+        targetLink = "/nl/nieuws.aspx";
+    }
+}
+
+<div id="NewsHome">
+    <h1 class="Title">
+        @Umbraco.Field("newsItemTitle")
+    </h1>
+
+    <article class="NewsItem">
+
+        <p class="author">
+            @Model.Content.CreatorName - @Model.Content.CreateDate.ToString("dd/MM/yyyy")
+        </p>
+
+        @Umbraco.Field("newsText")
+    </article>
+    <p>
+        <a href="@targetLink" class="small blue nice button radius">
+            @Umbraco.Field("#GoBackTo") @Umbraco.Field("#News")
+
+        </a>
+
+    </p>
+</div>
+
+
+@section RightColumn {
+    @Umbraco.RenderMacro("GetAboutUsIntro")
+}
+
+@section cpFooter
+{}
+
+@section cpScripts
+{}

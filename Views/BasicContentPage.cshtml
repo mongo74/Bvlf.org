@@ -1,0 +1,24 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "LanguageMasterPage.cshtml";
+}
+<h1>
+    @Umbraco.Field("bc_Title")
+</h1>
+<p>
+    @Umbraco.Field("bc_teasertext")
+</p>
+
+
+@Umbraco.Field("bc_MainContent")
+
+@section RightColumn {
+    @*@Umbraco.RenderMacro("GetAboutUsIntro")
+        @Html.Partial("~/Views/Partials/ContactUsInfo_Overall.cshtml")*@
+}
+
+
+@section cpFooter
+{}
+
+@section cpScripts{}

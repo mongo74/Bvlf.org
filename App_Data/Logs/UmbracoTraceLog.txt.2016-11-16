@@ -1,0 +1,208 @@
+2016-11-16 00:02:21,371 [107] INFO  umbraco.presentation.publishingService - [Thread 181] newsletterstudioSendout has been called with response: True
+2016-11-16 00:05:20,341 [107] INFO  umbraco.presentation.publishingService - [Thread 181] newsletterstudioBounces has been called with response: True
+2016-11-16 00:07:21,392 [107] INFO  umbraco.presentation.publishingService - [Thread 189] newsletterstudioSendout has been called with response: True
+2016-11-16 20:05:15,438 [107] INFO  umbraco.presentation.publishingService - [Thread 173] newsletterstudioBounces has been called with response: True
+2016-11-16 20:05:15,621 [107] INFO  umbraco.presentation.publishingService - [Thread 173] newsletterstudioSendout has been called with response: True
+2016-11-16 20:05:20,138 [107] INFO  umbraco.presentation.publishingService - [Thread 173] sendremindmails has been called with response: False
+2016-11-16 20:11:14,185 [107] INFO  umbraco.presentation.publishingService - [Thread 187] newsletterstudioSendout has been called with response: True
+2016-11-16 20:16:14,604 [107] INFO  umbraco.presentation.publishingService - [Thread 167] newsletterstudioSendout has been called with response: True
+2016-11-16 20:19:14,247 [107] INFO  umbraco.presentation.publishingService - [Thread 173] newsletterstudioBounces has been called with response: True
+2016-11-16 20:20:01,603 [107] WARN  umbraco.macro - [Thread 164] Error loading Partial View (file: ~/Views/MacroPartials/ProFFF-AdditionalMaterial.cshtml). Exception: System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Umbraco.Web.PublishedContentExtensions.Descendants(IPublishedContent content, Func`2 func)
+   bij ASP._Page_Views_MacroPartials_ProFFF_AdditionalMaterial_cshtml.Execute() in c:\Local Projects\Bvlf\bvlf.org\bvlf_v2\Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml:regel 7
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   bij System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   bij System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   bij Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   bij Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   bij umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   bij umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2016-11-16 20:20:55,351 [107] WARN  Umbraco.Web.Mvc.RenderMvcController - [Thread 164] No physical template file was found for template Contact_us
+2016-11-16 20:21:03,389 [107] WARN  Umbraco.Web.Mvc.RenderMvcController - [Thread 74] No physical template file was found for template Contact_us
+2016-11-16 20:21:16,765 [107] INFO  umbraco.presentation.publishingService - [Thread 164] newsletterstudioSendout has been called with response: True
+2016-11-16 20:22:26,040 [107] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 166] Content 'NL' with Id '1052' has been published.
+2016-11-16 20:26:16,726 [107] INFO  umbraco.presentation.publishingService - [Thread 165] newsletterstudioSendout has been called with response: True
+2016-11-16 20:31:15,289 [107] INFO  umbraco.presentation.publishingService - [Thread 92] newsletterstudioSendout has been called with response: True
+2016-11-16 20:33:14,285 [107] INFO  umbraco.presentation.publishingService - [Thread 187] newsletterstudioBounces has been called with response: True
+2016-11-16 20:35:00,427 [107] INFO  umbraco.BusinessLogic.Log - [Thread 187] Log scrubbed.  Removed all items older than 2016-09-17 20:35:00
+2016-11-16 20:36:14,531 [107] INFO  umbraco.presentation.publishingService - [Thread 160] newsletterstudioSendout has been called with response: True
+2016-11-16 20:41:15,414 [107] INFO  umbraco.presentation.publishingService - [Thread 196] newsletterstudioSendout has been called with response: True
+2016-11-16 20:46:14,934 [107] INFO  umbraco.presentation.publishingService - [Thread 180] newsletterstudioSendout has been called with response: True
+2016-11-16 20:47:14,257 [107] INFO  umbraco.presentation.publishingService - [Thread 183] newsletterstudioBounces has been called with response: True
+2016-11-16 20:48:32,008 [107] INFO  umbraco.BusinessLogic.Log - [Thread 191] Log scrubbed.  Removed all items older than 2016-09-17 20:48:31
+2016-11-16 20:48:32,008 [107] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 191] Application shutdown. Reason: ConfigurationChange
+2016-11-16 20:48:39,061 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Determining hash of code files on disk
+2016-11-16 20:48:39,061 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Hash determined (took 6ms)
+2016-11-16 20:48:39,076 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-16 20:48:39,186 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 112ms)
+2016-11-16 20:48:39,186 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-16 20:48:39,186 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-11-16 20:48:39,186 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-16 20:48:39,201 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 5ms)
+2016-11-16 20:48:39,201 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-16 20:48:39,201 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-11-16 20:48:39,201 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-16 20:48:39,201 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-11-16 20:48:39,201 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-16 20:48:39,217 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2016-11-16 20:48:39,326 [194] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 10] Initializing Examine and binding to business logic events
+2016-11-16 20:48:39,420 [194] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 10] Adding examine event handlers for index providers: 3
+2016-11-16 20:48:39,420 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-16 20:48:39,436 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2016-11-16 20:48:39,483 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2016-11-16 20:48:39,498 [194] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2016-11-16 20:48:47,431 [194] INFO  umbraco.BusinessLogic.Log - [Thread 186] Log scrubbed.  Removed all items older than 2016-09-17 20:48:47
+2016-11-16 20:48:47,431 [194] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 186] Application shutdown. Reason: ConfigurationChange
+2016-11-16 20:48:48,806 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Determining hash of code files on disk
+2016-11-16 20:48:48,822 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Hash determined (took 6ms)
+2016-11-16 20:48:48,822 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-16 20:48:48,947 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 121ms)
+2016-11-16 20:48:48,947 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-16 20:48:48,947 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-11-16 20:48:48,947 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-16 20:48:48,962 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 7ms)
+2016-11-16 20:48:48,962 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-16 20:48:48,962 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-11-16 20:48:48,962 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-16 20:48:48,962 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-11-16 20:48:48,962 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-16 20:48:48,978 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2016-11-16 20:48:49,087 [96] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 10] Initializing Examine and binding to business logic events
+2016-11-16 20:48:49,165 [96] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 10] Adding examine event handlers for index providers: 3
+2016-11-16 20:48:49,181 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-16 20:48:49,181 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2016-11-16 20:48:49,197 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2016-11-16 20:48:49,228 [96] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 24ms)
+2016-11-16 20:48:57,847 [96] INFO  umbraco.BusinessLogic.Log - [Thread 178] Log scrubbed.  Removed all items older than 2016-09-17 20:48:57
+2016-11-16 20:48:57,847 [96] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 178] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-11-16 20:49:01,722 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Determining hash of code files on disk
+2016-11-16 20:49:01,753 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Hash determined (took 13ms)
+2016-11-16 20:49:01,769 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-16 20:49:02,034 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 263ms)
+2016-11-16 20:49:02,050 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-16 20:49:02,066 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2016-11-16 20:49:02,066 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-16 20:49:02,081 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 12ms)
+2016-11-16 20:49:02,081 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-16 20:49:02,081 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2016-11-16 20:49:02,081 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-16 20:49:02,081 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2016-11-16 20:49:02,081 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-16 20:49:02,097 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 11ms)
+2016-11-16 20:49:02,472 [168] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 10] Initializing Examine and binding to business logic events
+2016-11-16 20:49:02,628 [168] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 10] Adding examine event handlers for index providers: 3
+2016-11-16 20:49:02,644 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-16 20:49:02,675 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 22ms)
+2016-11-16 20:49:02,722 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2016-11-16 20:49:02,753 [168] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 35ms)
+2016-11-16 20:49:05,159 [168] INFO  umbraco.content - [Thread 186] Loading content from disk cache...
+2016-11-16 20:49:06,800 [168] INFO  Umbraco.Core.PluginManager - [Thread 186] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-16 20:49:06,800 [168] INFO  Umbraco.Core.PluginManager - [Thread 186] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-11-16 20:49:07,503 [168] INFO  Umbraco.Core.PluginManager - [Thread 186] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-16 20:49:07,503 [168] INFO  Umbraco.Core.PluginManager - [Thread 186] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2016-11-16 20:49:37,208 [168] INFO  umbraco.presentation.publishingService - [Thread 180] newsletterstudioBounces has been called with response: True
+2016-11-16 20:49:37,442 [168] INFO  umbraco.presentation.publishingService - [Thread 180] newsletterstudioSendout has been called with response: True
+2016-11-16 20:49:39,517 [168] INFO  umbraco.presentation.publishingService - [Thread 180] sendremindmails has been called with response: False
+2016-11-16 20:53:35,872 [168] INFO  umbraco.BusinessLogic.Log - [Thread 175] Log scrubbed.  Removed all items older than 2016-09-17 20:53:35
+2016-11-16 20:53:35,873 [168] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 175] Application shutdown. Reason: ConfigurationChange
+2016-11-16 20:53:38,835 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-11-16 20:53:38,844 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 7ms)
+2016-11-16 20:53:38,854 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-16 20:53:38,963 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 108ms)
+2016-11-16 20:53:38,965 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-16 20:53:38,968 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-11-16 20:53:38,968 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-16 20:53:38,974 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 5ms)
+2016-11-16 20:53:38,974 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-16 20:53:38,978 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2016-11-16 20:53:38,978 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-16 20:53:38,982 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2016-11-16 20:53:38,983 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-16 20:53:38,987 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2016-11-16 20:53:39,103 [182] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-11-16 20:53:39,190 [182] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-11-16 20:53:39,194 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-16 20:53:39,205 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2016-11-16 20:53:39,253 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-11-16 20:53:39,283 [182] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 30ms)
+2016-11-16 20:53:42,712 [182] INFO  umbraco.content - [Thread 175] Loading content from disk cache...
+2016-11-16 20:53:43,051 [182] INFO  Umbraco.Core.PluginManager - [Thread 175] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-16 20:53:43,055 [182] INFO  Umbraco.Core.PluginManager - [Thread 175] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2016-11-16 20:53:43,174 [182] INFO  Umbraco.Core.PluginManager - [Thread 175] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-16 20:53:43,180 [182] INFO  Umbraco.Core.PluginManager - [Thread 175] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2016-11-16 20:53:56,396 [182] INFO  umbraco.BusinessLogic.Log - [Thread 175] Log scrubbed.  Removed all items older than 2016-09-17 20:53:55
+2016-11-16 20:53:56,398 [182] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 175] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-11-16 20:54:01,321 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Determining hash of code files on disk
+2016-11-16 20:54:01,342 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Hash determined (took 12ms)
+2016-11-16 20:54:01,352 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-16 20:54:01,495 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 140ms)
+2016-11-16 20:54:01,521 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-16 20:54:01,529 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2016-11-16 20:54:01,531 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-16 20:54:01,538 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 6ms)
+2016-11-16 20:54:01,539 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-16 20:54:01,544 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2016-11-16 20:54:01,546 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-16 20:54:01,553 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2016-11-16 20:54:01,553 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-16 20:54:01,560 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2016-11-16 20:54:01,734 [192] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 94] Initializing Examine and binding to business logic events
+2016-11-16 20:54:01,888 [192] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 94] Adding examine event handlers for index providers: 3
+2016-11-16 20:54:01,898 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-16 20:54:01,908 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2016-11-16 20:54:02,015 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Starting resolution types of umbraco.interfaces.ITree
+2016-11-16 20:54:02,048 [192] INFO  Umbraco.Core.PluginManager - [Thread 94] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 32ms)
+2016-11-16 20:54:02,908 [192] INFO  umbraco.content - [Thread 175] Loading content from disk cache...
+2016-11-16 20:54:04,280 [192] INFO  Umbraco.Core.PluginManager - [Thread 175] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-16 20:54:04,285 [192] INFO  Umbraco.Core.PluginManager - [Thread 175] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2016-11-16 20:54:04,924 [192] INFO  Umbraco.Core.PluginManager - [Thread 175] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-16 20:54:04,929 [192] INFO  Umbraco.Core.PluginManager - [Thread 175] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2016-11-16 20:54:32,096 [192] INFO  umbraco.presentation.publishingService - [Thread 189] newsletterstudioBounces has been called with response: True
+2016-11-16 20:54:32,269 [192] INFO  umbraco.presentation.publishingService - [Thread 189] newsletterstudioSendout has been called with response: True
+2016-11-16 20:54:33,666 [192] INFO  umbraco.presentation.publishingService - [Thread 189] sendremindmails has been called with response: False
+2016-11-16 20:59:32,488 [192] INFO  umbraco.presentation.publishingService - [Thread 180] newsletterstudioSendout has been called with response: True
+2016-11-16 21:04:32,458 [192] INFO  umbraco.presentation.publishingService - [Thread 180] newsletterstudioSendout has been called with response: True
+2016-11-16 21:08:33,232 [192] INFO  umbraco.presentation.publishingService - [Thread 166] newsletterstudioBounces has been called with response: True
+2016-11-16 21:09:32,018 [192] INFO  umbraco.presentation.publishingService - [Thread 166] newsletterstudioSendout has been called with response: True
+2016-11-16 21:14:33,320 [192] INFO  umbraco.presentation.publishingService - [Thread 184] newsletterstudioSendout has been called with response: True
+2016-11-16 21:19:32,521 [192] INFO  umbraco.presentation.publishingService - [Thread 154] newsletterstudioSendout has been called with response: True
+2016-11-16 21:22:32,267 [192] INFO  umbraco.presentation.publishingService - [Thread 154] newsletterstudioBounces has been called with response: True
+2016-11-16 21:24:33,190 [192] INFO  umbraco.presentation.publishingService - [Thread 184] newsletterstudioSendout has been called with response: True
+2016-11-16 21:29:34,747 [192] INFO  umbraco.presentation.publishingService - [Thread 184] newsletterstudioSendout has been called with response: True
+2016-11-16 21:34:32,673 [192] INFO  umbraco.presentation.publishingService - [Thread 152] newsletterstudioSendout has been called with response: True
+2016-11-16 21:36:32,426 [192] INFO  umbraco.presentation.publishingService - [Thread 177] newsletterstudioBounces has been called with response: True
+2016-11-16 21:39:33,491 [192] INFO  umbraco.presentation.publishingService - [Thread 157] newsletterstudioSendout has been called with response: True
+2016-11-16 21:44:36,734 [192] INFO  umbraco.presentation.publishingService - [Thread 171] newsletterstudioSendout has been called with response: True
+2016-11-16 21:49:34,894 [192] INFO  umbraco.presentation.publishingService - [Thread 167] newsletterstudioSendout has been called with response: True
+2016-11-16 21:50:32,450 [192] INFO  umbraco.presentation.publishingService - [Thread 167] newsletterstudioBounces has been called with response: True
+2016-11-16 21:54:32,813 [192] INFO  umbraco.presentation.publishingService - [Thread 182] newsletterstudioSendout has been called with response: True
+2016-11-16 21:54:34,110 [192] INFO  umbraco.presentation.publishingService - [Thread 182] sendremindmails has been called with response: False
+2016-11-16 21:59:33,615 [192] INFO  umbraco.presentation.publishingService - [Thread 143] newsletterstudioSendout has been called with response: True
+2016-11-16 22:04:33,588 [192] INFO  umbraco.presentation.publishingService - [Thread 143] newsletterstudioBounces has been called with response: True
+2016-11-16 22:04:33,759 [192] INFO  umbraco.presentation.publishingService - [Thread 143] newsletterstudioSendout has been called with response: True
+2016-11-16 22:10:35,244 [192] INFO  umbraco.presentation.publishingService - [Thread 136] newsletterstudioSendout has been called with response: True
+2016-11-16 22:15:33,828 [192] INFO  umbraco.presentation.publishingService - [Thread 128] newsletterstudioSendout has been called with response: True
+2016-11-16 22:18:32,766 [192] INFO  umbraco.presentation.publishingService - [Thread 133] newsletterstudioBounces has been called with response: True
+2016-11-16 22:20:33,064 [192] INFO  umbraco.presentation.publishingService - [Thread 128] newsletterstudioSendout has been called with response: True
+2016-11-16 22:25:33,132 [192] INFO  umbraco.presentation.publishingService - [Thread 119] newsletterstudioSendout has been called with response: True
+2016-11-16 22:30:34,786 [192] INFO  umbraco.presentation.publishingService - [Thread 143] newsletterstudioSendout has been called with response: True
+2016-11-16 22:32:33,049 [192] INFO  umbraco.presentation.publishingService - [Thread 116] newsletterstudioBounces has been called with response: True
+2016-11-16 22:35:34,072 [192] INFO  umbraco.presentation.publishingService - [Thread 111] newsletterstudioSendout has been called with response: True
+2016-11-16 22:40:33,874 [192] INFO  umbraco.presentation.publishingService - [Thread 80] newsletterstudioSendout has been called with response: True
+2016-11-16 22:45:33,339 [192] INFO  umbraco.presentation.publishingService - [Thread 63] newsletterstudioSendout has been called with response: True
+2016-11-16 22:46:32,814 [192] INFO  umbraco.presentation.publishingService - [Thread 59] newsletterstudioBounces has been called with response: True
+2016-11-16 22:50:34,982 [192] INFO  umbraco.presentation.publishingService - [Thread 36] newsletterstudioSendout has been called with response: True
+2016-11-16 22:54:36,511 [192] INFO  umbraco.presentation.publishingService - [Thread 59] sendremindmails has been called with response: False
+2016-11-16 22:55:32,986 [192] INFO  umbraco.presentation.publishingService - [Thread 77] newsletterstudioSendout has been called with response: True
+2016-11-16 23:00:33,488 [192] INFO  umbraco.presentation.publishingService - [Thread 102] newsletterstudioBounces has been called with response: True
+2016-11-16 23:00:33,644 [192] INFO  umbraco.presentation.publishingService - [Thread 102] newsletterstudioSendout has been called with response: True
+2016-11-16 23:05:33,484 [192] INFO  umbraco.presentation.publishingService - [Thread 32] newsletterstudioSendout has been called with response: True
+2016-11-16 23:10:35,787 [192] INFO  umbraco.presentation.publishingService - [Thread 72] newsletterstudioSendout has been called with response: True
+2016-11-16 23:14:33,630 [192] INFO  umbraco.presentation.publishingService - [Thread 110] newsletterstudioBounces has been called with response: True
+2016-11-16 23:15:33,065 [192] INFO  umbraco.presentation.publishingService - [Thread 111] newsletterstudioSendout has been called with response: True
+2016-11-16 23:20:34,345 [192] INFO  umbraco.presentation.publishingService - [Thread 114] newsletterstudioSendout has been called with response: True
+2016-11-16 23:25:33,655 [192] INFO  umbraco.presentation.publishingService - [Thread 113] newsletterstudioSendout has been called with response: True
+2016-11-16 23:28:36,065 [192] INFO  umbraco.presentation.publishingService - [Thread 118] newsletterstudioBounces has been called with response: True
+2016-11-16 23:30:33,840 [192] INFO  umbraco.presentation.publishingService - [Thread 121] newsletterstudioSendout has been called with response: True
+2016-11-16 23:35:33,892 [192] INFO  umbraco.presentation.publishingService - [Thread 127] newsletterstudioSendout has been called with response: True
+2016-11-16 23:40:33,877 [192] INFO  umbraco.presentation.publishingService - [Thread 121] newsletterstudioSendout has been called with response: True

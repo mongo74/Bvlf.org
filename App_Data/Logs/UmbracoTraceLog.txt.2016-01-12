@@ -1,0 +1,309 @@
+2016-01-12 10:59:55,895 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-01-12 10:59:55,915 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 9ms)
+2016-01-12 10:59:55,923 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 10:59:56,072 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 147ms)
+2016-01-12 10:59:56,106 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 10:59:56,110 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-01-12 10:59:56,112 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 10:59:56,116 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 4ms)
+2016-01-12 10:59:56,116 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 10:59:56,118 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2016-01-12 10:59:56,123 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 10:59:56,125 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2016-01-12 10:59:56,125 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 10:59:56,128 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2016-01-12 10:59:56,355 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-01-12 10:59:56,631 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-01-12 10:59:56,637 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-12 10:59:56,644 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2016-01-12 10:59:56,712 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-01-12 10:59:56,728 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 15ms)
+2016-01-12 10:59:56,948 [6] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2016-01-12 11:00:08,041 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-12 11:00:08,045 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2016-01-12 11:00:08,443 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-01-12 11:00:08,445 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2016-01-12 11:00:19,301 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.IDataType
+2016-01-12 11:00:19,311 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 10ms)
+2016-01-12 11:00:19,319 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.ITree
+2016-01-12 11:00:19,329 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 10ms)
+2016-01-12 11:00:19,722 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-01-12 11:00:19,728 [6] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 5ms)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,615 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,616 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:24,617 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 11] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:00:27,813 [6] INFO  umbraco.presentation.publishingService - [Thread 16] sendremindmails has been called with response: True
+2016-01-12 11:00:54,117 [6] ERROR System.Exception - [Thread 10] ConfirmationMail could not be sent - System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 143.95.249.136:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at bvlf_v2.BOL.Helpers.EmailSender.SendEmail(String from, String fromDisplayName, List`1 to, List`1 cc, String subject, String body, List`1 attachments, Boolean ishtml) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\BOL\Helpers\EmailSender.cs:line 118 - mail.boenwas.net - benoitgevaert@gmail.com
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 143.95.249.136:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at bvlf_v2.BOL.Helpers.EmailSender.SendEmail(String from, String fromDisplayName, List`1 to, List`1 cc, String subject, String body, List`1 attachments, Boolean ishtml) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\BOL\Helpers\EmailSender.cs:line 118
+2016-01-12 11:02:26,268 [6] INFO  umbraco.BasePages.BasePage - [Thread 16] User Webmaster (Id: 0) logged in
+2016-01-12 11:02:26,401 [6] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2016-01-12 11:02:26,404 [6] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2016-01-12 11:03:27,135 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,135 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,135 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,135 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,135 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,135 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,135 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,135 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,136 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 19] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:03:27,529 [6] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 19] Error executing query update cmsMember set Password = @password where nodeId = @id
+System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@password nvarchar(4000),@id int)update cmsMember set Password ' expects the parameter '@password', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:c59dee10-b183-407c-b0f6-7556bba60016
+Error Number:8178,State:1,Class:16
+2016-01-12 11:03:38,364 [6] INFO  umbraco.BusinessLogic.Log - [Thread 16] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: No Member exists with Id '-1' <br />   at umbraco.cms.businesslogic.member.Member.setupNode()
+   at umbraco.cms.businesslogic.member.Member..ctor(Int32 id)
+   at bvlf_v2.BOL.Repositories.MembershipRepository.GetMemberById(Int32 id) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\BOL\Repositories\MembershipRepository.cs:line 38
+   at bvlf_v2.Controllers.StudiedagController.SendConfirmationMail(StudieDagSubscription sub) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Controllers\StudiedagController.cs:line 337
+   at bvlf_v2.Controllers.StudiedagController.HandleSubscriptionStudieDagStep2(SubscribeToStudieDagStep2ViewModel model) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Controllers\StudiedagController.cs:line 314
+2016-01-12 11:06:54,375 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,375 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,375 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,375 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,375 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,375 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Actief'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Slapend'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Permanent'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Ingeschreven'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Betaald'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Verwijderd'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Studiedag'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:06:54,376 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 36] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2016-01-12 11:07:24,655 [6] ERROR System.Exception - [Thread 38] ConfirmationMail could not be sent - System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 143.95.249.136:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at bvlf_v2.BOL.Helpers.EmailSender.SendEmail(String from, String fromDisplayName, List`1 to, List`1 cc, String subject, String body, List`1 attachments, Boolean ishtml) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\BOL\Helpers\EmailSender.cs:line 118 - mail.boenwas.net - boenwas@yahoo.com
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 143.95.249.136:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at bvlf_v2.BOL.Helpers.EmailSender.SendEmail(String from, String fromDisplayName, List`1 to, List`1 cc, String subject, String body, List`1 attachments, Boolean ishtml) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\BOL\Helpers\EmailSender.cs:line 118
+2016-01-12 11:09:48,186 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Studiedag' with Id '1100' has been published.
+2016-01-12 11:09:57,252 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Info' with Id '1096' has been published.
+2016-01-12 12:00:28,156 [6] INFO  umbraco.presentation.publishingService - [Thread 90] sendremindmails has been called with response: True
+2016-01-12 13:00:28,895 [6] INFO  umbraco.presentation.publishingService - [Thread 69] sendremindmails has been called with response: True
+2016-01-12 14:00:32,168 [6] INFO  umbraco.presentation.publishingService - [Thread 83] sendremindmails has been called with response: True
+2016-01-12 15:00:30,470 [6] INFO  umbraco.presentation.publishingService - [Thread 69] sendremindmails has been called with response: True
+2016-01-12 15:35:13,197 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 99] Executing Umbraco RouteDefinition controller
+2016-01-12 15:35:13,228 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 99] Finished (took 30ms)
+2016-01-12 15:35:16,668 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 97] Executing Umbraco RouteDefinition controller
+2016-01-12 15:35:16,693 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 97] Finished (took 24ms)
+2016-01-12 15:35:25,829 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 97] Executing Umbraco RouteDefinition controller
+2016-01-12 15:35:25,848 [6] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 97] Finished (took 18ms)
+2016-01-12 15:54:22,952 [6] INFO  umbraco.BusinessLogic.Log - [Thread 30] Log scrubbed.  Removed all items older than 2015-11-13 15:54:22
+2016-01-12 15:54:22,965 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 30] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-01-12 15:56:24,453 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Determining hash of code files on disk
+2016-01-12 15:56:24,555 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Hash determined (took 40ms)
+2016-01-12 15:56:24,605 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-12 15:56:25,444 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 828ms)
+2016-01-12 15:56:25,608 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-12 15:56:25,640 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 31ms)
+2016-01-12 15:56:25,664 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-12 15:56:25,695 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 30ms)
+2016-01-12 15:56:25,697 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-12 15:56:25,727 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 30ms)
+2016-01-12 15:56:25,744 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-12 15:56:25,773 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 27ms)
+2016-01-12 15:56:25,778 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-12 15:56:25,811 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 32ms)
+2016-01-12 15:56:27,338 [63] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 21] Initializing Examine and binding to business logic events
+2016-01-12 15:56:28,748 [63] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 21] Adding examine event handlers for index providers: 3
+2016-01-12 15:56:28,842 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-12 15:56:28,920 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 78ms)
+2016-01-12 15:56:29,434 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.interfaces.ITree
+2016-01-12 15:56:29,591 [63] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 156ms)
+2016-01-12 15:56:30,790 [63] INFO  umbraco.content - [Thread 45] Loading content from disk cache...
+2016-01-12 15:56:39,950 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-01-12 15:56:39,972 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 21ms)
+2016-01-12 15:56:51,278 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-12 15:56:51,301 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 22ms)
+2016-01-12 15:56:57,542 [63] INFO  umbraco.presentation.publishingService - [Thread 45] sendremindmails has been called with response: True
+2016-01-12 15:57:24,454 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Starting resolution types of umbraco.interfaces.IDataType
+2016-01-12 15:57:24,550 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 96ms)
+2016-01-12 15:57:24,608 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Starting resolution types of umbraco.interfaces.ITree
+2016-01-12 15:57:24,700 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 91ms)
+2016-01-12 15:57:27,301 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-01-12 15:57:27,345 [63] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 44ms)
+2016-01-12 15:58:34,409 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 56] Executing Umbraco RouteDefinition controller
+2016-01-12 15:58:34,446 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 56] Finished (took 37ms)
+2016-01-12 15:58:39,267 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 30] Executing Umbraco RouteDefinition controller
+2016-01-12 15:58:39,301 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 30] Finished (took 33ms)
+2016-01-12 15:58:43,221 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 74] Executing Umbraco RouteDefinition controller
+2016-01-12 15:58:43,252 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 74] Finished (took 30ms)
+2016-01-12 15:58:47,511 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 41] Executing Umbraco RouteDefinition controller
+2016-01-12 15:58:47,537 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 41] Finished (took 25ms)
+2016-01-12 15:58:55,713 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 42] Executing Umbraco RouteDefinition controller
+2016-01-12 15:58:55,739 [63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - [Thread 42] Finished (took 25ms)
+2016-01-12 16:57:00,345 [63] INFO  umbraco.presentation.publishingService - [Thread 126] sendremindmails has been called with response: True
+2016-01-12 17:56:59,777 [63] INFO  umbraco.presentation.publishingService - [Thread 102] sendremindmails has been called with response: True
+2016-01-12 18:57:01,056 [63] INFO  umbraco.presentation.publishingService - [Thread 153] sendremindmails has been called with response: True
+2016-01-12 19:57:02,614 [63] INFO  umbraco.presentation.publishingService - [Thread 162] sendremindmails has been called with response: True
+2016-01-12 20:57:07,049 [63] INFO  umbraco.presentation.publishingService - [Thread 132] sendremindmails has been called with response: True
+2016-01-12 21:57:08,101 [63] INFO  umbraco.presentation.publishingService - [Thread 96] sendremindmails has been called with response: True
+2016-01-12 22:57:03,906 [63] INFO  umbraco.presentation.publishingService - [Thread 106] sendremindmails has been called with response: True

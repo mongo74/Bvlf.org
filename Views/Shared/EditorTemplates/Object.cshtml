@@ -1,0 +1,50 @@
+﻿@using System.Data
+@functions
+{
+
+    private bool ShouldShow(ModelMetadata metadata)
+    {
+        return metadata.ShowForEdit
+               && metadata.ModelType != typeof (EntityState)
+               && !metadata.IsComplexType
+               && !ViewData.TemplateInfo.Visited(metadata);
+    }
+
+}
+@if (ViewData.TemplateInfo.TemplateDepth > 1)
+{
+    if (Model == null)
+    {
+        @ViewData.ModelMetadata.NullDisplayText
+    }
+    else
+    {
+        @ViewData.ModelMetadata.SimpleDisplayText
+    }
+}
+else
+{
+    ViewData.Clear();
+
+    foreach (var prop in ViewData.ModelMetadata.Properties.Where(pm => ShouldShow(pm)))
+    {
+        <div class="row">
+            <div class="col-md-1"></div>
+
+
+            @if (prop.HideSurroundingHtml)
+            {
+                @Html.Editor(prop.PropertyName)
+            }
+            else if (!string.IsNullOrEmpty(Html.Label(prop.PropertyName).ToHtmlString()))
+            {
+                <div class="col-md-2 text-right">@Html.Label(prop.PropertyName)</div>
+            }
+            <div class="col-md-4">
+                @Html.TextBox(prop.PropertyName, null, new {@class = ""})
+
+                @Html.ValidationMessage(prop.PropertyName)</div>
+            <div class="col-md-5"></div>
+        </div>
+    }
+}

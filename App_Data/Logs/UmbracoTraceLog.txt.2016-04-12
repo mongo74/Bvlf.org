@@ -1,0 +1,5 @@
+2016-04-12 18:38:40,060 [32] INFO  umbraco.BusinessLogic.Log - [Thread 197] Log scrubbed.  Removed all items older than 2016-02-12 18:38:40
+2016-04-12 18:39:36,443 [32] INFO  umbraco.presentation.publishingService - [Thread 197] sendremindmails has been called with response: False
+2016-04-12 19:39:37,443 [32] INFO  umbraco.presentation.publishingService - [Thread 193] sendremindmails has been called with response: False
+2016-04-12 19:59:50,468 [32] INFO  umbraco.BusinessLogic.Log - [Thread 201] Log scrubbed.  Removed all items older than 2016-02-12 19:59:50
+2016-04-12 19:59:50,473 [32] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 201] Application shutdown. Reason: HostingEnvironment

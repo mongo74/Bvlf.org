@@ -1,0 +1,24 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "LanguageMasterPage.cshtml";
+}
+
+
+<div id="NewsHome">
+    @Umbraco.RenderMacro("GetLatestNews")
+</div>
+
+<div id="Teasers" class="row">
+    @Umbraco.RenderMacro("HomePageTeasers")
+</div>
+
+@section RightColumn {
+    @Umbraco.RenderMacro("GetAboutUsIntro")
+}
+
+@section cpFooter
+{}
+
+
+@section cpScripts
+{}

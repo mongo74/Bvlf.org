@@ -1,0 +1,67 @@
+﻿@model bvlf_v2.Models.StudiedagInschrijvingenLijstViewModel
+<div class="row" id="SearchCriteria">
+    <a href="/Umbraco/surface/Studiedag/ExportInschrijvingenList" class="button" alt="Exporteer inschrijvingen naar Excell">Export naar Excell</a>
+</div>
+
+<div id="SubscriptionsSearchContainer">
+
+
+    <table class="bvlfTable">
+        <thead>
+        <tr>
+            <th>Lidnr</th>
+            <th>Naam</th>
+            <th>Email</th>
+            <th>School</th>
+            <th>Status</th>
+            <th>Sessies</th>
+            <th>
+                Betaald <br/>
+                door school
+            </th>
+            <th colspan="2"></th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+        @foreach (var member in Model.Inschrijvingen)
+        {
+            <tr>
+                <td>@member.Lidnr</td>
+                <td>@member.FullName</td>
+                <td>@member.Email</td>
+                <td>
+                    @member.School <br/>
+                    @member.SchoolLocation
+                </td>
+                <td>
+                    <span id="status_@member.Id">@member.Status</span></td>
+                <td>
+                    @foreach (var sessie in member.Sessions)
+                    {
+                        @sessie
+                        <br/>
+                    }
+
+                </td>
+                <td>
+                    @(member.PaidBySchool ? "ja" : "")
+                </td>
+                <td>
+                    @if (member.Status != "Betaald")
+                    {
+                        <input type="button" class="button small ConfirmPayment" id="@member.Id" value="Bevestig betaling"/>
+                    }
+
+                </td>
+                <td>
+                    <input type="button" class="button small CancelSubscription" id="@member.Id" value="Annuleer inschrijving"/>
+                </td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+
+</div>

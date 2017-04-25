@@ -1,0 +1,53 @@
+2016-01-04 10:06:52,174 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-01-04 10:06:52,237 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 39ms)
+2016-01-04 10:06:52,264 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-04 10:06:53,050 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 782ms)
+2016-01-04 10:06:53,113 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-04 10:06:53,132 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 18ms)
+2016-01-04 10:06:53,139 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-04 10:06:53,167 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 27ms)
+2016-01-04 10:06:53,169 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-04 10:06:53,186 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 17ms)
+2016-01-04 10:06:53,211 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-04 10:06:53,229 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 18ms)
+2016-01-04 10:06:53,232 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-04 10:06:53,257 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 24ms)
+2016-01-04 10:06:55,268 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-01-04 10:06:57,143 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-01-04 10:06:57,173 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-04 10:06:57,226 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 53ms)
+2016-01-04 10:06:57,377 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-01-04 10:06:57,527 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 149ms)
+2016-01-04 10:06:58,454 [14] INFO  umbraco.content - [Thread 7] Loading content from disk cache...
+2016-01-04 10:07:24,702 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-04 10:07:24,722 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 19ms)
+2016-01-04 10:07:25,771 [14] INFO  umbraco.presentation.publishingService - [Thread 8] sendremindmails has been called with response: True
+2016-01-04 10:09:00,588 [14] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 12] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.cms.presentation.login.Button1_Click(Object sender, EventArgs e)
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_login_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\eeccee33\e74c00f9\App_Web_login.aspx.5f2dec3.jflwsq4o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-01-04 11:07:26,215 [14] INFO  umbraco.presentation.publishingService - [Thread 101] sendremindmails has been called with response: True
+2016-01-04 12:07:27,011 [14] INFO  umbraco.presentation.publishingService - [Thread 35] sendremindmails has been called with response: True
+2016-01-04 13:07:27,760 [14] INFO  umbraco.presentation.publishingService - [Thread 122] sendremindmails has been called with response: True
+2016-01-04 14:07:28,516 [14] INFO  umbraco.presentation.publishingService - [Thread 50] sendremindmails has been called with response: True
+2016-01-04 15:07:29,315 [14] INFO  umbraco.presentation.publishingService - [Thread 55] sendremindmails has been called with response: True
+2016-01-04 16:07:30,542 [14] INFO  umbraco.presentation.publishingService - [Thread 113] sendremindmails has been called with response: True
+2016-01-04 17:07:31,161 [14] INFO  umbraco.presentation.publishingService - [Thread 35] sendremindmails has been called with response: True
+2016-01-04 18:07:31,698 [14] INFO  umbraco.presentation.publishingService - [Thread 98] sendremindmails has been called with response: True
+2016-01-04 19:07:32,840 [14] INFO  umbraco.presentation.publishingService - [Thread 146] sendremindmails has been called with response: True
+2016-01-04 20:07:33,412 [14] INFO  umbraco.presentation.publishingService - [Thread 75] sendremindmails has been called with response: True
+2016-01-04 21:07:34,393 [14] INFO  umbraco.presentation.publishingService - [Thread 38] sendremindmails has been called with response: True

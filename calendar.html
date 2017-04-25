@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script type="text/javascript" src="Scripts/jquery-1.9.1.js"></script>
+</head>
+<body>
+<script>
+
+    $(function() {
+        $("#datum").datepicker({
+            dateFormat: "dd/mm/yy",
+            maxDate: "+3m",
+            minDate: "-1m",
+            monthNames: [
+                "januari", "februari", "maart", "april", "mei", "juni",
+                "juli", "augustus", "september", "oktober", "november", "december"
+            ],
+            dayNamesMin: ["zo", "ma", "di", "wo", "do", "vr", "za"],
+        }).datepicker("setDate", "0");
+        var now = new Date();
+        var h = now.getHours();
+        var m = now.getMinutes();
+        var timeRounded = ((((m / 105 + .5) | 0) + h) % 24) + ":" + ((((m + 7.5) / 15 | 0) * 15) % 60);
+        $("#tijdstip").val(timeRounded).prop("selected", true);
+
+    });
+</script>
+<h3>Datum</h3>
+<hr/>
+</body>
+</html>

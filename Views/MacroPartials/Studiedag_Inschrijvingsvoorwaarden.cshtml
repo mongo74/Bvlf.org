@@ -1,0 +1,7 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var currentPageid = @Model.MacroParameters["Pageid"];
+    var contentService = ApplicationContext.Current.Services.ContentService;
+    var page = contentService.GetById(Convert.ToInt32(currentPageid));
+}
+@Html.Raw(page.GetValue("std_content"))

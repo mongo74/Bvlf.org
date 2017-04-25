@@ -1,0 +1,21 @@
+﻿@model bvlf_v2.Models.RemindermailsModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    @Model.itemsCount
+</div>
+<div>
+    @Html.Raw(Model.MailingList)
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/LanguageMasterPage.master" AutoEventWireup="true" %>
+
+
+
+<asp:content ContentPlaceHolderId="cpMaincontent" runat="server">
+    <h3> <umbraco:Item field="bc_Title" runat="server" /></h3>
+  <p><umbraco:Item field="bc_teasertext" runat="server" /><p>
+    
+    <umbraco:Macro Alias="StudiedagAllInfo" runat="server"></umbraco:Macro>
+</asp:content>
+
+<asp:content ContentPlaceHolderId="RightColumn" runat="server">
+   <umbraco:Macro ID="Macro1" Alias="GetAboutUsIntro" runat="server"></umbraco:Macro>
+</asp:content>
+    
+    
+<asp:Content ContentPlaceHolderId="cpScripts" runat="server">
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            bvlf.SetupSiteScripts();
+        });
+    </script>
+</asp:Content>

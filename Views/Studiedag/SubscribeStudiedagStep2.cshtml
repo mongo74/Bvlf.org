@@ -1,0 +1,217 @@
+﻿@using bvlf_v2.Controllers
+@using bvlf_v2.Helpers
+@model bvlf_v2.Models.SubscribeToStudieDagStep2ViewModel
+
+@using (Html.BeginUmbracoForm<StudiedagController>("StudiedagSubscribeStep2", FormMethod.Post, new {id = "StudiedagSubscribeStep2"}))
+{
+    <div class="row">
+        <h5>Stap 2 / 2 Kies de ateliers van uw voorkeur</h5>
+    </div>
+    <div class="row">
+        <br/>
+    </div>
+    <!-- Group 1-->
+    <div class="row">
+        <div class="col-md-4 four columns">
+            <label class="rightalign">
+                Ateliers van 9u tot 10.30u
+            </label>
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup1List, false, "Group1", null))
+            @Html.HiddenFor(p => p.SelectedGroup1, new {id = "SelectedGroup1", @class = "session"})
+        </div>
+    </div>
+
+    <!-- Group 2-->
+    <div class="row">
+        <div class="col-md-4 four columns">
+            <label class="rightalign">
+                Ateliers van 9.30u tot 12.30u
+            </label>
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup2List, false, "Group2", null))
+            @Html.HiddenFor(p => p.SelectedGroup2, new {id = "SelectedGroup2", @class = "session"})
+        </div>
+    </div>
+
+    <!-- Group 3-->
+    <div class="row">
+        <div class="col-md-4 four columns">
+            <label class="rightalign">
+                Ateliers van 10u tot 11.30u
+            </label>
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup3List, false, "Group3", null))
+            @Html.HiddenFor(p => p.SelectedGroup3, new {id = "SelectedGroup3", @class = "session"})
+        </div>
+    </div>
+
+    <!-- Group 4-->
+    <div class="row">
+        <div class="col-md-4 four columns">
+            <label class="rightalign">
+                Ateliers van 10u tot 12u
+            </label>
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup4List, false, "Group4", null))
+            @Html.HiddenFor(p => p.SelectedGroup4, new {id = "SelectedGroup4", @class = "session"})
+        </div>
+    </div>
+
+    <!-- Group 5-->
+    <div class="row">
+        <div class="col-md-4 four columns">
+            <label class="rightalign">
+                Ateliers van 11u tot 12.30u
+            </label>
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup5List, false, "Group5", null))
+            @Html.HiddenFor(p => p.SelectedGroup5, new {id = "SelectedGroup5"})
+        </div>
+    </div>
+
+    <!-- Group 6-->
+    <div class="row">
+        <div class="col-md-4 four columns">
+            <label class="rightalign">
+                Ateliers van 13.30u tot 15u
+            </label>
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup6List, false, "Group6", null))
+            @Html.HiddenFor(p => p.SelectedGroup6, new {id = "SelectedGroup6", @class = "session"})
+        </div>
+    </div>
+
+    <!-- Group 7-->
+    <div class="row">
+        <div class="col-md-4 four columns">
+            <label class="rightalign">
+                Ateliers van 13.30u tot 15.30u
+            </label>
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup7List, false, "Group7", null))
+            @Html.HiddenFor(p => p.SelectedGroup7, new {id = "SelectedGroup7", @class = "session"})
+        </div>
+    </div>
+
+    <!-- Group 8-->
+    <div class="row">
+        <div class="col-md-4 four columns">
+            <label class="rightalign">
+                Ateliers van 14u tot 15.30u
+            </label>
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup8List, false, "Group8", null))
+            @Html.HiddenFor(p => p.SelectedGroup8, new {id = "SelectedGroup8", @class = "session"})
+        </div>
+    </div>
+
+    <!-- Group 9-->
+    @*<div class="row">
+        <div class="col-md-4">
+            <label class="rightalign">
+                Ateliers van  11.15u tot 12.45u</label>
+        </div>
+        <div class="col-md-8">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup9List, false, "Group9", null))
+            @Html.HiddenFor(p => p.SelectedGroup9, new { id = "SelectedGroup9", @class = "session" })
+        </div>
+    </div>*@
+
+    <!-- Group 10-->
+    @*<div class="row">
+        <div class="col-md-4">
+            <label class="rightalign">
+                Ateliers van 11.15u tot 12.15u</label>
+        </div>
+        <div class="col-md-8">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup10List, false, "Group10", null))
+            @Html.HiddenFor(p => p.SelectedGroup10, new { id = "SelectedGroup10", @class = "session" })
+        </div>
+    </div>*@
+
+    <!-- Group 11-->
+    @*<div class="row">
+        <div class="col-md-4">
+            <label class="rightalign">
+                Ateliers van 14u00 tot 16u00
+            </label>
+        </div>
+        <div class="col-md-8">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup11List, false, "Group11", null))
+            @Html.HiddenFor(p => p.SelectedGroup11, new { id = "SelectedGroup11", @class = "session" })
+        </div>
+    </div>*@
+
+    <!-- Group 12-->
+    @*<div class="row">
+        <div class="col-md-4">
+            <label class="rightalign">
+                Ateliers van 14u00 tot 15u30
+            </label>
+        </div>
+        <div class="col-md-8">
+            @Html.Raw(Html.CheckBoxListFor(p => p.cbSessionGroup12List, false, "Group12", null))
+            @Html.HiddenFor(p => p.SelectedGroup12, new { id = "SelectedGroup12", @class = "session" })
+        </div>
+    </div>*@
+
+    <div class="row">
+        <div class="col-md-4 twelve columns">
+            <br/>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-4 four columns">
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.CheckBoxFor(p => p.PaidBySchool)
+            @Html.LabelFor(p => p.PaidBySchool)
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 four columns">
+        </div>
+        <div class="col-md-8 eight columns">
+            @Html.CheckBoxFor(p => p.HasReadConditions)
+            @Html.LabelFor(p => p.HasReadConditions)
+        </div>
+    </div>
+    @Html.HiddenFor(p => p.SubscriberId)
+    @Html.HiddenFor(p => p.isUpdate)
+    <div class="row">
+        <div class="col-md-4 four columns">
+            <label class="text-right"></label>
+        </div>
+        <div class="col-md-8 eight columns">
+            <input type="button" value="Versturen" class="button" id="cmdStudiedagConfirmStep2"/>
+            <span id="EvenGeduld"></span>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-3 three columns"></div>
+
+        <div class="col-md-9 nine columns" class="field-validation-error">
+            @Html.ValidationSummary(true)
+        </div>
+
+    </div>
+}
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        bvlf.SetupAjaxFunctionalities();
+    });
+</script>

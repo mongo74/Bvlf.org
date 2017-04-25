@@ -1,0 +1,52 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+
+
+<nav class="nav main-nav navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button><!--//nav-toggle-->
+        </div><!--//navbar-header-->
+
+        <div class="navbar-collapse collapse " id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/" data-target="Home" class="mainNav">
+                        <i class="icon icon-home icon-lg"></i>
+                    </a>
+                </li>
+
+                @if (Model.Content.GetPropertyValue("showInNavigation").ToString() == "True")
+            {
+                if (User.IsInRole("Administrator"))
+                {
+                    foreach (var item in Model.Content.AncestorOrSelf(2).Children
+                        .Where(p => p.GetPropertyValue("showInNavigation").ToString() == "True"))
+                    {
+                            <li>
+                                <a href="@item.Url" class="mainNav">@item.GetPropertyValue("title")</a>
+                            </li>
+                        }
+                    }
+                    else
+                    {
+                        foreach (var item in Model.Content.AncestorOrSelf(2).Children
+                            .Where(p => p.GetPropertyValue("showInNavigation").ToString() == "True")
+                            .Where(m => m.GetPropertyValue("forAdminOnly").ToString() != "True"))
+                        {
+                            <li>
+                                <a href="@item.Url" class="mainNav">@item.GetPropertyValue("titlex")</a>
+                            </li>
+                        }
+                    }
+                }
+
+            </ul>
+        </div>
+    </div>
+</nav>

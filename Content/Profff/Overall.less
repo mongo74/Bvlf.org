@@ -1,0 +1,126 @@
+﻿// Variables
+@navbar-inverse-color:                      #E74C3C;
+@navbar-inverse-bg:                         #800000;
+@navbar-inverse-border:                     @navbar-inverse-bg;
+
+@navbar-inverse-link-color:                 #E74C3C;
+@navbar-inverse-link-hover-color:           #800000;
+@navbar-inverse-link-hover-bg:              #E74C3C;
+@navbar-inverse-link-active-color:          @navbar-inverse-link-hover-bg;
+@navbar-inverse-link-active-bg:             @navbar-inverse-link-hover-bg;
+@navbar-inverse-link-disabled-color:       #ac3624;
+@navbar-inverse-link-disabled-bg:           @navbar-inverse-bg;
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -344px;
+  /* equal to footer height */
+}
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 344px;
+  /* must be the same height as footer */
+}
+.footer {
+  height: 344px;
+  /* must be the same height as footer */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+#Partners{
+    padding-bottom:1.4em;
+}
+
+#Footer{
+       
+}
+
+#FloorMat{
+   
+}
+
+// Form validation
+.field-validation-error { color:red; }
+.input-validation-error { border-color:red;}
+
+//Google Maps
+#map-control{
+    height:320px;
+    width:640px;
+}
+
+
+.Registration {
+    background-color: @navbar-inverse-bg;
+     > li > a {
+      color: @navbar-inverse-link-color !important;
+
+      &:hover,
+      &:focus {
+        color: @navbar-inverse-link-hover-color !important;
+        background-color: @navbar-inverse-link-hover-bg !important;
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-inverse-link-active-color !important;
+        background-color: @navbar-inverse-link-active-bg !important;
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-inverse-link-disabled-color !important;
+        background-color: @navbar-inverse-link-disabled-bg !important;
+      }
+    }
+
+     .open .dropdown-menu {
+         background-color: @navbar-inverse-link-hover-bg;
+        > .dropdown-header {
+          border-color: @navbar-inverse-border !important;
+        }
+        .divider {
+          background-color: @navbar-inverse-bg  !important;
+        }
+        > li > a {
+          color: @navbar-inverse-link-hover-color !important;
+          &:hover,
+          &:focus {
+            color:  @navbar-inverse-link-hover-bg !important;
+            background-color: @navbar-inverse-bg !important;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color:  @navbar-inverse-link-hover-bg !important;
+            background-color: @navbar-inverse-link-hover-bg !important;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-inverse-link-disabled-color !important;
+            background-color: @navbar-inverse-link-hover-bg !important;
+          }
+        }
+      }
+}
+
+
+

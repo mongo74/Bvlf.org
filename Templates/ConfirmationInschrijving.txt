@@ -1,0 +1,17 @@
+﻿Hallo,
+
+We hebben uw inschrijving op www.bvlf.org goed ontvangen. 
+Uw lidmaatschap van BVLF is echter pas definitief na betaling van uw inschrijvingsgeld (20€)
+op rekening BVLF vzw – Gent BE67 2900 5055 3387, met de melding (in de vrije mededeling)
+2015 - {{lidnr}} - {{naam}}
+
+Na de betaling krijgt u van ons een bevestiging. 
+
+Vanaf heden heeft u bij BVLF ook een lidnummer.
+Uw lidnummer: {{lidnr}}
+Dit is uniek en wordt voor de rest van uw lidmaatschap niet gewijzigd. 
+
+
+Met vriendelijke groet,
+
+B.V.L.F vzw

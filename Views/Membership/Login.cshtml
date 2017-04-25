@@ -1,0 +1,52 @@
+﻿@using bvlf_v2.Controllers
+@model bvlf_v2.Models.LoginViewModel
+
+@using (Html.BeginUmbracoForm<MembershipController>("HandleLogin", FormMethod.Post, new {id = "Login"}))
+{
+    <div class="row">
+        <div class="container">
+            <div class="col-md-2"></div>
+            <div class="col-md-2 text-right">@Html.LabelFor(p => p.Login)</div>
+            <div class="col-md-3">
+                @Html.TextBoxFor(p => p.Login, new {@class = "form-control"})
+                @Html.ValidationMessageFor(p => p.Login, null, new {@class = "error"})
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-2"></div>
+            <div class="col-md-2 text-right">@Html.LabelFor(p => p.Password)</div>
+            <div class="col-md-3">
+                @Html.PasswordFor(p => p.Password, new {@class = "form-control"})
+                @Html.ValidationMessageFor(p => p.Password, null, new {@class = "error"})
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-4"></div>
+            <div class="col-md-1">@Html.CheckBoxFor(p => p.RememberMe) </div>
+            <div class="col-md-7">@Html.LabelFor(p => p.RememberMe)</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <input type="submit" value="Login" class="btn btn-default"/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+                @Html.Raw(Model.FailedAttemptsMessage)
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+}

@@ -1,0 +1,585 @@
+2015-01-09 21:56:08,534 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-01-09 21:56:08,548 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2015-01-09 21:56:08,555 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-01-09 21:56:08,679 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 122ms)
+2015-01-09 21:56:08,704 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-01-09 21:56:08,707 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-01-09 21:56:08,709 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-01-09 21:56:08,712 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 3 (took 2ms)
+2015-01-09 21:56:08,712 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-01-09 21:56:08,714 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2015-01-09 21:56:08,718 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-01-09 21:56:08,721 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-01-09 21:56:08,721 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-01-09 21:56:08,724 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2015-01-09 21:56:08,926 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-01-09 21:56:09,187 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-01-09 21:56:09,193 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-01-09 21:56:09,199 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 6ms)
+2015-01-09 21:56:09,259 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-01-09 21:56:09,272 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 12ms)
+2015-01-09 21:56:09,472 [6] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2015-01-09 21:56:38,861 [6] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-01-09 21:56:38,867 [6] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2015-01-09 21:56:40,283 [6] INFO  umbraco.presentation.publishingService - [Thread 14] sendremindmails has been called with response: True
+2015-01-09 21:59:08,558 [6] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-01-09 21:59:08,560 [6] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2015-01-09 22:04:17,553 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.IDataType
+2015-01-09 22:04:17,563 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 9ms)
+2015-01-09 22:04:17,571 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.ITree
+2015-01-09 22:04:17,582 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 11ms)
+2015-01-09 22:04:17,952 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-01-09 22:04:17,958 [6] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 5ms)
+2015-01-09 22:04:46,496 [6] INFO  umbraco.BasePages.BasePage - [Thread 41] User Webmaster (Id: 0) logged in
+2015-01-09 22:04:46,618 [6] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2015-01-09 22:04:46,621 [6] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2015-01-09 22:05:32,540 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,540 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,541 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,541 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,541 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,541 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,546 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,546 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,546 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,546 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,546 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:32,546 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 29] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,123 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,123 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,123 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,123 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,123 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,123 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,123 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,123 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,123 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,124 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,125 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,125 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:36,125 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:57,656 [6] ERROR System.Exception - [Thread 28] ConfirmationMail could not be sent - System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 198.143.164.6:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at bvlf_v2.BOL.Helpers.EmailSender.SendEmail(String from, String fromDisplayName, List`1 to, List`1 cc, String subject, String body, List`1 attachments, Boolean ishtml) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\BOL\Helpers\EmailSender.cs:line 118 - mail.boenwas.net - benoitgevaert@gmail.com
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 198.143.164.6:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at bvlf_v2.BOL.Helpers.EmailSender.SendEmail(String from, String fromDisplayName, List`1 to, List`1 cc, String subject, String body, List`1 attachments, Boolean ishtml) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\BOL\Helpers\EmailSender.cs:line 118
+2015-01-09 22:05:58,472 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,472 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,472 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,472 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,472 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,472 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,472 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,472 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,473 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,473 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,473 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:05:58,473 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:10,414 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 38] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,037 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,037 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,037 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,037 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,037 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,038 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,038 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,038 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,038 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,038 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,038 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:23,038 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 28] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,509 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,509 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,509 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,509 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,510 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,510 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,510 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,510 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,510 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,510 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,510 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,510 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,511 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,511 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,511 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,511 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,511 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,511 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,511 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,511 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,511 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,512 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 23] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:06:31,566 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 23] An unhandled exception occurred
+System.Data.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The SELECT permission was denied on the object 'StudieDagSubscriptions_Sessions', database 'bvlf_org_v2', schema 'dbo'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at bvlf_v2.BOL.Repositories.SubscriptionRepository.GetCurrentSubscriptionsCount() in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\BOL\Repositories\SubscriptionRepository.cs:line 55
+   at bvlf_v2.Controllers.StudiedagController.HandleSubscribeTostudiedagStep1Skip(MemberProfileViewModel model) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Controllers\StudiedagController.cs:line 231
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:09:37,032 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 26] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Male'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,833 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Female'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,834 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Actief'. Exception: System.ArgumentException: No key Actief exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,834 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Slapend'. Exception: System.ArgumentException: No key Slapend exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,834 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Permanent'. Exception: System.ArgumentException: No key Permanent exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,834 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Ingeschreven'. Exception: System.ArgumentException: No key Ingeschreven exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,834 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Betaald'. Exception: System.ArgumentException: No key Betaald exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,834 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Verwijderd'. Exception: System.ArgumentException: No key Verwijderd exists in dictionary
+   at umbraco.cms.businesslogic.Dictionary.DictionaryItem..ctor(String key)
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,834 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Student'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,834 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Teacher'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,834 [6] WARN  Umbraco.Web.Dictionary.DefaultCultureDictionary - [Thread 25] Error returning dictionary item 'Retired'. Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Web.Dictionary.DefaultCultureDictionary.get_Item(String key)
+2015-01-09 22:10:00,836 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 25] An unhandled exception occurred
+System.Data.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The SELECT permission was denied on the object 'StudieDagSubscriptions_Sessions', database 'bvlf_org_v2', schema 'dbo'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at bvlf_v2.BOL.Repositories.SubscriptionRepository.GetCurrentSubscriptionsCount() in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\BOL\Repositories\SubscriptionRepository.cs:line 55
+   at bvlf_v2.Controllers.StudiedagController.HandleSubscribeTostudiedagStep1Skip(MemberProfileViewModel model) in c:\Private\Personal_Projects\bvlf.org\bvlf_v2\Controllers\StudiedagController.cs:line 231
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-01-09 22:55:05,591 [6] INFO  umbraco.BusinessLogic.Log - [Thread 15] Log scrubbed.  Removed all items older than 2014-11-10 22:55:05
+2015-01-09 22:55:05,592 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 15] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-01-09 22:55:09,010 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Determining hash of code files on disk
+2015-01-09 22:55:09,023 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Hash determined (took 5ms)
+2015-01-09 22:55:09,030 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-01-09 22:55:09,119 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 87ms)
+2015-01-09 22:55:09,145 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-01-09 22:55:09,149 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2015-01-09 22:55:09,152 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-01-09 22:55:09,157 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 3 (took 4ms)
+2015-01-09 22:55:09,157 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-01-09 22:55:09,160 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2015-01-09 22:55:09,162 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-01-09 22:55:09,165 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2015-01-09 22:55:09,166 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-01-09 22:55:09,171 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2015-01-09 22:55:09,343 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 26] Initializing Examine and binding to business logic events
+2015-01-09 22:55:09,477 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 26] Adding examine event handlers for index providers: 3
+2015-01-09 22:55:09,485 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of umbraco.interfaces.IApplication
+2015-01-09 22:55:09,490 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2015-01-09 22:55:09,526 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of umbraco.interfaces.ITree
+2015-01-09 22:55:09,540 [14] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 13ms)
+2015-01-09 22:55:39,849 [14] INFO  umbraco.presentation.publishingService - [Thread 15] sendremindmails has been called with response: True
+2015-01-09 23:00:22,422 [14] INFO  umbraco.BusinessLogic.Log - [Thread 49] Log scrubbed.  Removed all items older than 2014-11-10 23:00:22
+2015-01-09 23:00:22,424 [14] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 49] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-01-09 23:00:28,456 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Determining hash of code files on disk
+2015-01-09 23:00:28,470 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Hash determined (took 6ms)
+2015-01-09 23:00:28,476 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-01-09 23:00:28,559 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 82ms)
+2015-01-09 23:00:28,578 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-01-09 23:00:28,581 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-01-09 23:00:28,583 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-01-09 23:00:28,586 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 3 (took 2ms)
+2015-01-09 23:00:28,586 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-01-09 23:00:28,588 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2015-01-09 23:00:28,590 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-01-09 23:00:28,592 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-01-09 23:00:28,592 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-01-09 23:00:28,594 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2015-01-09 23:00:28,749 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 54] Initializing Examine and binding to business logic events
+2015-01-09 23:00:28,874 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 54] Adding examine event handlers for index providers: 3
+2015-01-09 23:00:28,884 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.interfaces.IApplication
+2015-01-09 23:00:28,889 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2015-01-09 23:00:28,924 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.interfaces.ITree
+2015-01-09 23:00:28,938 [8] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 13ms)
+2015-01-09 23:01:01,691 [8] INFO  umbraco.presentation.publishingService - [Thread 45] sendremindmails has been called with response: True
+2015-01-09 23:05:00,973 [8] INFO  umbraco.BusinessLogic.Log - [Thread 38] Log scrubbed.  Removed all items older than 2014-11-10 23:05:00
+2015-01-09 23:05:00,974 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 38] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-01-09 23:05:08,559 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Determining hash of code files on disk
+2015-01-09 23:05:08,572 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Hash determined (took 5ms)
+2015-01-09 23:05:08,579 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-01-09 23:05:08,661 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 80ms)
+2015-01-09 23:05:08,680 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-01-09 23:05:08,683 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-01-09 23:05:08,685 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-01-09 23:05:08,688 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 3 (took 2ms)
+2015-01-09 23:05:08,688 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-01-09 23:05:08,689 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2015-01-09 23:05:08,691 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-01-09 23:05:08,693 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-01-09 23:05:08,693 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-01-09 23:05:08,696 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2015-01-09 23:05:08,850 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 54] Initializing Examine and binding to business logic events
+2015-01-09 23:05:08,995 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 54] Adding examine event handlers for index providers: 3
+2015-01-09 23:05:09,003 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.interfaces.IApplication
+2015-01-09 23:05:09,009 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2015-01-09 23:05:09,069 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.interfaces.ITree
+2015-01-09 23:05:09,081 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 11ms)
+2015-01-09 23:05:39,786 [9] INFO  umbraco.presentation.publishingService - [Thread 38] sendremindmails has been called with response: True
+2015-01-09 23:07:49,704 [9] INFO  umbraco.BusinessLogic.Log - [Thread 30] Log scrubbed.  Removed all items older than 2014-11-10 23:07:49
+2015-01-09 23:07:49,706 [9] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 30] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2015-01-09 23:07:58,471 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Determining hash of code files on disk
+2015-01-09 23:07:58,484 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Hash determined (took 5ms)
+2015-01-09 23:07:58,491 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-01-09 23:07:58,572 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 80ms)
+2015-01-09 23:07:58,592 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-01-09 23:07:58,594 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2015-01-09 23:07:58,597 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-01-09 23:07:58,599 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 3 (took 2ms)
+2015-01-09 23:07:58,599 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-01-09 23:07:58,601 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 1ms)
+2015-01-09 23:07:58,603 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-01-09 23:07:58,605 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2015-01-09 23:07:58,605 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-01-09 23:07:58,608 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2015-01-09 23:07:58,762 [70] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 68] Initializing Examine and binding to business logic events
+2015-01-09 23:07:58,898 [70] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 68] Adding examine event handlers for index providers: 3
+2015-01-09 23:07:58,904 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of umbraco.interfaces.IApplication
+2015-01-09 23:07:58,909 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2015-01-09 23:07:58,943 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of umbraco.interfaces.ITree
+2015-01-09 23:07:58,955 [70] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 11ms)
+2015-01-09 23:08:34,003 [70] INFO  umbraco.presentation.publishingService - [Thread 55] sendremindmails has been called with response: True

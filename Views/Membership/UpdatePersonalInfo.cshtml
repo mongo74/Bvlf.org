@@ -1,0 +1,281 @@
+﻿@using System.Threading
+@using bvlf_v2.Controllers
+@using bvlf_v2.Helpers
+@model bvlf_v2.Models.MemberProfileViewModel
+
+@{
+    HtmlHelper.ClientValidationEnabled = true;
+    HtmlHelper.UnobtrusiveJavaScriptEnabled = true;
+    var culture = Thread.CurrentThread.CurrentCulture.ToString().Substring(0, 2) + ".aspx";
+}
+
+@using (Html.BeginUmbracoForm<MembershipController>("UpdatePersonalInfo", FormMethod.Post, new {id = "UpdatePersonalInfo"}))
+{
+    @Html.HiddenFor(m => m.Id)
+    ;
+    @Html.HiddenFor(m => m.Passwoord)
+    ;
+    @Html.HiddenFor(m => m.PasswoordCompare)
+    ;
+    @Html.HiddenFor(m => m.FipfNr)
+    @Html.HiddenFor(m => m.Lidnr)
+
+    if (Model.MembershipToExpireSoon)
+    {
+        <div class="row">
+            <div class="twelve column" id="MembershipToExpireSoon">
+                <h4 class="warning">
+                    Uw lidmaatschap verstrijkt over <strong>@Model.DaysToExpiration</strong> dag(en). Verleng het meteen
+                    <input type="button" id="cmdExtendMembership" value="Verlengen" class="button warning"/>
+                </h4>
+            </div>
+        </div>
+    }
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right"></div>
+        <div class="col-md-4">@Html.Raw(Html.RadioButtonListFor(p => p.rbGenderOptions, false, new {@class = "floatleftRadioButton"}))</div>
+        <div class="col-md-5">@Html.ValidationMessageFor(p => p.rbGenderOptions)</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.FirstName)</div>
+        <div class="col-md-4">@Html.TextBoxFor(p => p.FirstName, new {@class = "form-control  alphanumeric"}) @Html.ValidationMessageFor(p => p.FirstName)</div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.LastName)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.LastName, new {@class = "form-control  alphanumeric"})
+            @Html.ValidationMessageFor(p => p.LastName)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">
+            <label>Straat + Nr + Bus </label>
+        </div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.Street, new {@class = "form-control  alphanumeric"}) @Html.ValidationMessageFor(p => p.Street)
+        </div>
+        <div class="col-md-1 col-xs-4">
+            @Html.TextBoxFor(p => p.Nr, new {@class = "form-control  alphanumeric", @maxlength = "4"}) @Html.ValidationMessageFor(p => p.Nr)
+        </div>
+        <div class="col-md-1 col-xs-4">
+            @Html.TextBoxFor(p => p.Box, new {@class = "form-control  alphanumeric", @maxlength = "3"})
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">
+            <label>Postcode + Plaats</label>
+        </div>
+        <div class="col-md-1">
+            @Html.TextBoxFor(p => p.Zip, new {@class = "form-control  alphanumeric", @maxlength = "6"}) @Html.ValidationMessageFor(p => p.Zip)
+        </div>
+        <div class="col-md-4 col-xs-8">
+            @Html.TextBoxFor(p => p.Location, new {@class = "form-control  alphanumeric"}) @Html.ValidationMessageFor(p => p.Location)
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.Country)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.Country, new {@class = "form-control "})
+            @Html.ValidationMessageFor(p => p.Country)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.Email)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.Email, new {@class = "form-control   email readonly"})
+            @Html.ValidationMessageFor(p => p.Email)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.Tel)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.Tel, new {@class = "form-control  PhoneNumber"})
+            @Html.ValidationMessageFor(p => p.Tel)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.Mobile)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.Mobile, new {@class = "form-control  PhoneNumber"})
+            @Html.ValidationMessageFor(p => p.Mobile)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.MemberprofileOptions)</div>
+        <div class="col-md-4">
+            @Html.DropDownListFor(p => p.MemberProfile, new SelectList(Model.MemberprofileOptions, "Key", "Value"), new {@class = "form-control"})
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <h4>School 1</h4>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.School1.SchoolNaam)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.School1.SchoolNaam, new {@class = "form-control  alphanumeric"})
+            @Html.ValidationMessageFor(p => p.School1.SchoolNaam)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">
+            <label>Straat + Nr + Bus</label>
+        </div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.School1.Street, new {@class = "form-control  alphanumeric"}) @Html.ValidationMessageFor(p => p.School1.Street)
+        </div>
+        <div class="col-md-1 col-xs-4">
+            @Html.TextBoxFor(p => p.School1.Nr, new {@class = "form-control  alphanumeric", @maxlength = "4"}) @Html.ValidationMessageFor(p => p.School1.Nr)
+        </div>
+        <div class="col-md-1 col-xs-4">
+            @Html.TextBoxFor(p => p.School1.Box, new {@class = "form-control  alphanumeric", @maxlength = "3"})
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">
+            <label>Postcode + Plaats</label>
+        </div>
+        <div class="col-md-1">
+            @Html.TextBoxFor(p => p.School1.Zip, new {@class = "form-control  alphanumeric", @maxlength = "6"}) @Html.ValidationMessageFor(p => p.School1.Zip)
+        </div>
+        <div class="col-md-4 col-xs-8">
+            @Html.TextBoxFor(p => p.School1.Location, new {@class = "form-control  alphanumeric"}) @Html.ValidationMessageFor(p => p.School1.Location)
+        </div>
+        <div class="col-md-4"></div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.School1.Email)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.School1.Email, new {@class = "form-control "})
+            @Html.ValidationMessageFor(p => p.School1.Email)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.School1.Tel)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.School1.Tel, new {@class = "form-control  PhoneNumber"})
+            @Html.ValidationMessageFor(p => p.School1.Tel)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <h4>School 2</h4>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.School2.SchoolNaam)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.School2.SchoolNaam, new {@class = "form-control  alphanumeric"})
+            @Html.ValidationMessageFor(p => p.School2.SchoolNaam)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">
+            <label>Straat + Nr + Bus</label>
+        </div>
+        <div class="col-md-3">
+            @Html.TextBoxFor(p => p.School2.Street, new {@class = "form-control  alphanumeric"}) @Html.ValidationMessageFor(p => p.School2.Street)
+        </div>
+        <div class="col-md-1 col-xs-4">
+            @Html.TextBoxFor(p => p.School2.Nr, new {@class = "form-control  alphanumeric", @maxlength = "4"}) @Html.ValidationMessageFor(p => p.School2.Nr)
+        </div>
+        <div class="col-md-1 col-xs-4">
+            @Html.TextBoxFor(p => p.School2.Box, new {@class = "form-control  alphanumeric", @maxlength = "3"})
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">
+            <label>Postcode + Plaats</label>
+        </div>
+        <div class="col-md-1">
+            @Html.TextBoxFor(p => p.School2.Zip, new {@class = "form-control  alphanumeric", @maxlength = "6"}) @Html.ValidationMessageFor(p => p.School2.Zip)
+        </div>
+        <div class="col-md-4 col-xs-8">
+            @Html.TextBoxFor(p => p.School2.Location, new {@class = "form-control  alphanumeric"}) @Html.ValidationMessageFor(p => p.School2.Location)
+        </div>
+
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.School2.Email)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.School2.Email, new {@class = "form-control "})
+            @Html.ValidationMessageFor(p => p.School2.Email)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-right">@Html.LabelFor(p => p.School2.Tel)</div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(p => p.School2.Tel, new {@class = "form-control  PhoneNumber"})
+            @Html.ValidationMessageFor(p => p.School2.Tel)
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+
+            <input type="button" id="cmdCancelUpdate" formtarget="@culture" value="Annuleren" class="btn btn-default"/>
+            <input type="submit" value="Update" class="btn btn-default"/>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+}

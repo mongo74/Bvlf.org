@@ -1,0 +1,62 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{
+    var currentPageId = Convert.ToInt32(@Model.MacroParameters["Pageid"]);
+    var contentService = ApplicationContext.Current.Services.ContentService;
+    var children = contentService.GetChildren(currentPageId).Where(p => p.Published);
+    var page = contentService.GetById(currentPageId);
+}
+
+<div class="row">
+    <div class="col-md-10">
+        @Html.Raw(page.GetValue("std_content"))
+    </div>
+    <div class="col-md-2">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-10">
+        <p>
+            <strong>Klik op de ateliers voor een uitgebreidere beschrijving</strong>
+        </p>
+    </div>
+    <div class="col-md-2">
+        <input type="button" value="Toon kalender" id="ShowCalendar"/>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12" id="calendar">
+    </div>
+</div>
+
+<div class="row clearfix">
+    <div class="col-md-12" id="Loading">
+    </div>
+</div>
+
+
+@foreach (var atelier in children)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <h6>
+                Atelier @atelier.GetValue("at_Nummer") - @atelier.GetValue("at_Type")
+            </h6>
+            <h6>
+                <em>@atelier.GetValue("at_Title") </em>
+            </h6>
+            <p class="LectorDescription">
+                <strong>@atelier.GetValue("at_Speaker") </strong>
+                <br/>
+                <span>@atelier.GetValue("at_SpeakerInfo")</span>
+            </p>
+            <p>
+                <strong>@atelier.GetValue("at_Doelgroep")</strong><br/>
+                Max <strong>@atelier.GetValue("at_Maxplaces") </strong>plaatsen -
+                @String.Format("{0:HH mm}", @atelier.GetValue("at_StartTime")) h - @String.Format("{0:HH mm}", @atelier.GetValue("at_EndTime")) h
+                - <a rel="@atelier.Id" class="AtelierDetail">Details</a>
+            </p>
+        </div>
+    </div>
+}

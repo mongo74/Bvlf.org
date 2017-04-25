@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="/css/bvlf.css">
+    <link rel="stylesheet" href="/css/Modal.css">
+    <link rel="stylesheet" href="/css/fullcalendar.min.css">
+
+    <script type="text/javascript" src="/Scripts/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/Scripts/moment.min.js"></script>
+    <script type="text/javascript" src="/Scripts/fullcalendar.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $("#calendar").fullCalendar({
+                weekends: true,
+                defaultDate: "2014-11-29",
+                defaultView: "agendaDay",
+                firstHour: 8,
+                allDaySlot: false,
+                axisFormat: "HH:mm",
+                events: {
+                    url: "/Umbraco/surface/Studiedag/GetSessionsForCalendar",
+                    cache: true
+                },
+                eventClick: function(event) {
+                    if (event.id) {
+                        //bvlf._getSessionDetail(event.id);
+                    }
+                }
+            });
+
+        });
+
+
+    </script>
+
+
+</head>
+<body>
+
+
+<h4>Site officiel du tourisme en Bourgogne</h4>
+<p>
+    <a href="http://>www.bourgogne-tourisme.com" target="_blank">www.bourgogne-tourisme.com</a>
+</p>
+
+
+<h4>Location de vélos</h4>
+<p>
+Beaune Vélo Tour (vélos assistance électrique et VTT)<br/>
+<a href="http://www.beaunevelotour.fr" target="_blank">www.beaunevelotour.fr</a>
+<p/>
+<p>
+    Bourgogne escapades: <br/>pour les séjours vélos «clé en mains» / «sur mesure» incluant transport bagages<br/>
+    <a href="http://www.bourgogne-escapades.com/sejour-a-velo" target="_blank"> www.bourgogne-escapades.com/sejour-a-velo</a>
+</p>
+<p>
+    Bourgogne rando:<br/> pour le transport des bagages <br/>
+    <a href="http://www.bourgognerando.com/transport-bagages.html" target="_blank">www.bourgognerando.com/transport-bagages.html</a>
+</p>
+<p>
+<h4>Dégustation de vins</h4>
+<ul>
+    <li>
+        <strong>
+            À Beaune
+        </strong>: les caves <br/>
+        www.drouhin.com
+    </li>
+    <li>
+        <strong>À Santenay</strong> chambre d’hôtes et dégustation chez Prosper Maufoux – Maison des grands crus
+        <br/>www.prosper-maufoux.com
+    </li>
+</ul>
+<p><strong>Châteaux à visiter</strong> <br/>- Château XVIIe siècle de Cormatin <br/>www.chateaudecormatin.com<br/> - Château de Pierreclos de style médiéval, également chambre d’hôtes et dégustation de vins<br/>www.chateaudepierreclos.com/domaine/
+</p>
+<p><strong>Restaurants</strong> <br/>- à Beaune: Maison du Colombier <br/>www.maisonducolombier.com/<br/> - à Charnay-lès-Mâcon: Café de la Gare <br/>www.cafedelagare71.fr
+</p>
+<p><strong>Hôtels tranquilles</strong> <br/>- Hôtel Adélie à Montagny-lès-Beaune <br/>www.hoteladelie.com<br/> - Hôtel Le Dracy à Dracy-le-Fort <br/>www.ledracy.com/<br/> - l’hôtel De La Barge à Crèches-sur-Saône <br/>www.chateaudelabarge.fr/fr/index.php
+</p>
+<p>
+    <strong>Guide </strong>
+</p>
+<p>Michel Bonduelle, Le tour de Bourgogne à vélo par les Voies Vertes, 24 étapes 32 cartes, éditions Ouest- France</p>
+
+</body>
+</html>

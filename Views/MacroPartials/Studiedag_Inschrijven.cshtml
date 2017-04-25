@@ -1,0 +1,60 @@
+@using System.Threading
+@using umbraco.cms.businesslogic.member
+@using umbraco.NodeFactory
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var page = Model.Content.AncestorOrSelf(2);
+    var lang = Thread.CurrentThread.CurrentCulture.ToString().Substring(0, 2);
+    var registerUrl = new Node(Convert.ToInt32(page.GetPropertyValue("registerLink")));
+    var signInUrl = new Node(Convert.ToInt32(page.GetPropertyValue("signinLink")));
+    var loginUrl = UmbracoContext.Current.HttpContext.Request.RawUrl;
+    var currentUrl = string.Format("{0}#Tabs-1221", loginUrl);
+
+    var NoMember = Request.QueryString["NoMember"] != null ? Request.QueryString["NoMember"] : "false";
+}
+
+
+@if (!User.Identity.IsAuthenticated && NoMember.ToLower() == "false")
+{
+    <div class="row">
+        <div class="col-md-12">
+            &nbsp;
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <p>
+                <strong>Ik ben al lid</strong> -
+                <a href="@signInUrl.Url?ReturnUrl=@loginUrl">inloggen</a>
+            </p>
+            <p>
+                <strong>
+                    Ik ben nog geen lid en wens lid te worden van B.V.L.F. vzw
+                </strong>
+                <br/>
+                <a href="@registerUrl.Url">Registreer u </a>
+            </p>
+
+            <p>
+                <strong>
+                    Ik ben geen lid van B.V.L.F. vzw maar wens me wél in te schrijven voor de komende studiedag
+                </strong>
+                <br/>
+                <a href="?NoMember=true">Ik schrijf me in voor de studiedag</a>
+            </p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+}
+else if (!User.Identity.IsAuthenticated && NoMember.ToLower() == "true")
+{
+    @Html.Action("SubscribeToStudieDag", "Studiedag", new {id = -1})
+}
+else
+{
+    var mymemberid = Member.GetCurrentMember().Id;
+    @Html.Action("SubscribeToStudieDag", "Studiedag", new {id = @mymemberid})
+}

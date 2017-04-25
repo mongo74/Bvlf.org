@@ -1,0 +1,127 @@
+﻿@using umbraco.NodeFactory
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+
+    var currentYear = Model.Content.GetPropertyValue("huidigeJaargang").ToString();
+    var parentNode = Umbraco.TypedContent(2085);
+    var articles = parentNode.Descendants().Where(x => x.Level == 5);
+    var articlesOfThisYear = articles.Where(p => p.GetProperty("jaargang").ToString() == currentYear);
+    var articlesOfArchive = articles.Where(p => p.GetProperty("jaargang").ToString() != currentYear);
+
+    var targetItemId = Model.Content.GetPropertyValue("InThisEdition").ToString();
+    var targetItem = !string.IsNullOrEmpty(targetItemId) ? new Node(Convert.ToInt32(targetItemId)) : new Node(0);
+
+    var nodes = targetItem.Children;
+
+    var siblings = targetItem.GetSiblingNodes();
+    var siblingsChildren = new List<Node>();
+    foreach (var sibling in siblings)
+    {
+        siblingsChildren.AddRange(sibling.Children.Cast<Node>());
+    }
+}
+
+
+<div class="row">
+
+    <div class="col-md-12">
+
+        <div id="Loading"></div>
+
+        @if (targetItemId != string.Empty)
+        {
+            if (targetItem.Children != null && targetItem.Children.Count > 0)
+            {
+                <h3>
+
+                    In het laatste nummer
+
+                </h3>
+                <ul>
+
+                    @foreach (Node item in nodes)
+                    {
+                        @GetPropertyValues(item)
+                    }
+                </ul>
+            }
+        }
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-12">
+
+        <h4>In vorige nummers van deze jaargang</h4>
+
+        <ul>
+
+            @foreach (var item in siblingsChildren)
+            {
+                if (item.GetProperty("jaargang").ToString() == currentYear)
+                {
+                    @GetPropertyValues(item)
+                }
+            }
+        </ul>
+
+    </div>
+
+</div>
+
+
+<div class="row">
+
+    <div class="col-md-12">
+
+        <h3>Uit het archief</h3>
+
+        @{
+
+            var archiveList = siblingsChildren.OrderByDescending(item => item.GetProperty("createDate"));
+        }
+        <ul>
+
+            @foreach (var item in siblingsChildren)
+            {
+                if (item.GetProperty("jaargang").ToString() != currentYear)
+                {
+                    @GetPropertyValues(item)
+                }
+            }
+        </ul>
+
+    </div>
+
+
+</div>
+
+
+@helper GetPropertyValues(Node item)
+{
+    var type = @item.GetProperty("type").ToString();
+    var image = string.Format("/Media/ProfffIcons/{0}.gif", type.ToLower());
+
+    <li class="AdditionalContent">
+
+        <img src="@image" title="@type" alt="@type" class="AdditionalIcon"/>
+
+        <a data-details="@item.Id" class="showDetails" href="#">
+
+            <div>
+
+                <h6 itemprop="name">@item.GetProperty("artikelTitel").Value</h6>
+
+                <p>
+
+                    @item.GetProperty("jaargang").Value - @item.GetProperty("nummer").Value
+                </p>
+
+            </div>
+
+        </a>
+
+    </li>
+}

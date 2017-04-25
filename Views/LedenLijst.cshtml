@@ -1,0 +1,24 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "MemberSectionLayoutPage.cshtml";
+}
+
+@Umbraco.RenderMacro("MemberList")
+
+
+@section cpFooter
+{}
+
+@section cpScripts
+{
+    @*<script type='text/javascript' src="/scripts/BvlfMemberSearch.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function () {
+              BvlfMemberSearch.SetupSearch();
+          });
+    </script>*@
+
+
+    <script type="text/javascript" src="/Scripts/Membership.js"></script>
+
+}

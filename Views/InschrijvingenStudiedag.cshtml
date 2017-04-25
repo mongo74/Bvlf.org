@@ -1,0 +1,21 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "MemberSectionLayoutPage.cshtml";
+}
+
+@Umbraco.RenderMacro("InschrijvingenStudiedag")
+
+@section cpFooter
+{}
+
+
+@section cpScripts
+{
+    <script type="text/javascript" src="/scripts/bvlf.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            bvlf.SetupInschrijvingenSearch();
+        });
+    </script>
+
+}
