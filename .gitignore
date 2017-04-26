@@ -223,3 +223,5 @@ App_Data/TEMP/PluginCache/umbraco-plugins.BG-PORTABLE.list
 #Folders to ignore
 App_Data/Logs/
 App_Data/TEMP/
+/website/App_Data/Logs/UmbracoTraceLog.txt
+/website/App_Data/TEMP
