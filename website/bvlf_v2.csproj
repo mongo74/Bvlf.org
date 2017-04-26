@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9EB49B59-D9C9-40FA-A23A-44CF2716A173}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bvlf_v2</RootNamespace>
+    <AssemblyName>bvlf_v2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="businesslogic, Version=1.0.5021.24868, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\businesslogic.dll</HintPath>
+    </Reference>
+    <Reference Include="cms, Version=1.0.5021.24868, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\cms.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.1.0\lib\net40\EPPlus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="interfaces, Version=1.0.5021.24867, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20715.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco, Version=1.0.5021.24870, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\umbraco.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Core, Version=1.0.5021.24867, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Umbraco.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.DataLayer, Version=1.0.5021.24868, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\umbraco.DataLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\umbraco.editorControls.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.MacroEngines, Version=1.0.5021.24871, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\umbraco.MacroEngines.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.macroRenderings, Version=1.0.5021.24869, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\umbraco.macroRenderings.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.providers, Version=1.0.5021.24869, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\umbraco.providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Web.UI, Version=1.0.5021.24872, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Umbraco.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="umbraco.XmlSerializers, Version=1.0.5021.24870, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\umbraco.XmlSerializers.dll</HintPath>
+    </Reference>
+    <Reference Include="UmbracoExamine, Version=0.6.0.24869, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\UmbracoExamine.dll</HintPath>
+    </Reference>
+    <Reference Include="UrlRewritingNet.UrlRewriter, Version=2.0.60829.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\UrlRewritingNet.UrlRewriter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BOL\Data\bvlf_v2.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bvlf_v2.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BOL\Data\bvlf_v2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bvlf_v2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BOL\Data\bvlf_v2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bvlf_v2.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="BOL\Data\cmsContentXml.cs">
+      <DependentUpon>bvlf_v2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BOL\Data\cmsMember.cs">
+      <DependentUpon>bvlf_v2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BOL\Data\StudieDagSubscription.cs">
+      <DependentUpon>bvlf_v2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BOL\Data\StudieDagSubscriptions_Sessions.cs">
+      <DependentUpon>bvlf_v2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BOL\Helpers\EmailSender.cs" />
+    <Compile Include="BOL\Helpers\TemplateRenderer.cs" />
+    <Compile Include="BOL\Objects\cmsMemberXml.cs" />
+    <Compile Include="BOL\Objects\Member.cs" />
+    <Compile Include="BOL\Repositories\MembershipRepository.cs" />
+    <Compile Include="BOL\Repositories\SubscriptionRepository.cs" />
+    <Compile Include="BOL\Settings.cs" />
+    <Compile Include="Controllers\AjaxController.cs" />
+    <Compile Include="Controllers\MemberShipApiController.cs" />
+    <Compile Include="Controllers\MembershipSurfaceController.cs" />
+    <Compile Include="Models\RemindermailsModel.cs" />
+    <Compile Include="Controllers\StudiedagController.cs" />
+    <Compile Include="Helpers\ExcellWriterHelper.cs" />
+    <Compile Include="Helpers\SerializationTools.cs" />
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberProfileListForExortViewModel.cs" />
+    <Compile Include="Models\StudiedagInschrijvingenLijstViewModel.cs" />
+    <Compile Include="Models\StudiedagInschrijvingenSearchModel.cs" />
+    <Compile Include="Models\StudiedagInschrijvingforExportViewModel.cs" />
+    <Compile Include="Models\StudiedagSubscriptionForExportViewModel.cs" />
+    <Compile Include="Models\StudiedagSubscriptionForListViewModel.cs" />
+    <Compile Include="Models\StudiedagSubscriptionViewModel.cs" />
+    <Compile Include="Models\SubscribeToStudieDagStep1ViewModel.cs" />
+    <Compile Include="Helpers\CheckBoxListExtension.cs" />
+    <Compile Include="Helpers\CheckBoxListItem.cs" />
+    <Compile Include="Helpers\CheckBoxListViewModel.cs" />
+    <Compile Include="Helpers\CustomTagBuilder.cs" />
+    <Compile Include="Helpers\RadioButtonListItem.cs" />
+    <Compile Include="Helpers\RadioButtonListViewModel.cs" />
+    <Compile Include="Models\ChangePasswordViewModel.cs" />
+    <Compile Include="Models\ForgotPasswordViewModel.cs" />
+    <Compile Include="Models\MemberProfileForAdminUpdateViewModel.cs" />
+    <Compile Include="Models\MemberProfileForListViewModel.cs" />
+    <Compile Include="Models\MemberProfilesListViewModel.cs" />
+    <Compile Include="Models\MemberSearchViewModel.cs" />
+    <Compile Include="Models\SubscribeToStudieDagStep2ViewModel.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\CustomApplicationEventHandler.cs" />
+    <Compile Include="Helpers\EnumExtentions.cs" />
+    <Compile Include="Helpers\RadioButtonListExtension.cs" />
+    <Compile Include="Helpers\CustomListItem.cs" />
+    <Compile Include="Helpers\SessionForJson.cs" />
+    <Compile Include="Helpers\DetailSessionForJson.cs" />
+    <Compile Include="Helpers\ViewModelHelper.cs" />
+    <Compile Include="Models\LoginViewModel.cs" />
+    <Compile Include="Models\MemberProfileViewModel.cs" />
+    <Compile Include="Models\SchoolProfileViewModel.cs" />
+    <Compile Include="Models\SubscribeToStudieDagStep3ViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="calendar.html" />
+    <Content Include="Config\Splashes\booting.aspx" />
+    <Content Include="Config\Splashes\noNodes.aspx" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\fonts.css" />
+    <Content Include="Content\fonts\OpenSans-Bold-webfont.svg" />
+    <Content Include="Content\fonts\OpenSans-BoldItalic-webfont.svg" />
+    <Content Include="Content\fonts\OpenSans-ExtraBold-webfont.svg" />
+    <Content Include="Content\fonts\OpenSans-ExtraBoldItalic-webfont.svg" />
+    <Content Include="Content\fonts\OpenSans-Italic-webfont.svg" />
+    <Content Include="Content\fonts\OpenSans-Light-webfont.svg" />
+    <Content Include="Content\fonts\OpenSans-LightItalic-webfont.svg" />
+    <Content Include="Content\fonts\OpenSans-Regular-webfont.svg" />
+    <Content Include="Content\fonts\OpenSans-Semibold-webfont.svg" />
+    <Content Include="Content\fonts\OpenSans-SemiboldItalic-webfont.svg" />
+    <Content Include="Content\fonts\SAP-icons.svg" />
+    <Content Include="Content\Profff.css" />
+    <Content Include="Content\Profff.min.css">
+      <DependentUpon>Profff.css</DependentUpon>
+    </Content>
+    <Content Include="Content\SAP-icons.css" />
+    <Content Include="Content\test.css" />
+    <Content Include="default.aspx" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="images\profff-2017_120.png" />
+    <Content Include="images\profff-2017_240.png" />
+    <Content Include="images\profff-2017_80.png" />
+    <Content Include="index.aspx" />
+    <Content Include="Media\255\logocine-web.jpg" />
+    <Content Include="Media\255\logocine-web_thumb.jpg" />
+    <Content Include="Media\background.jpg" />
+    <Content Include="Media\bvlf2010.png" />
+    <Content Include="Media\bvlf2010_100.png" />
+    <Content Include="Media\kolibri25b25.gif" />
+    <Content Include="Media\ProfffIcons\coupdecoeur.gif" />
+    <Content Include="Media\ProfffIcons\entretien.gif" />
+    <Content Include="Media\ProfffIcons\lupoureux.gif" />
+    <Content Include="Media\ProfffIcons\outils.gif" />
+    <Content Include="Media\progress.gif" />
+    <Content Include="Media\progress_s.gif" />
+    <Content Include="Media\Umbraco_25px.png" />
+    <Content Include="Media\Volzet.png" />
+    <Content Include="Member.xml" />
+    <Content Include="Scripts\AdminScripts.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bvlf.js" />
+    <Content Include="Scripts\BvlfMemberSearch.js" />
+    <Content Include="Scripts\fullcalendar.js" />
+    <Content Include="Scripts\fullcalendar.min.js" />
+    <Content Include="Scripts\gcal.js" />
+    <Content Include="Content\bootstrap\variables.less" />
+    <Content Include="Content\bootstrap\navbar.less" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Config\newsletterStudio.config" />
+    <Content Include="Content\bootstrap\wells.less" />
+    <Content Include="Content\bootstrap\utilities.less" />
+    <Content Include="Content\bootstrap\type.less" />
+    <Content Include="Content\bootstrap\tooltip.less" />
+    <Content Include="Content\bootstrap\thumbnails.less" />
+    <Content Include="Content\bootstrap\theme.less" />
+    <Content Include="Content\bootstrap\tables.less" />
+    <Content Include="Content\bootstrap\scaffolding.less" />
+    <Content Include="Content\bootstrap\responsive-utilities.less" />
+    <Content Include="Content\bootstrap\responsive-embed.less" />
+    <Content Include="Content\bootstrap\progress-bars.less" />
+    <Content Include="Content\bootstrap\print.less" />
+    <Content Include="Content\bootstrap\popovers.less" />
+    <Content Include="Content\bootstrap\panels.less" />
+    <Content Include="Content\bootstrap\pagination.less" />
+    <Content Include="Content\bootstrap\pager.less" />
+    <Content Include="Content\bootstrap\normalize.less" />
+    <Content Include="Content\bootstrap\navs.less" />
+    <Content Include="Content\bootstrap\modals.less" />
+    <Content Include="Content\bootstrap\mixins\vendor-prefixes.less" />
+    <Content Include="Content\bootstrap\mixins\text-overflow.less" />
+    <Content Include="Content\bootstrap\mixins\text-emphasis.less" />
+    <Content Include="Content\bootstrap\mixins\table-row.less" />
+    <Content Include="Content\bootstrap\mixins\tab-focus.less" />
+    <Content Include="Content\bootstrap\mixins\size.less" />
+    <Content Include="Content\bootstrap\mixins\responsive-visibility.less" />
+    <Content Include="Content\bootstrap\mixins\resize.less" />
+    <Content Include="Content\bootstrap\mixins\reset-text.less" />
+    <Content Include="Content\bootstrap\mixins\reset-filter.less" />
+    <Content Include="Content\bootstrap\mixins\progress-bar.less" />
+    <Content Include="Content\bootstrap\mixins\panels.less" />
+    <Content Include="Content\bootstrap\mixins\pagination.less" />
+    <Content Include="Content\bootstrap\mixins\opacity.less" />
+    <Content Include="Content\bootstrap\mixins\nav-vertical-align.less" />
+    <Content Include="Content\bootstrap\mixins\nav-divider.less" />
+    <Content Include="Content\bootstrap\mixins\list-group.less" />
+    <Content Include="Content\bootstrap\mixins\labels.less" />
+    <Content Include="Content\bootstrap\mixins\image.less" />
+    <Content Include="Content\bootstrap\mixins\hide-text.less" />
+    <Content Include="Content\bootstrap\mixins\grid.less" />
+    <Content Include="Content\bootstrap\mixins\grid-framework.less" />
+    <Content Include="Content\bootstrap\mixins\gradients.less" />
+    <Content Include="Content\bootstrap\mixins\forms.less" />
+    <Content Include="Content\bootstrap\mixins\clearfix.less" />
+    <Content Include="Content\bootstrap\mixins\center-block.less" />
+    <Content Include="Content\bootstrap\mixins\buttons.less" />
+    <Content Include="Content\bootstrap\mixins\border-radius.less" />
+    <Content Include="Content\bootstrap\mixins\background-variant.less" />
+    <Content Include="Content\bootstrap\mixins\alerts.less" />
+    <Content Include="Content\bootstrap\mixins.less" />
+    <Content Include="Content\bootstrap\media.less" />
+    <Content Include="Content\bootstrap\list-group.less" />
+    <Content Include="Content\bootstrap\labels.less" />
+    <Content Include="Content\bootstrap\jumbotron.less" />
+    <Content Include="Content\bootstrap\input-groups.less" />
+    <Content Include="Content\bootstrap\grid.less" />
+    <Content Include="Content\bootstrap\glyphicons.less" />
+    <Content Include="Content\bootstrap\forms.less" />
+    <Content Include="Content\bootstrap\dropdowns.less" />
+    <Content Include="Content\bootstrap\component-animations.less" />
+    <Content Include="Content\bootstrap\code.less" />
+    <Content Include="Content\bootstrap\close.less" />
+    <Content Include="Content\bootstrap\carousel.less" />
+    <Content Include="Content\bootstrap\buttons.less" />
+    <Content Include="Content\bootstrap\button-groups.less" />
+    <Content Include="Content\bootstrap\breadcrumbs.less" />
+    <Content Include="Content\bootstrap\bootstrap.less" />
+    <Content Include="Content\bootstrap\badges.less" />
+    <Content Include="Content\bootstrap\alerts.less" />
+    <Content Include="Scripts\gmap3.min.js" />
+    <Content Include="Scripts\gMaps.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\jquery.twbsPagination.js" />
+    <Content Include="Scripts\Membership.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\Profff.js" />
+    <Content Include="Scripts\scripts.js" />
+    <Content Include="Scripts\temp.js" />
+    <Content Include="Templates\ConfirmationRenewInschrijving.txt" />
+    <Content Include="Templates\ConfirmationInschrijving.txt" />
+    <Content Include="Templates\ConfirmationPaymentStudiedag.txt" />
+    <Content Include="Templates\ConfirmationStudiedag.txt" />
+    <Content Include="Templates\ConfirmationPaymentMembership.txt" />
+    <Content Include="test.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\ChangeUserNames.cshtml" />
+    <Content Include="Views\Partials\_ProfffHeader.cshtml" />
+    <Content Include="Views\Partials\_Footer.cshtml" />
+    <Content Include="Views\MacroPartials\FooterNavigation.cshtml" />
+    <Content Include="Views\ContactUs.cshtml" />
+    <Content Include="Views\MacroPartials\Studiedag_Locatie.cshtml" />
+    <Content Include="Content\fonts\OpenSans-Bold-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-Bold-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-Bold-webfont.woff" />
+    <Content Include="Content\fonts\OpenSans-BoldItalic-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-BoldItalic-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-BoldItalic-webfont.woff" />
+    <Content Include="Content\fonts\OpenSans-ExtraBold-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-ExtraBold-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-ExtraBold-webfont.woff" />
+    <Content Include="Content\fonts\OpenSans-ExtraBoldItalic-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-ExtraBoldItalic-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-ExtraBoldItalic-webfont.woff" />
+    <Content Include="Content\fonts\OpenSans-Italic-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-Italic-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-Italic-webfont.woff" />
+    <Content Include="Content\fonts\OpenSans-Light-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-Light-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-Light-webfont.woff" />
+    <Content Include="Content\fonts\OpenSans-LightItalic-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-LightItalic-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-LightItalic-webfont.woff" />
+    <Content Include="Content\fonts\OpenSans-Regular-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-Regular-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-Regular-webfont.woff" />
+    <Content Include="Content\fonts\OpenSans-Semibold-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-Semibold-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-Semibold-webfont.woff" />
+    <Content Include="Content\fonts\OpenSans-SemiboldItalic-webfont.eot" />
+    <Content Include="Content\fonts\OpenSans-SemiboldItalic-webfont.ttf" />
+    <Content Include="Content\fonts\OpenSans-SemiboldItalic-webfont.woff" />
+    <Content Include="Content\fonts\SAP-icons.eot" />
+    <Content Include="Content\fonts\SAP-icons.ttf" />
+    <Content Include="Content\fonts\SAP-icons.woff" />
+    <Content Include="Content\Profff\Desktop.less" />
+    <Content Include="Content\Profff\Mobile.less" />
+    <Content Include="Content\Profff\Overall.less" />
+    <Content Include="Content\Profff\Profff.less" />
+    <Content Include="Views\Partials\_Profff_LoggedIn_Header.cshtml" />
+    <Content Include="Views\Partials\_PublicHeader.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="MacroScripts\" />
+    <Folder Include="Views\_Page_Views_MemberSectionLayoutPage_cshtml\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ChangePassword.cshtml" />
+    <Content Include="Views\InschrijvingenStudiedag.cshtml" />
+    <Content Include="Views\LanguageMainPage.cshtml" />
+    <Content Include="Views\LanguageMasterPage.cshtml" />
+    <Content Include="Views\LedenLijst.cshtml" />
+    <Content Include="Views\MacroPartials\GetAboutUsIntro.cshtml" />
+    <Content Include="Views\MacroPartials\GetLatestNews.cshtml" />
+    <Content Include="Views\MacroPartials\GoToLanguageRoot.cshtml" />
+    <Content Include="Views\MacroPartials\HomePageTeasers.cshtml" />
+    <Content Include="Views\MacroPartials\LangChoice.cshtml" />
+    <Content Include="Views\MacroPartials\ListAllNews.cshtml" />
+    <Content Include="Views\MacroPartials\MainNavigation.cshtml" />
+    <Content Include="Views\MacroPartials\StudiedagAllInfo.cshtml" />
+    <Content Include="Views\MemberSectionLayoutPage.cshtml" />
+    <Content Include="Views\MyPersonalData.cshtml" />
+    <Content Include="Views\NewsListPage.cshtml" />
+    <Content Include="Views\Register.cshtml" />
+    <Content Include="Views\Signin.cshtml" />
+    <Content Include="Views\SiteRootPage.cshtml" />
+    <Content Include="Views\StudiedagBaseContent.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\404handlers.config" />
+    <Content Include="Config\applications.config" />
+    <Content Include="Config\BaseRestExtensions.config" />
+    <Content Include="Config\ClientDependency.config" />
+    <Content Include="Config\Dashboard.config" />
+    <Content Include="Config\EmbeddedMedia.config" />
+    <Content Include="Config\ExamineIndex.config" />
+    <Content Include="Config\ExamineSettings.config" />
+    <Content Include="Config\feedProxy.config" />
+    <Content Include="Config\FileSystemProviders.config" />
+    <Content Include="Config\log4net.config" />
+    <Content Include="Config\metablogConfig.config" />
+    <Content Include="Config\restExtensions.config" />
+    <Content Include="Config\scripting.config" />
+    <Content Include="Config\Skinning.config" />
+    <Content Include="Config\tinyMceConfig.config" />
+    <Content Include="Config\trees.config" />
+    <Content Include="Config\umbracoSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\UrlRewriting.config" />
+    <Content Include="Config\xsltExtensions.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\Login.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\LoginStatus.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Membership\Login.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\LogOut.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\Register.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Membership\SubscribeForm.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\EditorTemplates\Object.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\UpdatePersonalInfo.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Membership\UpdatePersonalInfo.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\MyBvlfNavigation.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\ChangePW.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Membership\ChangePW.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\AjaxViews\MemberList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\MemberList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Membership\MemberSearch.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\AjaxViews\MemberDetails.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\ForgotPassword.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Membership\ForgotPassword.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ForgotPasword.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\Studiedag_info.cshtml" />
+    <Content Include="Views\MacroPartials\Studiedag_Inschrijvingsvoorwaarden.cshtml" />
+    <Content Include="Views\MacroPartials\Studiedag_programma.cshtml" />
+    <Content Include="Views\MacroPartials\Studiedag_Inschrijven.cshtml" />
+    <Content Include="Views\Studiedag\SubscribeStudiedagStep1.cshtml" />
+    <Content Include="Views\Studiedag\SubscribeStudiedagStep2.cshtml" />
+    <Content Include="Views\Studiedag\SubscribeStudiedagStep3.cshtml" />
+    <Content Include="Views\MacroPartials\InschrijvingenStudiedag.cshtml" />
+    <Content Include="Views\Studiedag\InschrijvingenSearch.cshtml" />
+    <Content Include="Views\Shared\AjaxViews\InschrijvingenList.cshtml" />
+    <Content Include="Views\BasicContentPage.cshtml" />
+    <Content Include="Views\NewsItem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="BOL\Data\bvlf_v2.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>bvlf_v2.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="BOL\Data\bvlf_v2.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>bvlf_v2.edmx</DependentUpon>
+      <LastGenOutput>bvlf_v2.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="BOL\Data\bvlf_v2.edmx.diagram">
+      <DependentUpon>bvlf_v2.edmx</DependentUpon>
+    </Content>
+    <Content Include="BOL\Data\bvlf_v2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>bvlf_v2.edmx</DependentUpon>
+      <LastGenOutput>bvlf_v2.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\ContactUsInfo_Overall.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\ContactUsInfo_ContactPage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MemberShipApi\ReminderMailsView.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MemberShipApi\MembersRemoved.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ProFFF_RootPage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\ProFFF-AdditionalMaterial.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\temp.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\Sponsors.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MacroPartials\TempActions.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64132/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

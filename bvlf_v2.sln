@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bvlf_v2", "bvlf_v2.csproj", "{9EB49B59-D9C9-40FA-A23A-44CF2716A173}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bvlf_v2", "website\bvlf_v2.csproj", "{9EB49B59-D9C9-40FA-A23A-44CF2716A173}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

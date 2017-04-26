@@ -1,2 +1,0 @@
-2017-04-26 20:25:49,757 [74] INFO  umbraco.BusinessLogic.Log - [Thread 88] Log scrubbed.  Removed all items older than 2017-02-25 20:25:49
-2017-04-26 20:25:49,757 [74] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 88] Application shutdown. Reason: BrowsersDirChangeOrDirectoryRename
