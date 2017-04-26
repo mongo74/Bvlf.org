@@ -1,4 +1,0 @@
-2016-10-28 06:36:11,580 [56] INFO  umbraco.presentation.publishingService - [Thread 141] sendremindmails has been called with response: False
-2016-10-28 18:21:41,752 [56] INFO  umbraco.presentation.publishingService - [Thread 143] sendremindmails has been called with response: False
-2016-10-28 23:37:46,370 [56] INFO  umbraco.BusinessLogic.Log - [Thread 135] Log scrubbed.  Removed all items older than 2016-08-29 23:37:46
-2016-10-28 23:38:35,886 [56] INFO  umbraco.presentation.publishingService - [Thread 135] sendremindmails has been called with response: False

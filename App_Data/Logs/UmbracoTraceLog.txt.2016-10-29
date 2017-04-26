@@ -1,4 +1,0 @@
-2016-10-29 10:19:02,542 [56] INFO  umbraco.presentation.publishingService - [Thread 134] sendremindmails has been called with response: False
-2016-10-29 12:25:56,261 [56] INFO  umbraco.presentation.publishingService - [Thread 39] sendremindmails has been called with response: False
-2016-10-29 13:25:57,481 [56] INFO  umbraco.presentation.publishingService - [Thread 52] sendremindmails has been called with response: False
-2016-10-29 14:25:56,515 [56] INFO  umbraco.presentation.publishingService - [Thread 110] sendremindmails has been called with response: False
