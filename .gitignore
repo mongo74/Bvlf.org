@@ -214,3 +214,8 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+App_Data/Logs/UmbracoTraceLog.txt
+App_Data/Logs/UmbracoTraceLog.txt.2017-04-25
+*.hash
+App_Data/TEMP/PluginCache/umbraco-plugins.BG-PORTABLE.list
+*.hash
