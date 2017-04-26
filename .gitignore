@@ -219,3 +219,7 @@ App_Data/Logs/UmbracoTraceLog.txt.2017-04-25
 *.hash
 App_Data/TEMP/PluginCache/umbraco-plugins.BG-PORTABLE.list
 *.hash
+
+#Folders to ignore
+App_Data/Logs/
+App_Data/TEMP/
